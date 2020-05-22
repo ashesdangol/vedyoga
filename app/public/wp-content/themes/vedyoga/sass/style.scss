@@ -1,0 +1,37 @@
+
+:root{
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  *{
+      line-height: 1.5;
+  }
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  }
+  img{
+    max-width: 100%;
+    height: auto;
+  }
+  h1, h2, h3, h4, h5, h6{
+    font-family: 'Cutive', serif;
+  }
+  a{
+    text-decoration: none;
+  }
+
+
+}
+.main-wrapper{
+  position: relative;
+  overflow: hidden;
+  // padding-top: 42px;
+  padding-top: 43px!important;
+}
+// @import "reset";
+@import "navbar";
+@import "footer";
+@import "banner_slider";
+@import "page";
+@import "media_query";

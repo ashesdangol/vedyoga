@@ -1,0 +1,86 @@
+
+  .banner__overlay{
+    position: relative;
+    &:before{
+      position: absolute;
+      top: 0;
+      content: " ";
+      display: block;
+      height: 100%;
+      width: 100%;
+      background: rgba(0,0,0,0.4);
+    }
+  }
+  .overlay--texts{
+    position: absolute;
+    bottom: 0%;
+    left: 20%;
+    z-index: 1;
+    transform: translateX(-20%);
+    color: black;
+
+  }
+
+@mixin overlay-texts--sm{
+  .overlay--texts{
+    width: 100%;
+    position: absolute;
+    bottom:10%;
+    left: 20%;
+    z-index: 1;
+    padding-left: 14px;
+    // transform: translateX(-50%);
+  }
+}
+
+.banner_slider--main{
+  figure{
+    margin-bottom: 0;
+    min-height: 500px;
+    img{
+      width: 100%;
+      min-height: 500px;
+      height: 70vh;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+  .overlay--texts{
+    h1{
+      margin-bottom: 0%;
+      font-size: 2.57rem;
+      font-weight: 500;
+      line-height: 40px;
+    }
+    p{
+      font-weight: 500;
+      font-size: 1.21rem;
+      line-height: 18px;
+    }
+  }
+  .slick-dots{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 5px;
+
+    li{
+      list-style-type: none;
+      margin: 0 5px;
+      &.slick-active button{
+        border: 1px solid white;
+      }
+      button{
+        width: 5px;
+        height: 2px;
+        overflow: hidden;
+        background: #FF6600;
+        cursor: pointer;
+        border: none;
+      }
+    }
+  }
+}
