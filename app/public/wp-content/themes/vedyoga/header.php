@@ -7,10 +7,10 @@
     <title></title>
   </head>
   <body <?php body_class(); ?>>
-    <div class="main-wrapper">
+    <div class="main-wrapper ">
       <header>
-        <nav class="nav-all-wrap box-shadow">
-          <div class="nav-main-wrapper side-paddings">
+        <nav class="nav-all-wrap" id="top-nav">
+          <div class="nav-main-wrapper side-paddings on-scroll-nav--change">
             <div class="nav-brand-wrapper">
               <a href="<?php echo site_url(); ?>" class="brand-link">
                 <img src="<?php echo get_theme_file_uri('img/vedLogo.png') ?>" class="brand-img" alt="logo">
@@ -24,24 +24,23 @@
             </div>
             <div class="nav-items-wrapper">
               <ul class="nav-items nav-close">
-                  <li class="nav-item active hvr-sweep-to-right">
-                    <a class="nav-link hvr-overline-from-left" href="<?php echo site_url('/about-us');
-                     ?>">About Us</a>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="<?php echo site_url('/about-us');?>">About Us</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Events</a>
+                    <a class="nav-link" href="<?php echo site_url('/event');?>">Events</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Blogs</a>
+                    <a class="nav-link" href="<?php echo site_url('/blog');?>">Blogs</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Shop</a>
+                    <a class="nav-link" href="<?php echo site_url('/shop');?>">Shop</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Meditation</a>
+                    <a class="nav-link" href="<?php echo site_url('/meditation');?>">Meditation</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="<?php echo site_url('/contact-us');?>">Contact</a>
                   </li>
 
                 </ul>

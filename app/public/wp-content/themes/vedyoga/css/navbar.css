@@ -125,7 +125,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  background: #dff9fb; }
+  background: #dff9fb;
+  transition: all 0.5s ease; }
   .nav-main-wrapper * {
     font-family: 'Cutive', serif; }
   .nav-main-wrapper .nav-brand-wrapper .brand-link {
@@ -149,7 +150,8 @@
       .nav-main-wrapper .nav-items-wrapper .nav-items .nav-item .nav-link {
         text-decoration: none;
         color: #455a5c;
-        font-weight: 500; }
+        font-weight: 500;
+        transition: all 0.5s ease; }
 
 @media only screen and (min-width: 769px) {
   /* HOVER EFFECT - Overline From Left */
@@ -181,6 +183,12 @@
     transition-timing-function: ease-out; }
   .hvr-overline-from-left:hover:before, .hvr-overline-from-left:focus:before, .hvr-overline-from-left:active:before {
     right: 0; }
+  .on-scroll-nav--change.nav-main-wrapper {
+    background: transparent;
+    transition: all 0.5s ease; }
+    .on-scroll-nav--change.nav-main-wrapper .nav-link {
+      color: #ffff !important;
+      transition: all 0.5s ease; }
   .nav-main-wrapper {
     align-items: center; }
     .nav-main-wrapper .nav-brand-wrapper .mobile-nav-btn {

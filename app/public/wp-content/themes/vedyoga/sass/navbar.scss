@@ -1,4 +1,5 @@
 @import "assets";
+
 $nav_bg:$color_four;
 $nav_menu_items_color:#455a5c;
 // Menu items text sizee
@@ -19,6 +20,8 @@ $nav_menu_items_size-M:1.1rem;
 .nav-padding{
   padding: 0 15px;
 }
+
+
 .nav-link{
   @extend .small-header-links--fontstyle;
 }
@@ -40,6 +43,7 @@ $nav_menu_items_size-M:1.1rem;
   flex-wrap: wrap;
   justify-content: space-between;
   background: $nav_bg;
+  transition: all 0.5s ease;
   .nav-brand-wrapper{
     .brand-link{
       display: flex;
@@ -68,6 +72,7 @@ $nav_menu_items_size-M:1.1rem;
           text-decoration: none;
           color: $nav_menu_items_color;
           font-weight: 500;
+          transition: all 0.5s ease;
         }
 
       }
@@ -107,6 +112,22 @@ $nav_menu_items_size-M:1.1rem;
   .hvr-overline-from-left:hover:before, .hvr-overline-from-left:focus:before, .hvr-overline-from-left:active:before {
     right: 0;
     }
+  .on-scroll-nav--change{
+    &.nav-main-wrapper{
+      $nav_bg:transparent;
+      background: $nav_bg;
+      transition: all 0.5s ease;
+      .nav-link{
+        $nav_menu_items_color:#ffff!important;
+        color: $nav_menu_items_color;
+        transition: all 0.5s ease;
+      }
+    }
+
+  }
+
+
+
   .nav-main-wrapper{
     align-items: center;
     .nav-brand-wrapper{
@@ -169,6 +190,7 @@ $nav_menu_items_size-M:1.1rem;
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
   }
+  
   .nav-main-wrapper{
     display: flex;
     flex-direction: column;

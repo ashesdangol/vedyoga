@@ -16,6 +16,8 @@
       </div>
       <div class="page-section metabox--relative side-paddings--double">
         <?php
+        // $theParent returns id number of a parent page from current page which is a child page
+        //if current page does not have parent page or is not a child page, will return 0
         $theParent = wp_get_post_parent_id(get_the_ID());
           if ($theParent) {
         ?>
@@ -26,15 +28,33 @@
           </div>
         <?php
           }
-        ?>
 
+        $checkParent = get_pages(array(
+          'child_of' => get_the_ID()
+        ));
+        if ($theParent or $checkParent) {
+        ?>
         <div class="page-links">
-          <h2 class="page-links__title"><a href="#">About Us</a></h2>
+          <h2 class="page-links__title"><a href="<?php echo get_permalink($theParent ); ?>"><?php echo get_the_title($theParent) ?></a></h2>
           <ul class="">
-            <li class="current_page_item"><a href="#">Our History</a></li>
-            <li><a href="#">Our Goals</a></li>
+            <?php
+              if ($theParent) {
+                $findChildrenOf = $theParent;
+              }else{
+                $findChildrenOf = get_the_ID();
+              }
+
+              wp_list_pages(array(
+                'title_li'=>NULL,
+                'child_of'=> $findChildrenOf
+              ));
+             ?>
           </ul>
         </div>
+        <?php
+        }
+         ?>
+
         <div class="generic-content">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia voluptates vero vel temporibus aliquid possimus, facere accusamus modi. Fugit saepe et autem, laboriosam earum reprehenderit illum odit nobis, consectetur dicta. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos molestiae, tempora alias atque vero officiis sit commodi ipsa vitae impedit odio repellendus doloremque quibusdam quo, ea veniam, ad quod sed.</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia voluptates vero vel temporibus aliquid possimus, facere accusamus modi. Fugit saepe et autem, laboriosam earum reprehenderit illum odit nobis, consectetur dicta. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos molestiae, tempora alias atque vero officiis sit commodi ipsa vitae impedit odio repellendus doloremque quibusdam quo, ea veniam, ad quod sed.</p>

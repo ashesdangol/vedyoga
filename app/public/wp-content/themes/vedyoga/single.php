@@ -2,7 +2,7 @@
   get_header();
 ?>
 
-<h1>this is single page</h1>
+<h1>this is single post </h1>
 
   <?php
     while (have_posts()) {

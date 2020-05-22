@@ -54,3 +54,9 @@
     background: $color_four;
   }
 }
+@media (min-width: 767px) {
+  .page-banner{
+    min-height: 400px;
+    height: 70vh;
+  }
+}
