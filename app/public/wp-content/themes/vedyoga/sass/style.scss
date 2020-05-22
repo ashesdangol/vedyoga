@@ -1,7 +1,7 @@
 *{
   box-sizing: border-box;
 }
-.page-template-default{
+.page-template-default, .blog, .post-template-default{
   margin: 0;
 }
 :root{
@@ -32,10 +32,14 @@
   position: relative;
   overflow: hidden;
   min-height: 100vh;
+
 }
 // @import "reset";
+@import "assets";
 @import "navbar";
 @import "footer";
 @import "banner_slider";
 @import "page";
+@import "indexBlog";
+@import "singlePost";
 @import "media_query";

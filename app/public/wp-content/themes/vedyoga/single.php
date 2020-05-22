@@ -1,15 +1,17 @@
 <?php
   get_header();
 ?>
-
-<h1>this is single post </h1>
-
   <?php
     while (have_posts()) {
       the_post();
-      echo the_title();
+      $featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'full');
   ?>
-    <p><?php echo the_content() ?></p>
+
+    <section class="single-page-wrapper">
+      <p>texttttt</p>
+    </section>
+
+
 
 
 <?php

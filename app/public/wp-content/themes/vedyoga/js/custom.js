@@ -36,6 +36,4 @@ $(document).ready(function(){
     }
   }
 
-//Adding hover effects on menu items
-$('#top-nav').find('.nav-items-wrapper .nav-items .nav-item').addClass('hvr-overline-from-left hvr-sweep-to-right');
 })
