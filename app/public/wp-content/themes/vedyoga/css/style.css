@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box; }
 
-.page-template-default {
+.page-template-default, .blog {
   margin: 0; }
 
 :root {
