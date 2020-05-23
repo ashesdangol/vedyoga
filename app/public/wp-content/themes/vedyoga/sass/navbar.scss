@@ -190,7 +190,7 @@ $nav_menu_items_size-M:1.1rem;
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
   }
-  
+
   .nav-main-wrapper{
     display: flex;
     flex-direction: column;
@@ -304,4 +304,10 @@ $nav_menu_items_size-M:1.1rem;
         0% { opacity: 0; -moz-transform: translateY(-10%); }
       100% { opacity: 1; -moz-transform: translateY(0); }
   }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape){
+  .nav-link{
+    color: #fff;
+  }
+  
 }
