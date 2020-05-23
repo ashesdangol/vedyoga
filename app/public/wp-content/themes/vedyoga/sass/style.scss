@@ -33,9 +33,10 @@
   overflow: hidden;
   min-height: 100vh;
 }
-// @import "reset";
+
 @import "navbar";
 @import "footer";
 @import "banner_slider";
 @import "page";
+@import "index";
 @import "media_query";
