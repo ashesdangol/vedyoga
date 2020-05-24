@@ -106,6 +106,65 @@
         color: #0d3357;
         background-color: #d4edee; }
 
+.pagination--styling {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+  .pagination--styling .page-numbers {
+    font-size: 15px;
+    font-weight: 500;
+    height: 35px;
+    line-height: 33px;
+    margin-right: 5px;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    width: 35px;
+    border-radius: 100%;
+    overflow: hidden;
+    background: #888888;
+    color: #fff;
+    transition: all 0.3s linear;
+    position: relative; }
+    .pagination--styling .page-numbers:hover {
+      background: #cf2008;
+      color: #fff;
+      transition: all 0.3s linear; }
+    .pagination--styling .page-numbers.current {
+      background: #cf2008;
+      color: #fff; }
+    .pagination--styling .page-numbers.next, .pagination--styling .page-numbers.prev {
+      background: #888888;
+      color: #888888; }
+      .pagination--styling .page-numbers.next:hover, .pagination--styling .page-numbers.prev:hover {
+        background: #cf2008;
+        color: #cf2008; }
+    .pagination--styling .page-numbers.next::after {
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: '\f061';
+      display: block;
+      width: 100%;
+      height: 100%;
+      color: #fff;
+      border-radius: 100%;
+      font-family: "FontAwesome";
+      font-size: 0.7rem; }
+    .pagination--styling .page-numbers.prev::after {
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: '\f060';
+      display: block;
+      width: 100%;
+      height: 100%;
+      color: #fff;
+      border-radius: 100%;
+      font-family: "FontAwesome";
+      font-size: 0.7rem; }
+
 @media (min-width: 767px) {
   .page-links {
     margin: 0 0 40px 20px;
@@ -279,6 +338,65 @@
       .page-links li a:hover {
         color: #0d3357;
         background-color: #d4edee; }
+
+.pagination--styling {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+  .pagination--styling .page-numbers {
+    font-size: 15px;
+    font-weight: 500;
+    height: 35px;
+    line-height: 33px;
+    margin-right: 5px;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    width: 35px;
+    border-radius: 100%;
+    overflow: hidden;
+    background: #888888;
+    color: #fff;
+    transition: all 0.3s linear;
+    position: relative; }
+    .pagination--styling .page-numbers:hover {
+      background: #cf2008;
+      color: #fff;
+      transition: all 0.3s linear; }
+    .pagination--styling .page-numbers.current {
+      background: #cf2008;
+      color: #fff; }
+    .pagination--styling .page-numbers.next, .pagination--styling .page-numbers.prev {
+      background: #888888;
+      color: #888888; }
+      .pagination--styling .page-numbers.next:hover, .pagination--styling .page-numbers.prev:hover {
+        background: #cf2008;
+        color: #cf2008; }
+    .pagination--styling .page-numbers.next::after {
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: '\f061';
+      display: block;
+      width: 100%;
+      height: 100%;
+      color: #fff;
+      border-radius: 100%;
+      font-family: "FontAwesome";
+      font-size: 0.7rem; }
+    .pagination--styling .page-numbers.prev::after {
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: '\f060';
+      display: block;
+      width: 100%;
+      height: 100%;
+      color: #fff;
+      border-radius: 100%;
+      font-family: "FontAwesome";
+      font-size: 0.7rem; }
 
 @media (min-width: 767px) {
   .page-links {

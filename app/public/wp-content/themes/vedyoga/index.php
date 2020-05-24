@@ -69,6 +69,13 @@
           }
           // end of while loop
       ?>
+      <!-- pagination -->
+      <div class="pagination--styling">
+        <?php
+          echo paginate_links();
+         ?>
+      </div>
+      <!-- end of pagination -->
     </div>
     <!-- en d of blof section -->
     <div class="blog-right-navigation side-paddings">
@@ -99,19 +106,8 @@
 
 </div>
 <!-- end of page-wrapper -->
-<div class="">
-  tester tester tester tester tester testertester tester tester
-  tester tester tester tester tester testertester tester tester
-  tester tester tester tester tester testertester tester tester
-  tester tester tester tester tester testertester tester tester
-  tester tester tester tester tester testertester tester tester
 
-</div>
-<div class="side-paddings--double">
-  <?php
-    echo paginate_links();
-   ?>
-</div>
+
 <?php
   get_footer();
 ?>
