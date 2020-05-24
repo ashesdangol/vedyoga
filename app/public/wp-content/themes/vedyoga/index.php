@@ -71,7 +71,9 @@
       ?>
     </div>
     <!-- en d of blof section -->
-
+    <div class="blog-right-navigation side-paddings">
+      test 1   test 1 test 1   test 1 test 1   test 1 test 1   test 1 test 1   test 1 test 1   test 1 test 1   test 1 test 1   test 1 test 1   test 1 test 1   test 1 test 1   test 1 test 1   test 1 test 1   test 1 test 1   test 1 test 1   test 1 test 1   test 1 test 1   test 1 test 1   test 1 test 1   test 1 test 1   test 1 test 1   test 1
+    </div>
   </div>
   <!-- end of blog main wrapper -->
 
