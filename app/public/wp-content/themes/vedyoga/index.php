@@ -87,7 +87,7 @@
        </div>
        <div class="blog-right-navigation-categories ">
          <div class="blog-categorybox blog-boxes">
-           <p>category archive</p>
+            <?php include('partials/categories_list.php'); ?>
          </div>
 
        </div>

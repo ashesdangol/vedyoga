@@ -105,25 +105,17 @@
 }
   //-------------------------------------------------------
 // rightpane blog boxes
-.blog-boxes{
-  border: 1px solid red;
-  width: 100%;
-  min-height: 300px;
-  background:$darkGray--color;
-}
+
 .blog-right-navigation{
   width: 100%;
   .blog-right-navigation--wrapper{
     margin: 20px auto;
-    border: 4px dotted blue;
     width: 100%;
     .blog-boxes{
-      margin: 20px auto;
+      margin: 0 auto 20px auto;
     }
   }
 }
-
-
 
 
 @media (min-width: 769px) {

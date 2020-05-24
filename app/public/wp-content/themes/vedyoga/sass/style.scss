@@ -1,7 +1,7 @@
 *{
   box-sizing: border-box;
 }
-.page-template-default, .blog{
+.page-template-default, .blog, .post-template-default{
   margin: 0;
 }
 :root{
@@ -39,4 +39,6 @@
 @import "banner_slider";
 @import "page";
 @import "index";
+@import "single";
+@import "categories_list";
 @import "media_query";

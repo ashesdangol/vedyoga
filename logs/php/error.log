@@ -275,3 +275,24 @@ Stack trace:
 [23-May-2020 14:48:53 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\index.php on line 26
 [23-May-2020 14:48:53 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\index.php on line 26
 [23-May-2020 14:48:54 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\index.php on line 26
+[24-May-2020 12:08:54 UTC] PHP Parse error:  syntax error, unexpected 'the_author' (T_STRING), expecting ',' or ';' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\archive.php on line 13
+[24-May-2020 12:08:54 UTC] PHP Parse error:  syntax error, unexpected 'the_author' (T_STRING), expecting ',' or ';' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\archive.php on line 13
+[24-May-2020 12:54:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_part_cat_list() in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\single.php:30
+Stack trace:
+#0 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php(19): require_once('C:\\Users\\ashima...')
+#2 C:\Users\ashima\Local Sites\vedyoga\app\public\index.php(17): require('C:\\Users\\ashima...')
+#3 {main}
+  thrown in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\single.php on line 30
+[24-May-2020 12:57:46 UTC] PHP Warning:  include(partials/categories_list.php): failed to open stream: No such file or directory in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\single.php on line 38
+[24-May-2020 12:57:46 UTC] PHP Stack trace:
+[24-May-2020 12:57:46 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[24-May-2020 12:57:46 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[24-May-2020 12:57:46 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:19
+[24-May-2020 12:57:46 UTC] PHP   4. include() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php:106
+[24-May-2020 12:57:46 UTC] PHP Warning:  include(): Failed opening 'partials/categories_list.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\single.php on line 38
+[24-May-2020 12:57:46 UTC] PHP Stack trace:
+[24-May-2020 12:57:46 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[24-May-2020 12:57:46 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[24-May-2020 12:57:46 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:19
+[24-May-2020 12:57:46 UTC] PHP   4. include() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php:106
