@@ -1,0 +1,277 @@
+[20-May-2020 01:42:03 UTC] PHP Parse error:  syntax error, unexpected 'get_theme_file_uri' (T_STRING) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\header.php on line 13
+[20-May-2020 01:42:13 UTC] PHP Parse error:  syntax error, unexpected 'get_theme_file_uri' (T_STRING) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\header.php on line 13
+[21-May-2020 02:45:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function have_post() in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\index.php:3
+Stack trace:
+#0 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php(19): require_once('C:\\Users\\ashima...')
+#2 C:\Users\ashima\Local Sites\vedyoga\app\public\index.php(17): require('C:\\Users\\ashima...')
+#3 {main}
+  thrown in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\index.php on line 3
+[21-May-2020 02:45:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function have_post() in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\index.php:3
+Stack trace:
+#0 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php(19): require_once('C:\\Users\\ashima...')
+#2 C:\Users\ashima\Local Sites\vedyoga\app\public\index.php(17): require('C:\\Users\\ashima...')
+#3 {main}
+  thrown in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\index.php on line 3
+[21-May-2020 03:28:39 UTC] PHP Warning:  Use of undefined constant the_content - assumed 'the_content' (this will throw an Error in a future version of PHP) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\index.php on line 17
+[21-May-2020 03:28:39 UTC] PHP Stack trace:
+[21-May-2020 03:28:39 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[21-May-2020 03:28:39 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[21-May-2020 03:28:39 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:19
+[21-May-2020 03:28:39 UTC] PHP   4. include() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php:106
+[21-May-2020 03:28:39 UTC] PHP Warning:  Use of undefined constant the_content - assumed 'the_content' (this will throw an Error in a future version of PHP) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\index.php on line 17
+[21-May-2020 03:28:39 UTC] PHP Stack trace:
+[21-May-2020 03:28:39 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[21-May-2020 03:28:39 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[21-May-2020 03:28:39 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:19
+[21-May-2020 03:28:39 UTC] PHP   4. include() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php:106
+[21-May-2020 03:28:39 UTC] PHP Warning:  Use of undefined constant the_content - assumed 'the_content' (this will throw an Error in a future version of PHP) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\index.php on line 17
+[21-May-2020 03:28:39 UTC] PHP Stack trace:
+[21-May-2020 03:28:39 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[21-May-2020 03:28:39 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[21-May-2020 03:28:39 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:19
+[21-May-2020 03:28:39 UTC] PHP   4. include() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php:106
+[21-May-2020 03:28:39 UTC] PHP Warning:  Use of undefined constant the_content - assumed 'the_content' (this will throw an Error in a future version of PHP) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\index.php on line 17
+[21-May-2020 03:28:39 UTC] PHP Stack trace:
+[21-May-2020 03:28:39 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[21-May-2020 03:28:39 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[21-May-2020 03:28:39 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:19
+[21-May-2020 03:28:39 UTC] PHP   4. include() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php:106
+[21-May-2020 03:28:40 UTC] PHP Warning:  Use of undefined constant the_content - assumed 'the_content' (this will throw an Error in a future version of PHP) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\index.php on line 17
+[21-May-2020 03:28:40 UTC] PHP Stack trace:
+[21-May-2020 03:28:40 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[21-May-2020 03:28:40 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[21-May-2020 03:28:40 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:19
+[21-May-2020 03:28:40 UTC] PHP   4. include() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php:106
+[21-May-2020 03:28:40 UTC] PHP Warning:  Use of undefined constant the_content - assumed 'the_content' (this will throw an Error in a future version of PHP) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\index.php on line 17
+[21-May-2020 03:28:40 UTC] PHP Stack trace:
+[21-May-2020 03:28:40 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[21-May-2020 03:28:40 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[21-May-2020 03:28:40 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:19
+[21-May-2020 03:28:40 UTC] PHP   4. include() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php:106
+[21-May-2020 03:28:40 UTC] PHP Warning:  Use of undefined constant the_content - assumed 'the_content' (this will throw an Error in a future version of PHP) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\index.php on line 17
+[21-May-2020 03:28:40 UTC] PHP Stack trace:
+[21-May-2020 03:28:40 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[21-May-2020 03:28:40 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[21-May-2020 03:28:40 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:19
+[21-May-2020 03:28:40 UTC] PHP   4. include() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php:106
+[21-May-2020 03:28:40 UTC] PHP Warning:  Use of undefined constant the_content - assumed 'the_content' (this will throw an Error in a future version of PHP) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\index.php on line 17
+[21-May-2020 03:28:40 UTC] PHP Stack trace:
+[21-May-2020 03:28:40 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[21-May-2020 03:28:40 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[21-May-2020 03:28:40 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:19
+[21-May-2020 03:28:40 UTC] PHP   4. include() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php:106
+[21-May-2020 06:25:55 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\functions.php on line 23
+[21-May-2020 06:25:55 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\functions.php on line 23
+[21-May-2020 06:25:55 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\functions.php on line 23
+[21-May-2020 06:25:55 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\functions.php on line 23
+[21-May-2020 06:26:23 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\functions.php on line 25
+[21-May-2020 06:26:24 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\functions.php on line 25
+[21-May-2020 09:22:25 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\front-page.php on line 69
+[21-May-2020 09:22:48 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\front-page.php on line 69
+[21-May-2020 09:24:01 UTC] PHP Warning:  Use of undefined constant Slider - assumed 'Slider' (this will throw an Error in a future version of PHP) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\front-page.php on line 69
+[21-May-2020 09:24:01 UTC] PHP Stack trace:
+[21-May-2020 09:24:01 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[21-May-2020 09:24:01 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[21-May-2020 09:24:01 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:19
+[21-May-2020 09:24:02 UTC] PHP   4. include() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php:106
+[21-May-2020 09:26:03 UTC] PHP Warning:  Use of undefined constant Slider - assumed 'Slider' (this will throw an Error in a future version of PHP) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\front-page.php on line 69
+[21-May-2020 09:26:03 UTC] PHP Stack trace:
+[21-May-2020 09:26:03 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[21-May-2020 09:26:03 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[21-May-2020 09:26:03 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:19
+[21-May-2020 09:26:03 UTC] PHP   4. include() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php:106
+[21-May-2020 09:26:42 UTC] PHP Warning:  Use of undefined constant banner_slider - assumed 'banner_slider' (this will throw an Error in a future version of PHP) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\front-page.php on line 69
+[21-May-2020 09:26:42 UTC] PHP Stack trace:
+[21-May-2020 09:26:42 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[21-May-2020 09:26:42 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[21-May-2020 09:26:42 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:19
+[21-May-2020 09:26:42 UTC] PHP   4. include() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php:106
+[21-May-2020 09:27:21 UTC] PHP Warning:  Use of undefined constant Sliders - assumed 'Sliders' (this will throw an Error in a future version of PHP) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\front-page.php on line 69
+[21-May-2020 09:27:21 UTC] PHP Stack trace:
+[21-May-2020 09:27:21 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[21-May-2020 09:27:21 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[21-May-2020 09:27:21 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:19
+[21-May-2020 09:27:21 UTC] PHP   4. include() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php:106
+[21-May-2020 09:27:29 UTC] PHP Warning:  Use of undefined constant Slider - assumed 'Slider' (this will throw an Error in a future version of PHP) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\front-page.php on line 69
+[21-May-2020 09:27:29 UTC] PHP Stack trace:
+[21-May-2020 09:27:29 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[21-May-2020 09:27:29 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[21-May-2020 09:27:29 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:19
+[21-May-2020 09:27:29 UTC] PHP   4. include() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php:106
+[21-May-2020 09:29:09 UTC] PHP Warning:  Use of undefined constant Slider - assumed 'Slider' (this will throw an Error in a future version of PHP) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\front-page.php on line 69
+[21-May-2020 09:29:09 UTC] PHP Stack trace:
+[21-May-2020 09:29:09 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[21-May-2020 09:29:09 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[21-May-2020 09:29:09 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:19
+[21-May-2020 09:29:09 UTC] PHP   4. include() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php:106
+[21-May-2020 09:29:20 UTC] PHP Warning:  Use of undefined constant Slider - assumed 'Slider' (this will throw an Error in a future version of PHP) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\front-page.php on line 69
+[21-May-2020 09:29:20 UTC] PHP Stack trace:
+[21-May-2020 09:29:20 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[21-May-2020 09:29:20 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[21-May-2020 09:29:20 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:19
+[21-May-2020 09:29:20 UTC] PHP   4. include() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php:106
+[21-May-2020 09:29:22 UTC] PHP Warning:  Use of undefined constant Slider - assumed 'Slider' (this will throw an Error in a future version of PHP) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\front-page.php on line 69
+[21-May-2020 09:29:22 UTC] PHP Stack trace:
+[21-May-2020 09:29:22 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[21-May-2020 09:29:22 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[21-May-2020 09:29:22 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:19
+[21-May-2020 09:29:22 UTC] PHP   4. include() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php:106
+[21-May-2020 10:16:54 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\front-page.php on line 77
+[21-May-2020 10:19:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_image_src() in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\front-page.php:75
+Stack trace:
+#0 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php(19): require_once('C:\\Users\\ashima...')
+#2 C:\Users\ashima\Local Sites\vedyoga\app\public\index.php(17): require('C:\\Users\\ashima...')
+#3 {main}
+  thrown in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\front-page.php on line 75
+[21-May-2020 10:23:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_image_src() in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\front-page.php:76
+Stack trace:
+#0 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php(19): require_once('C:\\Users\\ashima...')
+#2 C:\Users\ashima\Local Sites\vedyoga\app\public\index.php(17): require('C:\\Users\\ashima...')
+#3 {main}
+  thrown in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\front-page.php on line 76
+[21-May-2020 10:23:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_image_src() in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\front-page.php:76
+Stack trace:
+#0 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php(19): require_once('C:\\Users\\ashima...')
+#2 C:\Users\ashima\Local Sites\vedyoga\app\public\index.php(17): require('C:\\Users\\ashima...')
+#3 {main}
+  thrown in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\front-page.php on line 76
+[21-May-2020 10:29:43 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\front-page.php on line 77
+[21-May-2020 10:40:41 UTC] PHP Recoverable fatal error:  Object of class WP_Post could not be converted to string in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\front-page.php on line 75
+[21-May-2020 10:40:41 UTC] PHP Stack trace:
+[21-May-2020 10:40:41 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[21-May-2020 10:40:41 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[21-May-2020 10:40:41 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:19
+[21-May-2020 10:40:41 UTC] PHP   4. include() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php:106
+[21-May-2020 10:40:50 UTC] PHP Recoverable fatal error:  Object of class WP_Post could not be converted to string in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\front-page.php on line 75
+[21-May-2020 10:40:50 UTC] PHP Stack trace:
+[21-May-2020 10:40:50 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[21-May-2020 10:40:50 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[21-May-2020 10:40:50 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:19
+[21-May-2020 10:40:50 UTC] PHP   4. include() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php:106
+[21-May-2020 10:41:09 UTC] PHP Recoverable fatal error:  Object of class WP_Post could not be converted to string in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\front-page.php on line 75
+[21-May-2020 10:41:09 UTC] PHP Stack trace:
+[21-May-2020 10:41:09 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[21-May-2020 10:41:09 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[21-May-2020 10:41:09 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:19
+[21-May-2020 10:41:09 UTC] PHP   4. include() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php:106
+[21-May-2020 10:41:46 UTC] PHP Recoverable fatal error:  Object of class WP_Post could not be converted to string in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\front-page.php on line 75
+[21-May-2020 10:41:46 UTC] PHP Stack trace:
+[21-May-2020 10:41:46 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[21-May-2020 10:41:46 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[21-May-2020 10:41:46 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:19
+[21-May-2020 10:41:46 UTC] PHP   4. include() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php:106
+[21-May-2020 10:41:56 UTC] PHP Recoverable fatal error:  Object of class WP_Post could not be converted to string in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\front-page.php on line 75
+[21-May-2020 10:41:56 UTC] PHP Stack trace:
+[21-May-2020 10:41:56 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[21-May-2020 10:41:56 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[21-May-2020 10:41:56 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:19
+[21-May-2020 10:41:56 UTC] PHP   4. include() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php:106
+[21-May-2020 10:46:59 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\front-page.php on line 73
+[21-May-2020 10:50:43 UTC] PHP Fatal error:  Cannot use [] for reading in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\front-page.php on line 74
+[21-May-2020 10:50:43 UTC] PHP Stack trace:
+[21-May-2020 10:50:43 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[21-May-2020 10:50:43 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[21-May-2020 10:50:43 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:19
+[21-May-2020 12:02:31 UTC] PHP Warning:  Use of undefined constant thumbnails - assumed 'thumbnails' (this will throw an Error in a future version of PHP) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\index.php on line 8
+[21-May-2020 12:02:31 UTC] PHP Stack trace:
+[21-May-2020 12:02:31 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[21-May-2020 12:02:31 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[21-May-2020 12:02:31 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:19
+[21-May-2020 12:02:31 UTC] PHP   4. include() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php:106
+[21-May-2020 12:02:43 UTC] PHP Warning:  Use of undefined constant thumbnail - assumed 'thumbnail' (this will throw an Error in a future version of PHP) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\index.php on line 8
+[21-May-2020 12:02:43 UTC] PHP Stack trace:
+[21-May-2020 12:02:43 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[21-May-2020 12:02:43 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[21-May-2020 12:02:43 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:19
+[21-May-2020 12:02:43 UTC] PHP   4. include() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php:106
+[21-May-2020 14:02:35 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\page.php on line 46
+[21-May-2020 14:02:58 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\page.php on line 9
+[21-May-2020 15:22:45 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_style' (T_STRING) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\functions.php on line 11
+[21-May-2020 15:22:46 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_style' (T_STRING) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\functions.php on line 11
+[21-May-2020 15:22:46 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_style' (T_STRING) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\functions.php on line 11
+[21-May-2020 17:32:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function site_ur() in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\header.php:28
+Stack trace:
+#0 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template.php(723): require_once()
+#1 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template.php(672): load_template('C:\\Users\\ashima...', true)
+#2 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\general-template.php(41): locate_template(Array, true)
+#3 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\page.php(2): get_header()
+#4 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\ashima...')
+#5 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php(19): require_once('C:\\Users\\ashima...')
+#6 C:\Users\ashima\Local Sites\vedyoga\app\public\index.php(17): require('C:\\Users\\ashima...')
+#7 {main}
+  thrown in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\header.php on line 28
+[21-May-2020 17:54:06 UTC] PHP Parse error:  syntax error, unexpected '?>' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\page.php on line 20
+[21-May-2020 17:54:07 UTC] PHP Parse error:  syntax error, unexpected '?>' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\page.php on line 20
+[21-May-2020 17:54:07 UTC] PHP Parse error:  syntax error, unexpected '?>' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\page.php on line 20
+[22-May-2020 04:54:19 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\page.php on line 35
+[22-May-2020 05:46:30 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\page.php on line 41
+[22-May-2020 05:47:15 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\page.php on line 41
+[22-May-2020 05:53:53 UTC] PHP Parse error:  syntax error, unexpected 't' (T_STRING) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\page.php on line 42
+[22-May-2020 05:53:54 UTC] PHP Parse error:  syntax error, unexpected 't' (T_STRING) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\page.php on line 42
+[22-May-2020 06:16:30 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\page.php on line 33
+[22-May-2020 06:16:31 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\page.php on line 33
+[22-May-2020 06:16:31 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\page.php on line 33
+[22-May-2020 06:16:31 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\page.php on line 33
+[22-May-2020 07:24:13 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\page.php on line 38
+[22-May-2020 07:24:13 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\page.php on line 38
+[22-May-2020 07:24:13 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\page.php on line 38
+[22-May-2020 07:24:13 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\page.php on line 38
+[22-May-2020 14:14:05 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\index.php on line 72
+[22-May-2020 15:32:34 UTC] PHP Warning:  Use of undefined constant ashes - assumed 'ashes' (this will throw an Error in a future version of PHP) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\index.php on line 25
+[22-May-2020 15:32:34 UTC] PHP Stack trace:
+[22-May-2020 15:32:34 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[22-May-2020 15:32:34 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[22-May-2020 15:32:34 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:19
+[22-May-2020 15:32:34 UTC] PHP   4. include() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php:106
+[22-May-2020 15:32:34 UTC] PHP Warning:  Use of undefined constant ashes - assumed 'ashes' (this will throw an Error in a future version of PHP) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\index.php on line 25
+[22-May-2020 15:32:34 UTC] PHP Stack trace:
+[22-May-2020 15:32:34 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[22-May-2020 15:32:34 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[22-May-2020 15:32:34 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:19
+[22-May-2020 15:32:34 UTC] PHP   4. include() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php:106
+[22-May-2020 15:32:34 UTC] PHP Warning:  Use of undefined constant ashes - assumed 'ashes' (this will throw an Error in a future version of PHP) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\index.php on line 25
+[22-May-2020 15:32:34 UTC] PHP Stack trace:
+[22-May-2020 15:32:34 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[22-May-2020 15:32:34 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[22-May-2020 15:32:34 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:19
+[22-May-2020 15:32:34 UTC] PHP   4. include() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php:106
+[22-May-2020 15:32:34 UTC] PHP Warning:  Use of undefined constant ashes - assumed 'ashes' (this will throw an Error in a future version of PHP) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\index.php on line 25
+[22-May-2020 15:32:34 UTC] PHP Stack trace:
+[22-May-2020 15:32:34 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[22-May-2020 15:32:34 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[22-May-2020 15:32:34 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:19
+[22-May-2020 15:32:34 UTC] PHP   4. include() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php:106
+[22-May-2020 15:32:42 UTC] PHP Warning:  Use of undefined constant ashes - assumed 'ashes' (this will throw an Error in a future version of PHP) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\index.php on line 25
+[22-May-2020 15:32:42 UTC] PHP Stack trace:
+[22-May-2020 15:32:42 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[22-May-2020 15:32:42 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[22-May-2020 15:32:42 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:19
+[22-May-2020 15:32:42 UTC] PHP   4. include() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php:106
+[22-May-2020 15:32:42 UTC] PHP Warning:  Use of undefined constant ashes - assumed 'ashes' (this will throw an Error in a future version of PHP) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\index.php on line 25
+[22-May-2020 15:32:42 UTC] PHP Stack trace:
+[22-May-2020 15:32:42 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[22-May-2020 15:32:42 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[22-May-2020 15:32:42 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:19
+[22-May-2020 15:32:42 UTC] PHP   4. include() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php:106
+[22-May-2020 15:32:42 UTC] PHP Warning:  Use of undefined constant ashes - assumed 'ashes' (this will throw an Error in a future version of PHP) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\index.php on line 25
+[22-May-2020 15:32:42 UTC] PHP Stack trace:
+[22-May-2020 15:32:42 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[22-May-2020 15:32:42 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[22-May-2020 15:32:42 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:19
+[22-May-2020 15:32:42 UTC] PHP   4. include() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php:106
+[22-May-2020 15:32:42 UTC] PHP Warning:  Use of undefined constant ashes - assumed 'ashes' (this will throw an Error in a future version of PHP) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\index.php on line 25
+[22-May-2020 15:32:42 UTC] PHP Stack trace:
+[22-May-2020 15:32:42 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[22-May-2020 15:32:42 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[22-May-2020 15:32:42 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:19
+[22-May-2020 15:32:42 UTC] PHP   4. include() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php:106
+[22-May-2020 15:40:32 UTC] PHP Parse error:  syntax error, unexpected ''M'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\index.php on line 25
+[22-May-2020 18:14:15 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\index.php on line 37
+[23-May-2020 14:48:53 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\index.php on line 26
+[23-May-2020 14:48:53 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\index.php on line 26
+[23-May-2020 14:48:54 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\index.php on line 26

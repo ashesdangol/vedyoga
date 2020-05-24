@@ -1,4 +1,6 @@
 @import "assets";
+$page-banner__title--color:#ffffff;
+$page-banner__intro--color:$page-banner__title--color;
 .page-banner{
   background-color: transparent;
   padding: 0px 0 40px 0;
@@ -30,19 +32,28 @@
 
   }
   .page-banner__content{
+    position: absolute;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     align-content: center;
+    width: 100%;
     height: 100%;
     .page-banner__title{
-      font-size: 3rem;
-      color: white;
+      font-size: 2.5rem;
+      color: $page-banner__title--color;
+      margin-bottom: 10px;
     }
     .page-banner__intro{
-      color: white;
+      color: $page-banner__intro--color;
       font-size: 1.5rem;
+      margin: 0 auto;
+      p{
+        color: $page-banner__intro--color;
+        font-size: 1.5rem;
+        margin: 0 auto;
+      }
     }
 
   }

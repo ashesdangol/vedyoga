@@ -99,7 +99,7 @@
 }
 @media (min-width: 769px) {
   .blog-card{
-    width: 65%;
+    width: 100%;
     height: 300px;
     .post-item{
       .blog-date-feature-thumbnail--wrapper{
@@ -114,6 +114,11 @@
 
       }
     }
+  }
+}
+@media (min-width: 1025px) {
+  .blog-card{
+    width: 65%;
   }
 }
 @media (max-width: 768px) {

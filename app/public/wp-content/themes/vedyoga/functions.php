@@ -10,7 +10,7 @@
     wp_enqueue_style('b_font_awes','//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
     wp_enqueue_style('google_font','//fonts.googleapis.com/css2?family=Cutive&family=Raleway&display=swap');
     wp_enqueue_style('slick_css',get_theme_file_uri('/css/slick.css'), NULL, microtime());
-    wp_enqueue_style('medi_main_styles',get_stylesheet_uri());
+    wp_enqueue_style('medi_main_styles',get_stylesheet_uri(), NULL, microtime());
   }
   add_action('wp_enqueue_scripts','medi_files');
 

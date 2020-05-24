@@ -140,18 +140,26 @@
     object-fit: contain;
     object-position: center; }
   .page-banner .page-banner__content {
+    position: absolute;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     align-content: center;
+    width: 100%;
     height: 100%; }
     .page-banner .page-banner__content .page-banner__title {
-      font-size: 3rem;
-      color: white; }
+      font-size: 2.5rem;
+      color: #ffffff;
+      margin-bottom: 10px; }
     .page-banner .page-banner__content .page-banner__intro {
-      color: white;
-      font-size: 1.5rem; }
+      color: #ffffff;
+      font-size: 1.5rem;
+      margin: 0 auto; }
+      .page-banner .page-banner__content .page-banner__intro p {
+        color: #ffffff;
+        font-size: 1.5rem;
+        margin: 0 auto; }
 
 .page-section {
   padding-top: 1.6rem;

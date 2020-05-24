@@ -23,7 +23,7 @@
               </button>
             </div>
             <div class="nav-items-wrapper">
-              <ul class="nav-items nav-close">
+              <ul class="nav-items nav-close mobile-links">
                   <li class="nav-item active">
                     <a class="nav-link" href="<?php echo site_url('/about-us');?>">About Us</a>
                   </li>
