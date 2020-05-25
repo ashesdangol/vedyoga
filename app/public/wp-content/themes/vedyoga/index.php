@@ -43,7 +43,7 @@
                  <a class="blog-title--fontstyle" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
               </div>
               <div class="blog-auth">
-                <?php  the_author_posts_link(); ?>
+                <?php  echo "Posted by "; the_author_posts_link(); ?>
               </div>
               <div class="blog-content">
                 <?php

@@ -27,6 +27,7 @@
           </p>
         </div>
         <div class="blog-generic-contents">
+          <h2><?php echo the_title(); ?></h2>
            <?php echo get_the_content(); ?>
         </div>
       </div>

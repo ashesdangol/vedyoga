@@ -456,9 +456,10 @@
       .blog-card .post-item .blog-title-auth-content-wrapper .blog-auth {
         font-family: 'Cutive', serif;
         font-size: 1rem;
-        margin-bottom: 10px; }
+        margin-bottom: 10px;
+        color: #878787; }
         .blog-card .post-item .blog-title-auth-content-wrapper .blog-auth a {
-          color: #878787;
+          color: #cf2008;
           font-weight: 400; }
           .blog-card .post-item .blog-title-auth-content-wrapper .blog-auth a:hover, .blog-card .post-item .blog-title-auth-content-wrapper .blog-auth a:active {
             color: #cf2008; }
@@ -484,6 +485,14 @@
     width: 100%; }
     .blog-right-navigation .blog-right-navigation--wrapper .blog-boxes {
       margin: 0 auto 20px auto; }
+
+.single-post .wp-block-image figure img {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+
+.single-post .wp-block-image figcaption {
+  text-align: center;
+  color: #888888;
+  font-weight: bold; }
 
 @media (min-width: 769px) {
   .blog-card {
@@ -511,6 +520,22 @@
       .blog-card .post-item .blog-date-feature-thumbnail--wrapper {
         min-width: 300px; } }
 
+@media (min-width: 768px) {
+  .single-post .wp-block-image figure {
+    overflow: hidden;
+    margin: 0 0 0 20px;
+    padding: 0; } }
+
+@media (max-width: 767px) {
+  .single-post .wp-block-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto; }
+    .single-post .wp-block-image figure {
+      margin: 0; } }
+
 /* (1024x768) iPad 1 & 2, Landscape */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
   .blog-card {
@@ -535,3 +560,8 @@
   .blog-section .blog-details-wrapper .blog-auth {
     font-family: 'Cutive', serif;
     font-size: 0.9rem; } }
+
+@media (max-width: 1159px) {
+  .blog-right-navigation.side-paddings {
+    padding-left: 0;
+    padding-right: 0; } }

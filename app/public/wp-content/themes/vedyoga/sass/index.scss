@@ -65,8 +65,9 @@
           font-family: 'Cutive', serif;
           font-size: 1rem;
           margin-bottom: 10px;
+          color: $darkGray--color;
           a{
-            color: $darkGray--color;
+            color: $reddish--color;;
             font-weight:400;
             &:hover, &:active{
               color: $reddish--color;
@@ -117,6 +118,23 @@
   }
 }
 
+// thumbnails fixture
+
+.single-post{
+    .wp-block-image{
+      figure{
+        img{
+            box-shadow:$gentle-box-shadow;
+        }
+      }
+      figcaption{
+        text-align: center;
+        color: $text--color;
+        font-weight: bold;
+      }
+    }
+}
+//-------------------------------------------------------
 
 @media (min-width: 769px) {
   // Blog contents and thumbnails
@@ -175,7 +193,31 @@
   }
     //-------------------------------------------------------
 }
-
+@media (min-width: 768px){
+  .single-post{
+      .wp-block-image{
+        figure{
+          overflow: hidden;
+          margin: 0 0 0 20px;
+          padding: 0;
+        }
+      }
+  }
+}
+@media (max-width: 767px) {
+  .single-post{
+      .wp-block-image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        figure{
+          margin: 0;
+        }
+      }
+  }
+}
 /* (1024x768) iPad 1 & 2, Landscape */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
   // Blog contents and thumbnails
@@ -219,4 +261,12 @@
     }
   }
   //-------------------------------------------------------
+}
+@media (max-width: 1159px) {
+  .blog-right-navigation{
+    &.side-paddings{
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
 }
