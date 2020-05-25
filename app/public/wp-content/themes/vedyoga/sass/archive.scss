@@ -1,0 +1,25 @@
+@import "assets";
+@import "page";
+.archive{
+  .blog-main-wrapper{
+    margin: 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+    .blog-section{
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+  }
+}
+
+@media (min-width: 1160px) {
+  .archive{
+    .blog-section{
+      width: 70%;
+    }
+    .blog-right-navigation{
+      width: 30%;
+    }
+  }
+}

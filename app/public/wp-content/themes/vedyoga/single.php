@@ -11,7 +11,7 @@
     <!-- the banner -->
     <div class="page-banner blog-page-banner">
       <div class="page-banner__bg-image" style="background-image: url(<?php echo $featuredImage ?>);"></div>
-      <div class="page-banner__content side-paddings--double">
+      <div class="page-banner__content side-paddings">
         <h1 class="page-banner__title mobile-page-banner__title--smFont"><?php echo the_title(); ?></h1>
         <div class="page-banner__intro mobile-page-banner__intro--smFont">
           <p>What's in your mind?</p>

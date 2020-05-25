@@ -1,7 +1,7 @@
 *{
   box-sizing: border-box;
 }
-.page-template-default, .blog, .post-template-default{
+.page-template-default, .blog, .post-template-default, .archive{
   margin: 0;
 }
 :root{
@@ -43,3 +43,4 @@
 @import "categories_list";
 @import "media_query";
 @import "iphone5";
+@import "archive";

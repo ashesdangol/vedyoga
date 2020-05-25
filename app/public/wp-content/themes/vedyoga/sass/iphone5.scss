@@ -1,4 +1,34 @@
 @media (max-width:370px) {
+  // nav Menu
+  .nav-main-wrapper{
+    .nav-brand-wrapper{
+      .brand-link{
+        .brand-img{
+          width: 70%;
+          height: auto;
+          height: 40px!important;
+          max-height: 80px;
+          object-fit: cover;
+          object-position: center;
+        }
+      }
+    }
+    .nav-items-wrapper{
+      .nav-items{
+
+        .nav-item{
+
+          }
+          .nav-link{
+
+
+        }
+      }
+    }
+    .mobile-nav-btn{
+      transform: scale(0.7)!important;
+    }
+  }
   // blog page
   .blog-page-wrapper{
     .blog-main-wrapper.side-paddings{

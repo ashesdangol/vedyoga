@@ -173,8 +173,6 @@
 
 @media (max-width: 767px) {
   .mobile-page-banner__title--smFont {
-    font-size: 1.2rem !important;
-    min-width: 300px; }
+    font-size: 1.2rem !important; }
   .mobile-page-banner__intro--smFont {
-    font-size: 1rem !important;
-    min-width: 300px; } }
+    font-size: 1rem !important; } }

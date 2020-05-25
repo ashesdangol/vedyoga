@@ -5,13 +5,13 @@
 <div class="page-wrapper blog-page-wrapper">
   <div class="page-banner blog-page-banner">
     <div class="page-banner__bg-image" style="background-image: url(<?php echo get_theme_file_uri('/img/7.jpg') ?>);"></div>
-    <div class="page-banner__content side-paddings--double">
-      <h1 class="page-banner__title">
+    <div class="page-banner__content side-paddings">
+      <h1 class="page-banner__title mobile-page-banner__title--smFont">
         <?php
           the_archive_title();
         ?>
       </h1>
-      <div class="page-banner__intro">
+      <div class="page-banner__intro mobile-page-banner__intro--smFont">
         <p><?php the_archive_description(); ?></p>
       </div>
     </div>
@@ -91,7 +91,7 @@
        </div>
        <div class="blog-right-navigation-categories ">
          <div class="blog-categorybox blog-boxes">
-           <p>category archive</p>
+           <?php include('partials/categories_list.php'); ?>
          </div>
 
        </div>
