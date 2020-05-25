@@ -1892,6 +1892,14 @@
       display: flex;
       flex-wrap: wrap; }
 
+.blog-category-type p {
+  font-weight: bold; }
+  .blog-category-type p a {
+    color: #888888;
+    font-weight: normal; }
+    .blog-category-type p a:hover {
+      color: #cf2008; }
+
 /* (1024x768) iPad 1 & 2, Landscape */
 @media (min-width: 1160px) {
   .single-post .single-blog-main-wrapper .blog-section {

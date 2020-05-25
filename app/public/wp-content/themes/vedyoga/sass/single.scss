@@ -13,6 +13,19 @@
 
   }
 }
+
+.blog-category-type{
+  p{
+    font-weight: bold;
+    a{
+      color: $text--color;
+      font-weight: normal;
+      &:hover{
+        color: $reddish--color;
+      }
+    }
+  }
+}
 /* (1024x768) iPad 1 & 2, Landscape */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape){
 
