@@ -298,3 +298,31 @@ Stack trace:
 [24-May-2020 12:57:46 UTC] PHP   4. include() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php:106
 [25-May-2020 04:09:36 UTC] PHP Parse error:  syntax error, unexpected 'the_author_posts_link' (T_STRING), expecting ',' or ';' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\index.php on line 46
 [25-May-2020 04:09:37 UTC] PHP Parse error:  syntax error, unexpected 'the_author_posts_link' (T_STRING), expecting ',' or ';' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\index.php on line 46
+[25-May-2020 15:30:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_theme_uri() in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\front-page.php:6
+Stack trace:
+#0 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php(19): require_once('C:\\Users\\ashima...')
+#2 C:\Users\ashima\Local Sites\vedyoga\app\public\index.php(17): require('C:\\Users\\ashima...')
+#3 {main}
+  thrown in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\front-page.php on line 6
+[25-May-2020 15:30:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_theme_uri() in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\front-page.php:6
+Stack trace:
+#0 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php(19): require_once('C:\\Users\\ashima...')
+#2 C:\Users\ashima\Local Sites\vedyoga\app\public\index.php(17): require('C:\\Users\\ashima...')
+#3 {main}
+  thrown in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\front-page.php on line 6
+[25-May-2020 15:31:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_theme_uri() in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\front-page.php:6
+Stack trace:
+#0 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php(19): require_once('C:\\Users\\ashima...')
+#2 C:\Users\ashima\Local Sites\vedyoga\app\public\index.php(17): require('C:\\Users\\ashima...')
+#3 {main}
+  thrown in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\front-page.php on line 6
+[25-May-2020 15:31:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_theme_uri() in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\front-page.php:6
+Stack trace:
+#0 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php(19): require_once('C:\\Users\\ashima...')
+#2 C:\Users\ashima\Local Sites\vedyoga\app\public\index.php(17): require('C:\\Users\\ashima...')
+#3 {main}
+  thrown in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\front-page.php on line 6
