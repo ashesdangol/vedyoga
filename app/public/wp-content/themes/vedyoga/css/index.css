@@ -171,6 +171,14 @@
     width: 300px;
     float: right; } }
 
+@media (max-width: 767px) {
+  .mobile-page-banner__title--smFont {
+    font-size: 1.2rem !important;
+    min-width: 300px; }
+  .mobile-page-banner__intro--smFont {
+    font-size: 1rem !important;
+    min-width: 300px; } }
+
 .page-banner {
   background-color: transparent;
   padding: 0px 0 40px 0;
@@ -404,6 +412,14 @@
     margin: 0 0 40px 20px;
     width: 300px;
     float: right; } }
+
+@media (max-width: 767px) {
+  .mobile-page-banner__title--smFont {
+    font-size: 1.2rem !important;
+    min-width: 300px; }
+  .mobile-page-banner__intro--smFont {
+    font-size: 1rem !important;
+    min-width: 300px; } }
 
 .blog-content {
   color: #888888; }

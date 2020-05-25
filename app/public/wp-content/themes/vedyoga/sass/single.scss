@@ -16,10 +16,17 @@
 
 .blog-category-type{
   p{
+    color: $text--color;
     font-weight: bold;
     a{
       color: $text--color;
       font-weight: normal;
+      padding: 0px 8px;
+      background: $light-blue-bg;
+
+      border-radius: 10px;
+
+
       &:hover{
         color: $reddish--color;
       }
