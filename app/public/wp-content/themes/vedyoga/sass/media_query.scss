@@ -1,4 +1,21 @@
+@import "assets";
+
+// HEADER
+$header__title--one: 1rem;
+.header__title--one{
+  color: $color_one;
+  padding-left: 20px;
+
+}
+
+
 @media only screen and (max-width: 1199px){
+
+}
+@media only screen and (max-width: 1024px){
+  .header__title--one{
+    font-size: $header__title--one*1.4;
+  }
 
 }
 
@@ -6,8 +23,11 @@
 
 }
 
-
+// start here
 @media only screen and (max-width: 767px){
+  .header__title--one{
+    font-size: $header__title--one;
+  }
 
 }
 @media only screen and (max-width: 576px){
@@ -37,9 +57,18 @@
 
 
 }
+
 @media only screen and (min-width: 1024px){
 
+
 }
+@media only screen and (min-width: 1025px){
+  .header__title--one{
+    font-size: $header__title--one*1.6;
+  }
+
+}
+
 @media only screen and (min-width: 1280px){
 
 }
@@ -55,4 +84,82 @@
 }
 @media only screen and (min-width: 992px) and (max-width:1360px){
 
+}
+
+// BUTTONS
+
+.btn__rt{
+  text-align: right;
+}
+
+[class^="hvr-"] {
+  /*display: inline-block;*/
+  /*vertical-align: middle;*/
+  margin: .4em;
+  padding: .5em 1em;
+  cursor: pointer;
+  background: $color_five;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  /* Prevent highlight colour when element is tapped */
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+/* Icon Buzz */
+@-webkit-keyframes hvr-icon-buzz {
+  50% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+
+  100% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+}
+
+@keyframes hvr-icon-buzz {
+  50% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+
+  100% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+}
+
+.hvr-icon-buzz {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  padding-right: 2.8em;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.hvr-icon-buzz:before {
+  content: "\f06e";
+  position: absolute;
+  right: 1em;
+  padding: 0 1px;
+  font-family: FontAwesome;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+.hvr-icon-buzz:hover:before, .hvr-icon-buzz:focus:before, .hvr-icon-buzz:active:before {
+  -webkit-animation-name: hvr-icon-buzz;
+  animation-name: hvr-icon-buzz;
+  -webkit-animation-duration: 0.15s;
+  animation-duration: 0.15s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
 }

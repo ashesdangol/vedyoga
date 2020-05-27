@@ -1,0 +1,28 @@
+@import "assets";
+.generic-two-cols{
+  width: 100%;
+  .generic-two-col{
+    width: 100%;
+    height: auto;
+    min-height: 100px;
+  }
+}
+
+@media (min-width:768px) {
+  .generic-two-cols{
+    width: 100%;
+    .generic-two-col{
+
+    }
+  }
+}
+@media (min-width:1024px) {
+  .generic-two-cols{
+    width: 100%;
+    display: flex;
+    .generic-two-col{
+      width: 50%;
+    }
+  }
+
+}

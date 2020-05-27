@@ -33,7 +33,7 @@
   overflow: hidden;
   min-height: 100vh;
 }
-
+@import "generic-col";
 @import "navbar";
 @import "footer";
 @import "banner_slider";
@@ -45,3 +45,4 @@
 @import "iphone5";
 @import "archive";
 @import "home";
+@import "blog-card";

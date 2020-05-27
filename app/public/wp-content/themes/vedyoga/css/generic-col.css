@@ -184,16 +184,20 @@
   .mobile-page-banner__intro--smFont {
     font-size: 1rem !important; } }
 
-#main-footer {
-  background: #95afc0; }
+.generic-two-cols {
+  width: 100%; }
+  .generic-two-cols .generic-two-col {
+    width: 100%;
+    height: auto;
+    min-height: 100px; }
 
-.site-footer {
-  padding: 2rem 0 3.5rem 0; }
-  .site-footer .site-footer-one {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap; }
+@media (min-width: 768px) {
+  .generic-two-cols {
+    width: 100%; } }
 
-.social-wrapper nav ul {
-  display: flex;
-  justify-content: space-between; }
+@media (min-width: 1024px) {
+  .generic-two-cols {
+    width: 100%;
+    display: flex; }
+    .generic-two-cols .generic-two-col {
+      width: 50%; } }
