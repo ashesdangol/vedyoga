@@ -54,6 +54,7 @@
         <?php include('partials/blog-card.php') ?>
         <?php
             }
+            wp_reset_postdata();
             // end of while loop
         ?>
       </div>

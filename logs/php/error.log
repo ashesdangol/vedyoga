@@ -326,3 +326,17 @@ Stack trace:
 #2 C:\Users\ashima\Local Sites\vedyoga\app\public\index.php(17): require('C:\\Users\\ashima...')
 #3 {main}
   thrown in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\front-page.php on line 6
+[27-May-2020 21:07:51 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\archive.php on line 40
+[27-May-2020 23:11:49 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\index.php on line 56
+[27-May-2020 23:27:06 UTC] PHP Warning:  Use of undefined constant posts_per_page - assumed 'posts_per_page' (this will throw an Error in a future version of PHP) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\index.php on line 54
+[27-May-2020 23:27:06 UTC] PHP Stack trace:
+[27-May-2020 23:27:06 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[27-May-2020 23:27:06 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[27-May-2020 23:27:06 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:19
+[27-May-2020 23:27:06 UTC] PHP   4. include() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php:106
+[27-May-2020 23:27:06 UTC] PHP Warning:  Use of undefined constant posts_per_page - assumed 'posts_per_page' (this will throw an Error in a future version of PHP) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\index.php on line 54
+[27-May-2020 23:27:06 UTC] PHP Stack trace:
+[27-May-2020 23:27:07 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[27-May-2020 23:27:07 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[27-May-2020 23:27:07 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:19
+[27-May-2020 23:27:07 UTC] PHP   4. include() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php:106
