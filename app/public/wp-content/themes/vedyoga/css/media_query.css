@@ -185,20 +185,19 @@
     font-size: 1rem !important; } }
 
 .header__title--one {
-  color: #455a5c;
-  padding-left: 20px; }
+  color: #455a5c; }
 
 @media only screen and (max-width: 1024px) {
   .header__title--one {
-    font-size: 1.4rem; } }
+    font-size: 1.82rem; } }
 
 @media only screen and (max-width: 767px) {
   .header__title--one {
-    font-size: 1rem; } }
+    font-size: 1.3rem; } }
 
 @media only screen and (min-width: 1025px) {
   .header__title--one {
-    font-size: 1.6rem; } }
+    font-size: 1.95rem; } }
 
 .btn__rt {
   text-align: right; }

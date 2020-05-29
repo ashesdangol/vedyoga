@@ -1,5 +1,6 @@
 @import "assets";
 .blog-card{
+  margin: 10px 15px 20px 15px!important;
   .blog-card__post-item{
     .blog-card__date-thumbnail{
       background: $color_one;
@@ -85,7 +86,6 @@
 }
 @media (max-width: 767px){
   .blog-card{
-    margin: 10px 15px 0 15px;
     .blog-card__post-item{
       display: flex;
       .blog-card__date-thumbnail{
@@ -136,7 +136,6 @@
 @media (min-width: 768px) and (max-width: 1024px){
   .blog-card{
     width: 50%;
-    margin: 10px 15px 0 15px;
     .blog-card__post-item{
       display: flex;
       .blog-card__date-thumbnail{
@@ -186,7 +185,6 @@
 @media (min-width:1025px) {
   .blog-card{
     width: 50%;
-    margin: 10px 15px 0 15px;
     .blog-card__post-item{
       display: flex;
       .blog-card__date-thumbnail{

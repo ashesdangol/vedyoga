@@ -443,7 +443,8 @@
   width: 100%; }
   .blog-right-navigation .blog-right-navigation--wrapper {
     margin: 20px auto;
-    width: 100%; }
+    width: 100%;
+    background: #f9f9f9; }
     .blog-right-navigation .blog-right-navigation--wrapper .blog-boxes {
       margin: 0 auto 20px auto; }
 

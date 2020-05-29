@@ -17,10 +17,13 @@
 .blog-right-navigation{
   width: 100%;
   .blog-right-navigation--wrapper{
+
     margin: 20px auto;
     width: 100%;
+    background: #f9f9f9;
     .blog-boxes{
       margin: 0 auto 20px auto;
+      
     }
   }
 }
@@ -46,17 +49,15 @@
 // 1280 mac displat
 @media (min-width: 1160px) {
   // Blog contents and thumbnails
-.blog{
-    .blog-section{
-      width: 70%;
+  .blog{
+      .blog-section{
+        width: 70%;
+      }
+      .blog-right-navigation{
+        width: 30%;
+      }
     }
-    .blog-right-navigation{
-      width: 30%;
-    }
-  }
 }
-
-
 @media (min-width: 768px){
   .single-post{
       .wp-block-image{

@@ -19,7 +19,7 @@
         while (have_posts()) {
           the_post();
       ?>
-    <?php include('partials/blog-card.php') ?>
+      <?php include('partials/blog-card.php') ?>
       <?php
           }
           // end of while loop
@@ -48,17 +48,7 @@
        </div>
        <div class="blog-right-navigation-popular-article">
          <div class="blog-articlebox blog-boxes">
-           <?php
-              $instafeed = new WP_Query(array(
-                'posts_per_page'=> 1,
-                'post_type'=>'Instagram'
-              ));
-              while($instafeed->have_posts()){
-                $instafeed->the_post();
-                the_content();
-              }
-              wp_reset_postdata();
-            ?>
+            <?php include('partials/instagram_part.php'); ?>
          </div>
 
        </div>

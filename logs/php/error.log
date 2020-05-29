@@ -340,3 +340,15 @@ Stack trace:
 [27-May-2020 23:27:07 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
 [27-May-2020 23:27:07 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:19
 [27-May-2020 23:27:07 UTC] PHP   4. include() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php:106
+[29-May-2020 05:34:46 UTC] PHP Warning:  include(partials/instagram_part.php): failed to open stream: No such file or directory in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\index.php on line 51
+[29-May-2020 05:34:46 UTC] PHP Stack trace:
+[29-May-2020 05:34:46 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[29-May-2020 05:34:46 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[29-May-2020 05:34:46 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:19
+[29-May-2020 05:34:46 UTC] PHP   4. include() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php:106
+[29-May-2020 05:34:46 UTC] PHP Warning:  include(): Failed opening 'partials/instagram_part.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\index.php on line 51
+[29-May-2020 05:34:46 UTC] PHP Stack trace:
+[29-May-2020 05:34:46 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[29-May-2020 05:34:46 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[29-May-2020 05:34:46 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:19
+[29-May-2020 05:34:46 UTC] PHP   4. include() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php:106

@@ -19,7 +19,7 @@
 <section class="home__events-and-blogs--section">
   <div class="generic-two-cols">
     <div class="generic-two-col generic-two-col__1 gentle-box-shadow">
-      <h1 class="header__title--one">Upcoming Events</h1>
+      <h2 class="header__title--one">Upcoming Events</h2>
       <div class="home__blog-event">
 
         <?php
@@ -41,7 +41,7 @@
       </div>
     </div>
     <div class="generic-two-col generic-two-col__2 gentle-box-shadow">
-      <h1 class="header__title--one">Our Latest Blogs</h1>
+      <h2 class="header__title--one">Our Latest Blogs</h2>
       <div class="home__blog-event">
         <?php
           $homeBlogpost = new WP_Query(array(
