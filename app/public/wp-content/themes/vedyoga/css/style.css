@@ -6,7 +6,7 @@
 
 :root {
   font-size: 16px;
-  font-family: 'Raleway', sans-serif; }
+  font-family: 'Roboto', sans-serif; }
   :root * {
     line-height: 1.5; }
   :root ul {
@@ -17,7 +17,7 @@
     max-width: 100%;
     height: auto; }
   :root h1, :root h2, :root h3, :root h4, :root h5, :root h6 {
-    font-family: 'Cutive', serif; }
+    font-family: 'Roboto', serif; }
   :root a {
     text-decoration: none; }
 
@@ -62,7 +62,7 @@
     outline-width: 0px; }
 
 .small-header-links--fontstyle, .nav-link {
-  font-family: 'Cutive', serif;
+  font-family: 'Roboto', serif;
   font-size: 1.1rem;
   font-weight: 600 !important; }
 
@@ -266,7 +266,7 @@
     outline-width: 0px; }
 
 .small-header-links--fontstyle, .nav-link {
-  font-family: 'Cutive', serif;
+  font-family: 'Roboto', serif;
   font-size: 1.1rem;
   font-weight: 600 !important; }
 
@@ -442,7 +442,7 @@
   background: #dff9fb;
   transition: all 0.5s ease; }
   .nav-main-wrapper * {
-    font-family: 'Cutive', serif; }
+    font-family: 'Roboto', serif; }
   .nav-main-wrapper .nav-brand-wrapper .brand-link {
     display: flex;
     align-items: center; }
@@ -677,7 +677,7 @@
     outline-width: 0px; }
 
 .small-header-links--fontstyle, .nav-link {
-  font-family: 'Cutive', serif;
+  font-family: 'Roboto', serif;
   font-size: 1.1rem;
   font-weight: 600 !important; }
 
@@ -938,7 +938,7 @@
     outline-width: 0px; }
 
 .small-header-links--fontstyle, .nav-link {
-  font-family: 'Cutive', serif;
+  font-family: 'Roboto', serif;
   font-size: 1.1rem;
   font-weight: 600 !important; }
 
@@ -1185,7 +1185,7 @@
     outline-width: 0px; }
 
 .small-header-links--fontstyle, .nav-link {
-  font-family: 'Cutive', serif;
+  font-family: 'Roboto', serif;
   font-size: 1.1rem;
   font-weight: 600 !important; }
 
@@ -1432,7 +1432,7 @@
     outline-width: 0px; }
 
 .small-header-links--fontstyle, .nav-link {
-  font-family: 'Cutive', serif;
+  font-family: 'Roboto', serif;
   font-size: 1.1rem;
   font-weight: 600 !important; }
 
@@ -1709,7 +1709,7 @@
     outline-width: 0px; }
 
 .small-header-links--fontstyle, .nav-link {
-  font-family: 'Cutive', serif;
+  font-family: 'Roboto', serif;
   font-size: 1.1rem;
   font-weight: 600 !important; }
 
@@ -1956,7 +1956,7 @@
     outline-width: 0px; }
 
 .small-header-links--fontstyle, .nav-link {
-  font-family: 'Cutive', serif;
+  font-family: 'Roboto', serif;
   font-size: 1.1rem;
   font-weight: 600 !important; }
 
@@ -2177,7 +2177,7 @@
     outline-width: 0px; }
 
 .small-header-links--fontstyle, .nav-link {
-  font-family: 'Cutive', serif;
+  font-family: 'Roboto', serif;
   font-size: 1.1rem;
   font-weight: 600 !important; }
 
@@ -2399,7 +2399,7 @@
     outline-width: 0px; }
 
 .small-header-links--fontstyle, .nav-link {
-  font-family: 'Cutive', serif;
+  font-family: 'Roboto', serif;
   font-size: 1.1rem;
   font-weight: 600 !important; }
 
@@ -2692,7 +2692,7 @@
     outline-width: 0px; }
 
 .small-header-links--fontstyle, .nav-link {
-  font-family: 'Cutive', serif;
+  font-family: 'Roboto', serif;
   font-size: 1.1rem;
   font-weight: 600 !important; }
 
@@ -2878,7 +2878,7 @@
     outline-width: 0px; }
 
 .small-header-links--fontstyle, .nav-link {
-  font-family: 'Cutive', serif;
+  font-family: 'Roboto', serif;
   font-size: 1.1rem;
   font-weight: 600 !important; }
 
@@ -3315,7 +3315,7 @@
     outline-width: 0px; }
 
 .small-header-links--fontstyle, .nav-link {
-  font-family: 'Cutive', serif;
+  font-family: 'Roboto', serif;
   font-size: 1.1rem;
   font-weight: 600 !important; }
 
@@ -3480,10 +3480,10 @@
       font-size: 1rem;
       font-weight: bold; }
   .blog-card .blog-card__post-item .blog-card__details .blog-card__title-auth-contents .blog-card__title .blog-card__title--fontstyle {
-    font-family: 'Cutive', serif;
+    font-family: 'Roboto', serif;
     color: #42afc2; }
   .blog-card .blog-card__post-item .blog-card__details .blog-card__title-auth-contents .blog-card__auth {
-    font-family: 'Cutive', serif;
+    font-family: 'Roboto', serif;
     color: #878787; }
     .blog-card .blog-card__post-item .blog-card__details .blog-card__title-auth-contents .blog-card__auth a {
       color: #cf2008;

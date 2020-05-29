@@ -23,6 +23,17 @@
       ),
       'menu_icon'=>'dashicons-slides'
     ));
+    register_post_type('event', array(
+      'public'=>true,
+      'labels'=>array(
+        'name'=> 'Events',
+        'add_new_item' => 'Add Event',
+        'edit_item' => 'Edit Event',
+        'all_items' => 'Add/Edit Events',
+        'singular_name'=> 'event'
+      ),
+      'menu_icon'=>'dashicons-calendar'
+    ));
   }
   add_action('init', 'custom_post_types');
  ?>
