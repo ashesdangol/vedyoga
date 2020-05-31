@@ -24,7 +24,8 @@
       'menu_icon'=>'dashicons-slides'
     ));
     register_post_type('event', array(
-      'supports' => array('title','editor', 'excerpt','post-thumbnails','title-tag','custom-fields'),
+      'supports' => array('title','editor', 'excerpt','post-thumbnails','title-tag','custom-fields','thumbnail'),
+      'taxonomies' => array('category'),
       'rewrite' => array('slug' => 'events'),
       'has_archive' => true,
       'public'=>true,
@@ -39,4 +40,7 @@
     ));
   }
   add_action('init', 'custom_post_types');
+
+  add_post_type_support( 'themes', 'thumbnail' );
+
  ?>
