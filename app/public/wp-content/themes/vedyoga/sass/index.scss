@@ -4,8 +4,8 @@
 .blog-content{
   color: $text--color;
 }
-
-.blog{
+// page-id-132 IS PAST EVENTS
+.blog, .single-event, .page-id-132{
   .blog-main-wrapper{
     margin: 40px auto;
     display: flex;
@@ -49,7 +49,7 @@
 // 1280 mac displat
 @media (min-width: 1160px) {
   // Blog contents and thumbnails
-  .blog{
+  .blog, .single-event, .page-id-132{
       .blog-section{
         width: 70%;
       }
@@ -68,7 +68,7 @@
         }
       }
   }
-  .blog{
+  .blog, .single-event, .page-id-132{
       .blog-section{
         width: 70%;
       }

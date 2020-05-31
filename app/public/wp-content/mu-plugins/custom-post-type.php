@@ -24,6 +24,9 @@
       'menu_icon'=>'dashicons-slides'
     ));
     register_post_type('event', array(
+      'supports' => array('title','editor', 'excerpt','post-thumbnails','title-tag','custom-fields'),
+      'rewrite' => array('slug' => 'events'),
+      'has_archive' => true,
       'public'=>true,
       'labels'=>array(
         'name'=> 'Events',

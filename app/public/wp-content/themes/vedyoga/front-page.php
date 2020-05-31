@@ -23,21 +23,35 @@
       <div class="home__blog-event">
 
         <?php
-          $homeBlogpost = new WP_Query(array(
-            'posts_per_page'=>2
+        $today = date('Ymd');
+          $eventPost = new WP_Query(array(
+            'posts_per_page'=>2,
+            'post_type'=>'event',
+            'meta_key' => 'event_date',
+            'orderby' => 'meta_value',
+            'order' => 'ASC',
+            'meta_query' => array(
+              array(
+                'key' => 'event_date',
+                'compare' =>'>=',
+                'value' => $today,
+                'type' => 'date'
+              )
+            )
           ));
 
-          while ($homeBlogpost->have_posts()) {
-            $homeBlogpost->the_post();
+          while ($eventPost->have_posts()) {
+            $eventPost->the_post();
         ?>
-        <?php include('partials/blog-card.php') ?>
+        <?php include('partials/event_part.php') ?>
         <?php
             }
+              wp_reset_postdata();
             // end of while loop
         ?>
       </div>
       <div class="btn__rt">
-          <a href="<?php echo site_url('/blog'); ?>" class="hvr-icon-buzz">View More</a>
+          <a href="<?php echo get_post_type_archive_link('event'); ?>" class="hvr-icon-buzz">View All Events</a>
       </div>
     </div>
     <div class="generic-two-col generic-two-col__2 gentle-box-shadow">
@@ -59,7 +73,7 @@
         ?>
       </div>
       <div class="btn__rt">
-          <a href="<?php echo site_url('/blog'); ?>" class="hvr-icon-buzz">View More</a>
+          <a href="<?php echo site_url('/blog'); ?>" class="hvr-icon-buzz">View All Blog Posts</a>
       </div>
     </div>
 

@@ -352,3 +352,38 @@ Stack trace:
 [29-May-2020 05:34:46 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
 [29-May-2020 05:34:46 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:19
 [29-May-2020 05:34:46 UTC] PHP   4. include() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php:106
+[29-May-2020 12:37:28 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\mu-plugins\custom-post-type.php on line 34
+[29-May-2020 12:39:28 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\mu-plugins\custom-post-type.php on line 34
+[29-May-2020 12:39:57 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\mu-plugins\custom-post-type.php on line 34
+[29-May-2020 12:40:11 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\mu-plugins\custom-post-type.php on line 34
+[31-May-2020 08:18:11 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\front-page.php on line 28
+[31-May-2020 11:13:48 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\partials\event_part.php on line 8
+[31-May-2020 11:14:14 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\partials\event_part.php on line 8
+[31-May-2020 11:14:17 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\partials\event_part.php on line 8
+[31-May-2020 11:31:15 UTC] PHP Parse error:  syntax error, unexpected ''orderby'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\front-page.php on line 30
+[31-May-2020 11:41:35 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\front-page.php on line 38
+[31-May-2020 11:41:58 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\front-page.php on line 39
+[31-May-2020 11:42:18 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\front-page.php on line 39
+[31-May-2020 11:48:23 UTC] PHP Parse error:  syntax error, unexpected 'numeric' (T_STRING), expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\front-page.php on line 38
+[31-May-2020 11:48:39 UTC] PHP Parse error:  syntax error, unexpected 'partials' (T_STRING), expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\front-page.php on line 46
+[31-May-2020 11:49:17 UTC] PHP Parse error:  syntax error, unexpected 'numeric' (T_STRING), expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\front-page.php on line 38
+[31-May-2020 11:49:20 UTC] PHP Parse error:  syntax error, unexpected 'numeric' (T_STRING), expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\front-page.php on line 38
+[31-May-2020 11:49:27 UTC] PHP Parse error:  syntax error, unexpected 'numeric' (T_STRING), expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\front-page.php on line 38
+[31-May-2020 11:49:35 UTC] PHP Parse error:  syntax error, unexpected 'numeric' (T_STRING), expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\front-page.php on line 38
+[31-May-2020 12:26:44 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\front-page.php on line 38
+[31-May-2020 12:29:03 UTC] PHP Warning:  date() expects at least 1 parameter, 0 given in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\front-page.php on line 26
+[31-May-2020 12:29:03 UTC] PHP Stack trace:
+[31-May-2020 12:29:03 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[31-May-2020 12:29:03 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[31-May-2020 12:29:03 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:19
+[31-May-2020 12:29:03 UTC] PHP   4. include() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php:106
+[31-May-2020 12:29:03 UTC] PHP   5. date() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\front-page.php:26
+[31-May-2020 13:36:27 UTC] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\page-past-events.php on line 24
+[31-May-2020 13:40:29 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\page-past-events.php on line 22
+[31-May-2020 13:43:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\page-past-events.php:36
+Stack trace:
+#0 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php(19): require_once('C:\\Users\\ashima...')
+#2 C:\Users\ashima\Local Sites\vedyoga\app\public\index.php(17): require('C:\\Users\\ashima...')
+#3 {main}
+  thrown in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\page-past-events.php on line 36
