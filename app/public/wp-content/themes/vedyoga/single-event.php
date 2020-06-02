@@ -2,6 +2,7 @@
   get_header();
 ?>
   <?php
+    $eventDate = new DateTime(get_field('event_date'));
     while (have_posts()) {
       the_post();
       $featuredImage = wp_get_attachment_url( get_post_thumbnail_id(get_the_ID()) );
@@ -12,9 +13,9 @@
     <div class="page-banner blog-page-banner">
       <div class="page-banner__bg-image" style="background-image: url(<?php echo $featuredImage ?>);"></div>
       <div class="page-banner__content side-paddings">
-        <h1 class="page-banner__title mobile-page-banner__title--smFont"><?php the_time('d') ?> <?php the_time('M'); ?></h1>
+        <h1 class="page-banner__title mobile-page-banner__title--smFont"><?php echo  $eventDate->format('d M Y'); ?></h1>
         <div class="page-banner__intro mobile-page-banner__intro--smFont">
-          <p><?php the_time('g:i a')?>  </p>
+          <p><?php echo $eventDate->format('g:i a'); ?></p>
         </div>
       </div>
     </div>

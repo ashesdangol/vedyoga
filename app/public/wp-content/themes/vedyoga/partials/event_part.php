@@ -4,11 +4,7 @@
       <div class="blog-card__date">
       <?php
       $eventDate = new DateTime(get_field('event_date'));
-      echo $eventDate->format('d');
-      echo " ";
-      echo $eventDate->format('M');
-      echo " ";
-      echo $eventDate->format('Y');
+      echo $eventDate->format('d M Y');
        ?>
 
       </div>
