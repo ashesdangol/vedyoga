@@ -33,6 +33,23 @@
         <div class="blog-category-type">
           <p>Category : <span><?php echo get_the_category_list(' ,'); ?></span></p>
         </div>
+        <div class="blog__link blog__link-program">
+          <?php
+            $relatedPrograms = get_field('related_programs');
+
+            if ( $relatedPrograms) {
+              echo "<h2 class='heading__title'>Related Programs with the Event</h2>";
+              echo "<ul>";
+              foreach ($relatedPrograms as $program) {
+          ?>
+          <li><a href="<?php echo get_the_permalink($program); ?>"><?php echo get_the_title($program); ?></a></li>
+          <?php
+            }
+              echo "</ul>";
+            }
+           ?>
+
+        </div>
       </div>
       <div class="blog-right-navigation side-paddings">
        <div class="blog-right-navigation--wrapper">

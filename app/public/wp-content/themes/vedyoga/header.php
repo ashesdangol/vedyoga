@@ -37,7 +37,7 @@
                     <a class="nav-link" href="<?php echo site_url('/shop');?>">Shop</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="<?php echo site_url('/meditation');?>">Meditation</a>
+                    <a class="nav-link" href="<?php echo get_post_type_archive_link('program');?>">Programs</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="<?php echo site_url('/contact-us');?>">Contact</a>

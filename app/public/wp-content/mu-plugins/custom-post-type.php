@@ -23,6 +23,7 @@
       ),
       'menu_icon'=>'dashicons-slides'
     ));
+    // Event post type
     register_post_type('event', array(
       'supports' => array('title','editor', 'excerpt','post-thumbnails','title-tag','custom-fields','thumbnail'),
       'taxonomies' => array('category'),
@@ -37,6 +38,23 @@
         'singular_name'=> 'event'
       ),
       'menu_icon'=>'dashicons-calendar'
+    ));
+
+    // Program post type
+    register_post_type('program', array(
+      'supports' => array('title','editor','post-thumbnails','thumbnail'),
+      'taxonomies' => array('category'),
+      'rewrite' => array('slug' => 'programs'),
+      'has_archive' => true,
+      'public'=>true,
+      'labels'=>array(
+        'name'=> 'Programs',
+        'add_new_item' => 'Add New Program',
+        'edit_item' => 'Edit Program',
+        'all_items' => 'Add/Edit Programs',
+        'singular_name'=> 'Program'
+      ),
+      'menu_icon'=>'dashicons-awards'
     ));
   }
   add_action('init', 'custom_post_types');
