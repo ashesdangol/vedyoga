@@ -12,9 +12,9 @@
     <div class="page-banner blog-page-banner">
       <div class="page-banner__bg-image" style="background-image: url(<?php echo $featuredImage ?>);"></div>
       <div class="page-banner__content side-paddings">
-        <h1 class="page-banner__title mobile-page-banner__title--smFont"><?php echo the_title(); ?></h1>
+        <h1 class="page-banner__title mobile-page-banner__title--smFont"><?php the_time('d') ?> <?php the_time('M'); ?></h1>
         <div class="page-banner__intro mobile-page-banner__intro--smFont">
-          <p>Cheackout what's happening!</p>
+          <p><?php the_time('g:i a')?>  </p>
         </div>
       </div>
     </div>
@@ -38,11 +38,11 @@
             $relatedPrograms = get_field('related_programs');
 
             if ( $relatedPrograms) {
-              echo "<h2 class='heading__title'>Related Programs with the Event</h2>";
+              echo "<h2 class='heading__title header__title--one'>Related Programs with this Event</h2>";
               echo "<ul>";
               foreach ($relatedPrograms as $program) {
           ?>
-          <li><a href="<?php echo get_the_permalink($program); ?>"><?php echo get_the_title($program); ?></a></li>
+          <li class="list__items"><a href="<?php echo get_the_permalink($program); ?>"><?php echo get_the_title($program); ?></a></li>
           <?php
             }
               echo "</ul>";

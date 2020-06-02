@@ -1,0 +1,19 @@
+@import "assets";
+.blog__link{
+  display: block;
+  width: 100%;
+  background: #f9f9f9;
+  padding: 0 20px;
+}
+.list__items{
+  list-style-type: none;
+  text-transform: capitalize;
+  padding-bottom: 20px;
+  &>a{
+    font-weight: 600;
+    color: $color_one;
+    &:hover{
+      color: $reddish--color;
+    }
+  }
+}

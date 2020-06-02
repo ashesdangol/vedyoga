@@ -35,7 +35,7 @@
       <!-- end of pagination -->
 
       <div class="past-events__link-wrapper">
-        <p>Looking for a recap of past events? <a href="<?php echo site_url('/past-events');?>" class="past-events__link--color">Check out our past events archive</a></p>
+        <p class="list__items">Looking for a recap of past events? <a href="<?php echo site_url('/past-events');?>" class="past-events__link--color">Check out our past events archive</a></p>
       </div>
     </div>
     <!-- en d of blof section -->

@@ -1,7 +1,7 @@
 *{
   box-sizing: border-box;
 }
-.page-template-default, .blog, .post-template-default, .archive, .single-event{
+.page-template-default, .blog, .post-template-default, .archive, .single-event, .single{
   margin: 0;
 }
 :root{
@@ -49,3 +49,4 @@
 @import "home";
 @import "blog-card";
 @import "instagram_part";
+@import "single-event";

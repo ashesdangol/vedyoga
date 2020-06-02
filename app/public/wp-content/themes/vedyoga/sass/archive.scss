@@ -12,9 +12,11 @@
 
   }
 }
-
+.past-events__link-wrapper{
+  color: $text--color;
+}
 @media (min-width: 1160px) {
-  .archive{
+  .archive, .single-program{
     .blog-section{
       width: 70%;
     }
