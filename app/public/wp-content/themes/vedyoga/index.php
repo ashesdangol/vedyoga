@@ -18,9 +18,7 @@
       <?php
         while (have_posts()) {
           the_post();
-      ?>
-      <?php get_template_part('partials/blog-card') ?>
-      <?php
+          get_template_part('partials/blog-card');
           }
           // end of while loop
       ?>
