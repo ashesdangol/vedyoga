@@ -18,9 +18,7 @@
       <?php
         while (have_posts()) {
           the_post();
-      ?>
-      <?php include('partials/blog-card.php') ?>
-      <?php
+          get_template_part('partials/blog-card');
           }
           // end of while loop
       ?>
@@ -41,7 +39,7 @@
          </div>
        </div>
        <div class="blog-right-navigation-categories ">
-           <?php include('partials/categories_list.php'); ?>
+           <?php get_template_part('partials/categories_list'); ?>
 
        </div>
        <div class="blog-right-navigation-popular-article">

@@ -19,7 +19,7 @@
         while (have_posts()) {
           the_post();
       ?>
-      <?php include('partials/blog-card.php') ?>
+      <?php get_template_part('partials/blog-card') ?>
       <?php
           }
           // end of while loop
@@ -42,13 +42,13 @@
        </div>
        <div class="blog-right-navigation-categories ">
          <div class="blog-categorybox blog-boxes">
-            <?php include('partials/categories_list.php'); ?>
+            <?php get_template_part('partials/categories_list'); ?>
          </div>
 
        </div>
        <div class="blog-right-navigation-popular-article">
          <div class="blog-articlebox blog-boxes">
-            <?php include('partials/instagram_part.php'); ?>
+            <?php get_template_part('partials/instagram_part'); ?>
          </div>
 
        </div>

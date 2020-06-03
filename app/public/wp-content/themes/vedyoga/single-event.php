@@ -59,7 +59,7 @@
          </div>
          <div class="blog-right-navigation-categories ">
            <div class="blog-categorybox blog-boxes">
-             <?php include('partials/categories_list.php'); ?>
+             <?php get_template_part('partials/categories_list'); ?>
 
            </div>
 

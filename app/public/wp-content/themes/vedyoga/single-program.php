@@ -12,7 +12,7 @@
   <div class="page-wrapper blog-page-wrapper">
     <!-- the banner -->
     <?php
-    pageBanner(); 
+    pageBanner();
      ?>
     <!-- the contents -->
     <div class="single-blog-main-wrapper side-paddings">
@@ -58,7 +58,7 @@
                 echo '<h2 class="header__title--one">Upcoming Events for '.get_the_title().'</h2>';
                 while ($eventPost->have_posts()) {
                   $eventPost->the_post();
-                  include('partials/event_part.php');
+                  get_template_part('partials/event_part');
                   }
                     wp_reset_postdata();
                   // end of while loop
@@ -85,7 +85,7 @@
          </div>
          <div class="blog-right-navigation-categories ">
            <div class="blog-categorybox blog-boxes">
-             <?php include('partials/categories_list.php'); ?>
+             <?php get_template_part('partials/categories_list'); ?>
 
            </div>
 

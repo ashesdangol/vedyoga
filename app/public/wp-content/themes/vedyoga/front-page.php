@@ -42,8 +42,9 @@
 
           while ($eventPost->have_posts()) {
             $eventPost->the_post();
+            get_template_part('partials/event_part');
         ?>
-        <?php include('partials/event_part.php') ?>
+
         <?php
             }
               wp_reset_postdata();
@@ -64,8 +65,9 @@
 
           while ($homeBlogpost->have_posts()) {
             $homeBlogpost->the_post();
+            get_template_part('partials/blog-card');
         ?>
-        <?php include('partials/blog-card.php') ?>
+
         <?php
             }
             wp_reset_postdata();
