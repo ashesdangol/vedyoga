@@ -3,17 +3,15 @@
 ?>
 
 <div class="page-wrapper blog-page-wrapper">
-  <div class="page-banner blog-page-banner">
-    <div class="page-banner__bg-image" style="background-image: url(<?php echo get_theme_file_uri('/img/7.jpg') ?>);"></div>
-    <div class="page-banner__content side-paddings">
-      <h1 class="page-banner__title mobile-page-banner__title--smFont">
-        Past Events
-      </h1>
-      <div class="page-banner__intro mobile-page-banner__intro--smFont">
-        <p>A recap of our past events</p>
-      </div>
-    </div>
-  </div>
+  <!-- PageBanner -->
+  <?php
+    pageBanner(array(
+        'title'=> 'Past Events',
+        'subtitle' => 'A recap of our past events'
+    ));
+
+   ?>
+   
 
   <div class="blog-main-wrapper side-paddings">
     <div class="blog-section">

@@ -8,16 +8,11 @@
        ?>
 
       </div>
-      <div class="blog-card__thumbnail">
-        <?php
-          if (get_the_post_thumbnail()) {
-            the_post_thumbnail();
-          }else{
-            echo "<br><br><br>";
-          }
-        ?>
-
-      </div>
+      <!-- the_post_thumbnail_url -->
+      <picture class="blog-card__thumbnail">
+        <source media="(max-width:500px)" srcset="<?php the_post_thumbnail_url('thumbnail') ?>">
+        <img src="<?php the_post_thumbnail_url('medium') ?>" alt="" />
+      </picture>
 
     </div>
     <div class="blog-card__details">

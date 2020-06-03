@@ -3,15 +3,15 @@
 ?>
 
 <div class="page-wrapper blog-page-wrapper">
-  <div class="page-banner blog-page-banner">
-    <div class="page-banner__bg-image" style="background-image: url(<?php echo get_theme_file_uri('/img/8.jpg') ?>);"></div>
-    <div class="page-banner__content side-paddings--double">
-      <h1 class="page-banner__title">Blog</h1>
-      <div class="page-banner__intro">
-        <p>What's in your mind?</p>
-      </div>
-    </div>
-  </div>
+  <!-- PageBanner -->
+  <?php
+    pageBanner(array(
+        'title'=> 'Blog',
+        'subtitle' => 'whats in ur mind?'
+    ));
+
+   ?>
+
 
   <div class="blog-main-wrapper side-paddings">
     <div class="blog-section">

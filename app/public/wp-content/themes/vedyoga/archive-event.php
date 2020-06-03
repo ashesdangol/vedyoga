@@ -3,17 +3,14 @@
 ?>
 
 <div class="page-wrapper blog-page-wrapper">
-  <div class="page-banner blog-page-banner">
-    <div class="page-banner__bg-image" style="background-image: url(<?php echo get_theme_file_uri('/img/7.jpg') ?>);"></div>
-    <div class="page-banner__content side-paddings">
-      <h1 class="page-banner__title mobile-page-banner__title--smFont">
-        All Events
-      </h1>
-      <div class="page-banner__intro mobile-page-banner__intro--smFont">
-        <p>Find out what's happening!</p>
-      </div>
-    </div>
-  </div>
+  <!-- PageBanner -->
+  <?php
+    pageBanner(array(
+        'title'=> 'All Events',
+        'subtitle' => 'All subtitles'
+    ));
+
+   ?>
 
   <div class="blog-main-wrapper side-paddings">
     <div class="blog-section">

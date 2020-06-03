@@ -4,20 +4,16 @@
   <?php
     while (have_posts()) {
       the_post();
-      $featuredImage = wp_get_attachment_url( get_post_thumbnail_id(get_the_ID()) );
+      // $featuredImage = wp_get_attachment_url( get_post_thumbnail_id(get_the_ID()) );
+      // <div class="page-banner__bg-image" style="background-image: url(<?php echo $featuredImage
+
 
   ?>
   <div class="page-wrapper blog-page-wrapper">
     <!-- the banner -->
-    <div class="page-banner blog-page-banner">
-      <div class="page-banner__bg-image" style="background-image: url(<?php echo $featuredImage ?>);"></div>
-      <div class="page-banner__content side-paddings">
-        <h1 class="page-banner__title mobile-page-banner__title--smFont"><?php echo the_title(); ?></h1>
-        <div class="page-banner__intro mobile-page-banner__intro--smFont">
-          <p>Lets learn to breath!</p>
-        </div>
-      </div>
-    </div>
+    <?php
+    pageBanner(); 
+     ?>
     <!-- the contents -->
     <div class="single-blog-main-wrapper side-paddings">
       <div class="blog-section metabox--relative">
