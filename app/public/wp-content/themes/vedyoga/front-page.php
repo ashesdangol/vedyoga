@@ -1,15 +1,17 @@
 <?php
   get_header();
+  $mp4=get_field('banner_video_mp4');
+  $webm=get_field('banner_video_webm');
 ?>
 <section class="video-banner__wrapper">
   <div class="video-banner__bg">
-    <video autoplay="" loop="" muted="" poster="<?php echo get_theme_file_uri('img/1.jpg'); ?>">
-      <source src="<?php echo get_theme_file_uri('video/video.mp4') ?>" type="video/mp4">
-      <source src="<?php echo get_theme_file_uri('video/video.webm') ?>" type="video/webm">
+    <video autoplay="" loop="" muted="" poster="<?php echo get_theme_file_uri('/img/9.png'); ?>">
+      <source src="<?php echo $mp4; ?>" type="video/mp4">
+      <source src="<?php echo $webm; ?>" type="video/webm">
     </video>
   </div>
   <div class="video-banner__contents video-banner__contents--centered">
-    <h1 class="video-banner__title">Welcome to VedYoga, We will help you to find inner peace.</h1>
+    <h1 class="video-banner__title"><?php the_field('page_banner_subtitle'); ?></h1>
     <div class="video-banner__search-box">
 
     </div>

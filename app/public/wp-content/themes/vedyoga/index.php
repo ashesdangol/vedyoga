@@ -5,9 +5,11 @@
 <div class="page-wrapper blog-page-wrapper">
   <!-- PageBanner -->
   <?php
+  $image=get_field('page_banner_background_image', 23);
     pageBanner(array(
-        'title'=> 'Blog',
-        'subtitle' => 'whats in ur mind?'
+        'title'=> get_the_title(23),
+        'subtitle'=>get_field('page_banner_subtitle',23),
+        'photo'=>$image['sizes']['pageBanner']
     ));
 
    ?>
