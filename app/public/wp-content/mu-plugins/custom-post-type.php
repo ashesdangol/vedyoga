@@ -40,6 +40,22 @@
       'menu_icon'=>'dashicons-calendar'
     ));
 
+    // Location post type Google map not working
+    register_post_type('contact', array(
+      'supports' => array('title','editor', 'excerpt'),
+      'rewrite' => array('slug' => 'contacts'),
+      'has_archive' => true,
+      'public'=>true,
+      'labels'=>array(
+        'name'=> 'Contact Us',
+        'add_new_item' => 'Add Contact Us',
+        'edit_item' => 'Edit Contact Us',
+        'all_items' => 'Add/Edit Contact',
+        'singular_name'=> 'contact'
+      ),
+      'menu_icon'=>'dashicons-location-alt'
+    ));
+
     // Program post type
     register_post_type('program', array(
       'supports' => array('title','editor','post-thumbnails','thumbnail'),

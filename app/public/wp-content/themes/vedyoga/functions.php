@@ -27,6 +27,8 @@
   }
 
   function medi_files(){
+     // for google map
+    // wp_enqueue_script('googleMap', '//maps.google.apis.com/maps/api/js/key=youkeyhere', NULL, "1.0", true);
     wp_enqueue_script('b_jq', '//code.jquery.com/jquery-3.2.1.slim.min.js', NULL, "1.0", true);
     wp_enqueue_script('slick_js', get_theme_file_uri('/js/slick.js'), NULL, "1.0", true);
     wp_enqueue_script('load_custom_js', get_theme_file_uri('/js/custom.js'), NULL, "1.0", true);
@@ -73,4 +75,11 @@
   }
 
   add_action('pre_get_posts', 'adjust_queries_for_customPost');
+  //function for google map
+  // function findusMapKey($api){
+  //   $api['key'] = 'googleApikeyNeedsPaymentNow';
+  //   return $api;
+  // }
+  //
+  // add_filter('acf/fields/google_map/api', 'findusMapKey')
  ?>
