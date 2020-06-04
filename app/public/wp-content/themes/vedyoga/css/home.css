@@ -44,7 +44,11 @@
   .video-banner__wrapper .video-banner__contents {
     max-width: 650px;
     width: 100%;
-    z-index: 3; }
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
 
 .home__events-and-blogs--section {
   padding-bottom: 20px; }
