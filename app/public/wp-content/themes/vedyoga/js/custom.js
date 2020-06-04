@@ -1,3 +1,4 @@
+
 window.onbeforeunload = function () {
   window.scrollTo(0, 0);
 }
@@ -9,20 +10,6 @@ $(document).ready(function(){
     $('.nav-items-wrapper .nav-items').toggleClass('nav-close');
   });
 
-  // slick slider
-  function banner_slider(){
-    $('.banner_slider--wrapper').slick({
-      dots: true,
-      arrows:false,
-      infinite: true,
-      slidesToShow: 1,
-      autoplay: false,
-      autoplaySpeed:5000,
-      cssEase:'ease-in-out'
-    });
-
-  }
-  banner_slider();
 
   // window on scroll menu background change with boxshadow
   window.onscroll = function() {scrollFunction()};
@@ -38,4 +25,17 @@ $(document).ready(function(){
 
 //Adding hover effects on menu items
 $('#top-nav').find('.nav-items-wrapper .nav-items .nav-item').addClass('hvr-overline-from-left hvr-sweep-to-right');
+
+
+// Search function
+
+class Search {
+  constructor() {
+    // alert('testing my first constructor');
+  }
+}
+
+var magicalSearch = new Search();
+
+
 })

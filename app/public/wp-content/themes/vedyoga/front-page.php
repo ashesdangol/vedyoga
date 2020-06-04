@@ -13,7 +13,10 @@
   <div class="video-banner__contents video-banner__contents--centered">
     <h1 class="video-banner__title"><?php the_field('page_banner_subtitle'); ?></h1>
     <div class="video-banner__search-box">
-
+      <div class="search">
+          <input type="text" name="q" class="searchbox" placeholder="Search Vedyoga">
+          <button type="submit" class="searchbtn"><i class="fas fa-search"></i></button>
+      </div>
     </div>
   </div>
 </section>
