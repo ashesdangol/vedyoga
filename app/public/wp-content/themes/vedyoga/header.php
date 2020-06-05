@@ -6,7 +6,7 @@
     <?php wp_head(); ?>
     <title></title>
   </head>
-  <body <?php body_class(); ?>>
+  <body <?php body_class(); ?>
     <div class="main-wrapper ">
       <header>
         <nav class="nav-all-wrap" id="top-nav">

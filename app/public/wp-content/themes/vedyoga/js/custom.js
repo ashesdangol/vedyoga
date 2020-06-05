@@ -12,7 +12,7 @@ $(document).ready(function(){
   // search
   var magicalSearch = new Search();
   // menu
-  menu();
+  // menu();
 
 
 
