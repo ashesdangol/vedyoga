@@ -1,10 +1,12 @@
+import myname from './modules/searchFunction';
+
+
 window.onbeforeunload = function () {
   window.scrollTo(0, 0);
 }
 
 
 $(document).ready(function(){
-
   // mobile iconbar and openClose
   $('.mobile-nav-btn').on('click',function() {
     $(this).toggleClass('x');
