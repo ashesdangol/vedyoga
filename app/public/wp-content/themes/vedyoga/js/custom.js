@@ -1,6 +1,6 @@
 import Search from './modules/searchFunction';
-import menu from './modules/menuFunction';
-
+import Mymenu from './modules/menuFunction';
+import headerMenu__style from './modules/scrollFunction.js';
 
 
 window.onbeforeunload = function () {
@@ -10,9 +10,11 @@ window.onbeforeunload = function () {
 
 $(document).ready(function(){
   // search
-  var magicalSearch = new Search();
+  const magicalSearch = new Search();
   // menu
-  // menu();
+  const headerMenu = new Mymenu();
+  //
+  headerMenu__style();
 
 
 

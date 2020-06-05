@@ -6,9 +6,9 @@
     <?php wp_head(); ?>
     <title></title>
   </head>
-  <body <?php body_class(); ?>
-    <div class="main-wrapper ">
-      <header>
+  <body <?php body_class(); ?> class="main-wrapper">
+
+      <header id="main__header">
         <nav class="nav-all-wrap" id="top-nav">
           <div class="nav-main-wrapper side-paddings on-scroll-nav--change">
             <div class="nav-brand-wrapper">
@@ -23,7 +23,7 @@
               </button>
             </div>
             <div class="nav-items-wrapper">
-              <ul class="nav-items nav-close mobile-links">
+              <ul class="nav-items nav-close mobile-links header-menu__lists">
                   <li class="nav-item active">
                     <a class="nav-link" href="<?php echo site_url('/about-us');?>">About Us</a>
                   </li>
@@ -49,3 +49,4 @@
 
         </nav>
       </header>
+      <div class="body__contents">
