@@ -1,0 +1,19 @@
+@import "assets";
+.search-overlay__bottom{
+  background: rgba(255,255,255,0.8); 
+  #search-overlay__results{
+
+    height: auto;
+    transition: all 0.2s linear;
+    &.add-min-height{
+      min-height: 200px;
+      transition: all 0.2s linear;
+      box-shadow: $gentle-box-shadow;
+
+    }
+    .spinner-loader{
+      margin-top: 0;
+    }
+  }
+
+}

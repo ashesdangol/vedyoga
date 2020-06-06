@@ -50,6 +50,11 @@
         </div>
 
       </div>
+      <div class="container search-overlay__bottom">
+        <div class="side-paddings" id="search-overlay__results">
+
+        </div>
+      </div>
 
     </div>
     <?php wp_footer(); ?>

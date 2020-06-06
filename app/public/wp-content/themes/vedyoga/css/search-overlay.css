@@ -292,20 +292,14 @@
   .mobile-page-banner__intro--smFont {
     font-size: 1rem !important; } }
 
-.generic-two-cols {
-  width: 100%; }
-  .generic-two-cols .generic-two-col {
-    width: 100%;
+.search-overlay__bottom {
+  background: rgba(255, 255, 255, 0.8); }
+  .search-overlay__bottom #search-overlay__results {
     height: auto;
-    min-height: 100px; }
-
-@media (min-width: 768px) {
-  .generic-two-cols {
-    width: 100%; } }
-
-@media (min-width: 1024px) {
-  .generic-two-cols {
-    width: 100%;
-    display: flex; }
-    .generic-two-cols .generic-two-col {
-      width: 50%; } }
+    transition: all 0.2s linear; }
+    .search-overlay__bottom #search-overlay__results.add-min-height {
+      min-height: 200px;
+      transition: all 0.2s linear;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+    .search-overlay__bottom #search-overlay__results .spinner-loader {
+      margin-top: 0; }
