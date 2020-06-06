@@ -41,22 +41,7 @@
         </div>
       </div>
     </footer>
-    <div class="search-overlay">
-      <div class="search-overlay__top">
-        <div class="search-container">
-          <i class="fa fa-2x fa-search search-overlay__icon" aria-hidden="true"></i>
-          <input type="text" autocomplete="off" name="search-box" class="searchbox__input" id="searchbox__input" placeholder="What are you looking for?">
-          <i class="fa fa-2x fa-window-close search-overlay__close" aria-hidden="true"></i>
-        </div>
 
-      </div>
-      <div class="container search-overlay__bottom">
-        <div class="side-paddings" id="search-overlay__results">
-
-        </div>
-      </div>
-
-    </div>
     <?php wp_footer(); ?>
 
   </body>

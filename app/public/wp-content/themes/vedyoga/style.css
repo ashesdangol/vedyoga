@@ -326,16 +326,14 @@
     font-size: 1rem !important; } }
 
 .search-overlay__bottom {
-  background: rgba(255, 255, 255, 0.8); }
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #fff; }
   .search-overlay__bottom #search-overlay__results {
     height: auto;
     transition: all 0.2s linear; }
     .search-overlay__bottom #search-overlay__results.add-min-height {
       min-height: 200px;
-      transition: all 0.2s linear;
-      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
-    .search-overlay__bottom #search-overlay__results .spinner-loader {
-      margin-top: 0; }
+      transition: all 0.2s linear; }
 
 .gentle-box-shadow {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }

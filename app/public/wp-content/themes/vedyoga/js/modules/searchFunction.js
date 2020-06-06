@@ -4,6 +4,7 @@
 class Search {
   // 1. descrine create and create/initiate our object// features of an object
   constructor() {
+    this.addSearchHTML();
     this.resultsDiv = $('#search-overlay__results');
     this.openButton = $('.js-search-trigger');
     this.closeButton =$('.search-overlay__close');
@@ -34,7 +35,7 @@ class Search {
           this.resultsDiv.html('<div class="spinner-loader"></div>');
           this.isSpinnerVisible =true;
         }
-        this.typingTimer = setTimeout(this.getResults.bind(this), 2000);
+        this.typingTimer = setTimeout(this.getResults.bind(this), 750);
       }else{
         this.resultsDiv.html("");
         this.isSpinnerVisible =false;
@@ -44,12 +45,20 @@ class Search {
     }
     this.previousValue = this.searchField.val();
   }
-
   getResults(){
-    this.resultsDiv.html('this is an imaginary result');
-    this.isSpinnerVisible = false;
+    $.getJSON(yogaData.root_url+'/wp-json/wp/v2/posts?search='+this.searchField.val(), results => {
+      // console.log(results[0].title.rendered);\
+      // var testArray = ['ashes', 'Sima', "sujina"];
+      this.resultsDiv.html(`
+          <h2 class="header__title--one">Search Results</h2>
+          <hr>
+          ${results.length ? '<ul>':'<p>No general information matches that search</p>'}
+            ${results.map(item=>`<li><a href="${item.link}">${item.title.rendered}</a></li>`).join(' ')}
+          ${results.length ? '</ul>':''}
+        `);
+      this.isSpinnerVisible = false;
+    });
   }
-
   keyPressDispatcher(e){
     // console.log(e.keyCode);
     if (e.keyCode == 83 && !this.isOverlayOpen && !$("input, textarea").is(':focus')) {
@@ -60,11 +69,11 @@ class Search {
     }
 
   }
-
-
   openOverlay(){
     this.searchOverlay.addClass("search-overlay--active");
     $('body').addClass('body-no-scroll');
+    this.searchField.val('');
+    setTimeout(() => this.searchField.focus(), 301);
     this.isOverlayOpen = true;
     // console.log("overlay opened");
 
@@ -74,6 +83,27 @@ class Search {
     $('body').removeClass('body-no-scroll');
     this.isOverlayOpen = false;
     // console.log("overlay closed");
+  }
+
+  addSearchHTML(){
+    $("body").append(`
+      <div class="search-overlay">
+        <div class="search-overlay__top">
+          <div class="search-container">
+            <i class="fa fa-2x fa-search search-overlay__icon" aria-hidden="true"></i>
+            <input type="text" autocomplete="off" name="search-box" class="searchbox__input" id="searchbox__input" placeholder="What are you looking for?">
+            <i class="fa fa-2x fa-window-close search-overlay__close" aria-hidden="true"></i>
+          </div>
+
+        </div>
+        <div class="search-overlay__bottom">
+          <div class="side-paddings" id="search-overlay__results">
+
+          </div>
+        </div>
+
+      </div>
+      `);
   }
 }
 // end of search function

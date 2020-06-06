@@ -29,7 +29,7 @@
   function medi_files(){
      // for google map
     // wp_enqueue_script('googleMap', '//maps.google.apis.com/maps/api/js/key=youkeyhere', NULL, "1.0", true);
-    wp_enqueue_script('b_jq', '//code.jquery.com/jquery-3.2.1.slim.min.js', NULL, "1.0", true);
+    wp_enqueue_script('b_jq', '//code.jquery.com/jquery-3.5.1.min.js', NULL, "1.0", true);
     wp_enqueue_script('load_custom_js', get_theme_file_uri('/js/scripts-bundled.js'), NULL, "1.0", true);
     // wp_enqueue_script('b_ajaz', '//cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js', NULL, "1.0", true);
     // wp_enqueue_script('b_bmin', '//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js', NULL, "1.0", true);
@@ -38,6 +38,10 @@
     wp_enqueue_style('google_font','//fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap');
     // wp_enqueue_style('slick_css',get_theme_file_uri('/css/slick.css'), NULL, microtime());
     wp_enqueue_style('medi_main_styles',get_stylesheet_uri(), NULL, microtime());
+    wp_localize_script('load_custom_js','yogaData',array(
+      'root_url' => get_site_url()
+
+    ));
   }
   add_action('wp_enqueue_scripts','medi_files');
 
