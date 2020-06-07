@@ -31,7 +31,7 @@ class Search {
       clearTimeout(this.typingTimer);
       if (this.searchField.val()) {
         if (!this.isSpinnerVisible) {
-          this.resultsDiv.addClass('add-min-height');
+          // this.resultsDiv.addClass('add-min-height');
           this.resultsDiv.html('<div class="spinner-loader"></div>');
           this.isSpinnerVisible =true;
         }
@@ -39,25 +39,32 @@ class Search {
       }else{
         this.resultsDiv.html("");
         this.isSpinnerVisible =false;
-        this.resultsDiv.removeClass('add-min-height');
+        // this.resultsDiv.removeClass('add-min-height');
       }
 
     }
     this.previousValue = this.searchField.val();
   }
   getResults(){
-    $.getJSON(yogaData.root_url+'/wp-json/wp/v2/posts?search='+this.searchField.val(), results => {
-      // console.log(results[0].title.rendered);\
-      // var testArray = ['ashes', 'Sima', "sujina"];
+    $.when(
+      $.getJSON(yogaData.root_url+'/wp-json/wp/v2/posts?search='+this.searchField.val()),
+      $.getJSON(yogaData.root_url+'/wp-json/wp/v2/pages?search='+this.searchField.val())
+    ).then(
+      (resultPosts,resultPages)=>{
+      var combinedResults = resultPosts[0].concat(resultPages[0]);
       this.resultsDiv.html(`
           <h2 class="header__title--one">Search Results</h2>
           <hr>
-          ${results.length ? '<ul>':'<p>No general information matches that search</p>'}
-            ${results.map(item=>`<li><a href="${item.link}">${item.title.rendered}</a></li>`).join(' ')}
-          ${results.length ? '</ul>':''}
+          ${combinedResults.length ? '<ul>':'<p>No general information matches that search</p>'}
+            ${combinedResults.map(item=>`<li><a href="${item.link}">${item.title.rendered}</a></li>`).join(' ')}
+          ${combinedResults.length ? '</ul>':''}
         `);
       this.isSpinnerVisible = false;
-    });
+    },
+      ()=>{
+        this.resultsDiv.html('<p>Unexpected error, Please try again.</p>');
+      }
+      );
   }
   keyPressDispatcher(e){
     // console.log(e.keyCode);

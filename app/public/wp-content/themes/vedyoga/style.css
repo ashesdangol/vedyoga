@@ -327,13 +327,13 @@
 
 .search-overlay__bottom {
   background: rgba(255, 255, 255, 0.8);
-  border: 1px solid #fff; }
+  border: 1px solid #fff;
+  height: 100%;
+  overflow: auto; }
   .search-overlay__bottom #search-overlay__results {
-    height: auto;
-    transition: all 0.2s linear; }
-    .search-overlay__bottom #search-overlay__results.add-min-height {
-      min-height: 200px;
-      transition: all 0.2s linear; }
+    height: 100%;
+    transition: all 0.2s linear;
+    overflow: auto; }
 
 .gentle-box-shadow {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
