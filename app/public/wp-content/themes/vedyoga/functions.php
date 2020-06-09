@@ -1,4 +1,7 @@
 <?php
+
+require get_theme_file_path('/inc/search-route.php');
+
   function custom_rest_api(){
     register_rest_field('post','authorName',array(
       'get_callback' => function(){
