@@ -387,3 +387,25 @@ Stack trace:
 #2 C:\Users\ashima\Local Sites\vedyoga\app\public\index.php(17): require('C:\\Users\\ashima...')
 #3 {main}
   thrown in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\page-past-events.php on line 36
+[09-Jun-2020 00:48:54 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\functions.php on line 9
+[09-Jun-2020 00:48:56 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\functions.php on line 9
+[09-Jun-2020 00:50:24 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\functions.php on line 9
+[09-Jun-2020 00:50:25 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\functions.php on line 9
+[09-Jun-2020 00:50:34 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\functions.php on line 9
+[09-Jun-2020 00:50:50 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\functions.php on line 9
+[09-Jun-2020 00:50:50 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\functions.php on line 9
+[09-Jun-2020 00:51:17 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\functions.php on line 9
+[09-Jun-2020 00:51:17 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\functions.php on line 9
+[09-Jun-2020 00:51:17 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\functions.php on line 9
+[09-Jun-2020 00:51:17 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\functions.php on line 9
+[09-Jun-2020 00:51:37 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\functions.php on line 9
+[09-Jun-2020 00:51:37 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\functions.php on line 9
+[09-Jun-2020 00:53:11 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\functions.php on line 6
+[09-Jun-2020 00:53:11 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\functions.php on line 6
+[09-Jun-2020 11:03:48 UTC] PHP Parse error:  syntax error, unexpected 'the_post_thumbnail_url' (T_STRING) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\functions.php on line 10
+[09-Jun-2020 11:33:55 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\functions.php on line 16
+[09-Jun-2020 11:33:59 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\functions.php on line 16
+[09-Jun-2020 11:34:06 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\functions.php on line 16
+[09-Jun-2020 11:34:30 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\functions.php on line 16
+[09-Jun-2020 11:34:57 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\functions.php on line 16
+[09-Jun-2020 11:35:10 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\functions.php on line 16

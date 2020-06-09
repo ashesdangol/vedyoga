@@ -73,8 +73,8 @@
       'menu_icon'=>'dashicons-awards'
     ));
   }
+  
   add_action('init', 'custom_post_types');
-
   add_post_type_support( 'themes', 'thumbnail' );
 
  ?>

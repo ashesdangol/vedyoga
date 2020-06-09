@@ -5,6 +5,15 @@
         return get_the_author();
         }
     ));
+    register_rest_field('post','postFeaturedImage',array(
+      'get_callback' => function(){
+        $post_id = get_the_ID();
+        $fImage = get_the_post_thumbnail_url($post_id,'blog-card-img__Small');
+      // $fImage = get_the_post_thumbnail_url('blog-card-img__Small');
+        return $fImage;
+        }
+    ));
+
   }
   add_action('rest_api_init', 'custom_rest_api');
 

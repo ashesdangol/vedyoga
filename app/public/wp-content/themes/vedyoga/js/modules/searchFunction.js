@@ -55,8 +55,8 @@ class Search {
       this.resultsDiv.html(`
           <h2 class="header__title--one">Search Results</h2>
           <hr>
-          ${combinedResults.length ? '<ul>':'<p>No general information matches that search</p>'}
-            ${combinedResults.map(item=>`<li><a href="${item.link}">${item.title.rendered}</a>${item.type == 'post' ?  ` by ${item.authorName}`: ''  }</li>`).join(' ')}
+          ${combinedResults.length ? '<ul class="overflow-scroll">':'<p>No general information matches that search</p>'}
+            ${combinedResults.map(item=>`<li><a href="${item.link}">${item.title.rendered}</a>${item.type == 'post' ?  ` by ${item.authorName} <img src="${item.postFeaturedImage}" >`: ''  }</li>`).join(' ')}
           ${combinedResults.length ? '</ul>':''}
         `);
       this.isSpinnerVisible = false;
