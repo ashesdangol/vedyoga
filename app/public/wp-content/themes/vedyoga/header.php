@@ -28,7 +28,7 @@
                     <a class="nav-link" href="<?php echo site_url('/about-us');?>">About Us</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="<?php echo site_url('/event');?>">Events</a>
+                    <a class="nav-link" href="<?php echo get_post_type_archive_link('event');?>">Events</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="<?php echo site_url('/blog');?>">Blogs</a>
@@ -40,7 +40,7 @@
                     <a class="nav-link" href="<?php echo get_post_type_archive_link('program');?>">Programs</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="<?php echo get_post_type_archive_link('contacts');?>">Contact</a>
+                    <a class="nav-link" href="<?php echo site_url('/contacts');?>">Contact</a>
                   </li>
 
                 </ul>

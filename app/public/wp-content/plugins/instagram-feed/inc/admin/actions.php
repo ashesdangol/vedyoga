@@ -1294,6 +1294,16 @@ add_action( 'admin_print_scripts', 'sbi_admin_hide_unrelated_notices' );
 /* Usage */
 add_action( 'admin_notices', 'sbi_usage_opt_in' );
 function sbi_usage_opt_in() {
+	if ( isset( $_GET['trackingdismiss'] ) ) {
+		$usage_tracking = get_option( 'sbi_usage_tracking', array( 'last_send' => 0, 'enabled' => false ) );
+
+		$usage_tracking['enabled'] = false;
+
+		update_option( 'sbi_usage_tracking', $usage_tracking, false );
+
+		return;
+	}
+
 	$cap = current_user_can( 'manage_instagram_feed_options' ) ? 'manage_instagram_feed_options' : 'manage_options';
 
 	$cap = apply_filters( 'sbi_settings_pages_capability', $cap );
@@ -1313,8 +1323,8 @@ function sbi_usage_opt_in() {
             <a target="_blank" rel="noopener noreferrer" href="https://smashballoon.com/instagram-feed/usage-tracking/"><?php echo __( 'More information', 'instagram-feed' ); ?></a>
         </p>
         <p>
-            <button class="button button-primary sb-opt-in"><?php echo __( 'Yes, I\'d like to help', 'instagram-feed' ); ?></button>
-            <button class="sb-no-usage-opt-out sbi-space-left button button-secondary"><?php echo __( 'No, thanks', 'instagram-feed' ); ?></button>
+            <a href="<?php echo admin_url('admin.php?page=sb-instagram-feed&trackingdismiss=1') ?>" class="button button-primary sb-opt-in"><?php echo __( 'Yes, I\'d like to help', 'instagram-feed' ); ?></a>
+            <a href="<?php echo admin_url('admin.php?page=sb-instagram-feed&trackingdismiss=1') ?>" class="sb-no-usage-opt-out sbi-space-left button button-secondary"><?php echo __( 'No, thanks', 'instagram-feed' ); ?></a>
         </p>
 
     </div>
