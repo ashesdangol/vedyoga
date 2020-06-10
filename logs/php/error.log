@@ -620,3 +620,34 @@ Stack trace:
 #6 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\class-wp.php(388): do_actio in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\search-route.php on line 22
 [09-Jun-2020 15:33:31 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\search-route.php on line 77
 [09-Jun-2020 15:33:50 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\search-route.php on line 71
+[09-Jun-2020 23:00:25 UTC] PHP Parse error:  syntax error, unexpected ''subtitle'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\search-route.php on line 93
+[09-Jun-2020 23:00:26 UTC] PHP Parse error:  syntax error, unexpected ''subtitle'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\search-route.php on line 93
+[09-Jun-2020 23:00:26 UTC] PHP Parse error:  syntax error, unexpected ''subtitle'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\search-route.php on line 93
+[09-Jun-2020 23:00:39 UTC] PHP Parse error:  syntax error, unexpected ''subtitle'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\search-route.php on line 93
+[09-Jun-2020 23:00:39 UTC] PHP Parse error:  syntax error, unexpected ''subtitle'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\search-route.php on line 93
+[09-Jun-2020 23:00:40 UTC] PHP Parse error:  syntax error, unexpected ''subtitle'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\search-route.php on line 93
+[09-Jun-2020 23:00:40 UTC] PHP Parse error:  syntax error, unexpected ''subtitle'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\search-route.php on line 93
+[09-Jun-2020 23:02:14 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\search-route.php on line 108
+[09-Jun-2020 23:02:14 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\search-route.php on line 108
+[09-Jun-2020 23:02:14 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\search-route.php on line 108
+[09-Jun-2020 23:02:36 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\search-route.php on line 108
+[09-Jun-2020 23:02:36 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\search-route.php on line 108
+[09-Jun-2020 23:02:37 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\search-route.php on line 108
+[09-Jun-2020 23:02:37 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\search-route.php on line 108
+[10-Jun-2020 01:12:42 UTC] PHP Parse error:  syntax error, unexpected ';' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\search-route.php on line 51
+[10-Jun-2020 01:12:49 UTC] PHP Parse error:  syntax error, unexpected ';' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\search-route.php on line 51
+[10-Jun-2020 01:12:58 UTC] PHP Parse error:  syntax error, unexpected ';' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\search-route.php on line 51
+[10-Jun-2020 01:14:58 UTC] PHP Parse error:  syntax error, unexpected ';' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\search-route.php on line 51
+[10-Jun-2020 01:16:49 UTC] PHP Parse error:  syntax error, unexpected ';' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\search-route.php on line 51
+[10-Jun-2020 01:16:53 UTC] PHP Parse error:  syntax error, unexpected ';' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\search-route.php on line 51
+[10-Jun-2020 01:17:05 UTC] PHP Parse error:  syntax error, unexpected ';' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\search-route.php on line 51
+[10-Jun-2020 01:17:11 UTC] PHP Parse error:  syntax error, unexpected ';' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\search-route.php on line 51
+[10-Jun-2020 18:33:30 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\search-route.php on line 151
+[10-Jun-2020 19:03:40 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\search-route.php on line 123
+[10-Jun-2020 19:05:12 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\search-route.php on line 123
+[10-Jun-2020 19:06:04 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\search-route.php on line 123
+[10-Jun-2020 19:06:41 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\search-route.php on line 123
+[10-Jun-2020 19:06:50 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\search-route.php on line 123
+[10-Jun-2020 19:14:55 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\search-route.php on line 118
+[10-Jun-2020 19:23:39 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\search-route.php on line 120
+[10-Jun-2020 19:26:08 UTC] PHP Parse error:  syntax error, unexpected '.' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\search-route.php on line 157

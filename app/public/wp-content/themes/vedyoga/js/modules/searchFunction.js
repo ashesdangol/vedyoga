@@ -46,25 +46,209 @@ class Search {
     this.previousValue = this.searchField.val();
   }
   getResults(){
-    $.when(
-      $.getJSON(yogaData.root_url+'/wp-json/wp/v2/posts?search='+this.searchField.val()),
-      $.getJSON(yogaData.root_url+'/wp-json/wp/v2/pages?search='+this.searchField.val())
-    ).then(
-      (resultPosts,resultPages)=>{
-      var combinedResults = resultPosts[0].concat(resultPages[0]);
+
+    $.getJSON(yogaData.root_url+'/wp-json/yoga/v1/search?term='+this.searchField.val(),(results)=>{
       this.resultsDiv.html(`
-          <h2 class="header__title--one">Search Results</h2>
-          <hr>
-          ${combinedResults.length ? '<ul class="overflow-scroll">':'<p>No general information matches that search</p>'}
-            ${combinedResults.map(item=>`<li><a href="${item.link}">${item.title.rendered}</a>${item.type == 'post' ?  ` by ${item.authorName} <img src="${item.postFeaturedImage}" >`: ''  }</li>`).join(' ')}
-          ${combinedResults.length ? '</ul>':''}
+        <div class="search-overlay__results-contents">
+          <div class="one-third">
+
+              <h2 class="header__title--one">General Information</h2>
+
+              ${results.generalInfo.length ? '<ul>':'<p>No general information matches that search</p>'}
+                ${results.generalInfo.map(item=>`<li>
+
+                  ${item.postType == 'post'? `
+                  <div class="blog-card">
+                    <div class="blog-card__post-item">
+                      <div class="blog-card__date-thumbnail">
+                        <div class="blog-card__date">
+                        ${item.postDate}
+                        </div>
+                        <picture class="blog-card__thumbnail">
+                          <source media="(max-width:500px)" srcset="${item.postFeaturedImage__Sm}">
+                          <img src="${item.postFeaturedImage__Med}" alt="" />
+                        </picture>
+                      </div>
+                      <div class="blog-card__details">
+                        <div class="blog-card__title-auth-contents">
+                          <div class="blog-card__title">
+                             <a class="blog-card__title--fontstyle" href="${item.permalink}">${item.title}</a>
+                          </div>
+                          <div class="blog-card__auth">
+                          ${item.postType == 'post'? item.authorLink : ''}
+                          </div>
+                          <div class="blog-card__contents">
+                          ${item.trimWords}
+                            <p> <a class="conti-read--color" href="${item.permalink}">Read <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a> </p>
+                          </div>
+                        </div>
+
+                      </div>
+
+                    </div>
+                  </div>
+
+                      ` : `
+                      <div class="blog-card">
+                        <div class="blog-card__post-item">
+                          <div class="blog-card__details">
+                            <div class="blog-card__title-auth-contents">
+                              <div class="blog-card__title">
+                                 <a class="blog-card__title--fontstyle" href="${item.permalink}">${item.title}</a>
+                              </div>
+                              <div class="blog-card__contents">
+                              ${item.pageWords}
+                              <p> <a class="conti-read--color" href="${item.permalink}">Read <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a> </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      `}
+
+
+
+
+                  </li>`).join(' ')}
+              ${results.generalInfo.length ? '</ul>':''}
+          </div>
+          <div class="one-third">
+
+            <h2 class="header__title--one">Events</h2>
+
+            ${results.events.length ? '<ul>':'<p>No Events matches that search</p>'}
+              ${results.events.map(item=>`<li>
+
+                ${item.postType == 'event'? `
+                <div class="blog-card">
+                  <div class="blog-card__post-item">
+                    <div class="blog-card__date-thumbnail">
+                      <div class="blog-card__date">
+                        ${item.eventDate}
+                      </div>
+                      <picture class="blog-card__thumbnail">
+                        <source media="(max-width:500px)" srcset="${item.postFeaturedImage__Sm}">
+                        <img src="${item.postFeaturedImage__Med}" alt="" />
+                      </picture>
+                    </div>
+                    <div class="blog-card__details">
+                      <div class="blog-card__title-auth-contents">
+                        <div class="blog-card__title">
+                           <a class="blog-card__title--fontstyle" href="${item.permalink}">${item.title}</a>
+                        </div>
+                        <div class="blog-card__auth">
+                        ${item.authorLink}
+                        </div>
+                        <div class="blog-card__contents">
+                        ${item.trimWords}
+                          <p> <a class="conti-read--color" href="${item.permalink}">Read <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a> </p>
+                        </div>
+                      </div>
+
+                    </div>
+
+                  </div>
+                </div>
+
+                    ` : `
+                    <div class="blog-card">
+                      <div class="blog-card__post-item">
+                        <div class="blog-card__details">
+                          <div class="blog-card__title-auth-contents">
+                            <div class="blog-card__title">
+                               <a class="blog-card__title--fontstyle" href="${item.permalink}">${item.title}</a>
+                            </div>
+                            <div class="blog-card__contents">
+                            ${item.pageWords}
+                            <p> <a class="conti-read--color" href="${item.permalink}">Read <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a> </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    `}
+
+
+
+
+                </li>`).join(' ')}
+            ${results.events.length ? '</ul>':''}
+
+
+            <h2 class="header__title--one">Programs</h2>
+            ${results.programs.length ? `<div>
+                ${results.programs.map(item =>
+                  `
+                  <div class="blog-card">
+                    <div class="blog-card__post-item">
+                      <div class="blog-card__date-thumbnail">
+                        <picture class="blog-card__thumbnail">
+                          <source media="(max-width:500px)" srcset="${item.postFeaturedImage__Sm}">
+                          <img src="${item.postFeaturedImage__Med}" alt="" />
+                        </picture>
+
+                      </div>
+                      <div class="blog-card__details">
+                        <div class="blog-card__title-auth-contents">
+                          <div class="blog-card__title">
+                             <a class="blog-card__title--fontstyle" href="${item.permalink}">${item.title}</a>
+                          </div>
+                          <div class="blog-card__contents">
+                            ${item.trimWords}
+                            <p> <a class="conti-read--color" href="${item.permalink}">Read <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a> </p>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                  `
+                )}
+
+                </div>
+                `
+                :
+                `<p>No programs matches that search</p>
+                <a href="${yogaData.root_url+'/programs'}">View All Programs</a>
+                `
+
+            }
+
+
+
+
+
+
+          </div>
+          <div class="one-third">
+            <h2 class="header__title--one">Shops</h2>
+            ${results.programs.length ? `<div>
+                helloo
+
+                </div>
+                `
+                :
+                `<p>No Shop matches that search</p>
+                  <a href="${yogaData.root_url+'/shop'}">View Shop</a>
+                `
+            }
+            <h2 class="header__title--one">Contact</h2>
+            ${results.programs.length ? `<div>
+                helloo
+
+                </div>
+                `
+                :
+                `<p>No contact matches that search</p>
+                  <a href="${yogaData.root_url+'/contact'}">View Contact</a>
+                `
+            }
+          </div>
+        </div>
         `);
-      this.isSpinnerVisible = false;
-    },
-      ()=>{
-        this.resultsDiv.html('<p>Unexpected error, Please try again.</p>');
-      }
-      );
+    });
+
   }
   keyPressDispatcher(e){
     // console.log(e.keyCode);

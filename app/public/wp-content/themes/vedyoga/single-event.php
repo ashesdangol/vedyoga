@@ -26,7 +26,7 @@
         </div>
         <div class="blog-generic-contents">
           <h2><?php echo the_title(); ?></h2>
-           <?php echo get_the_content(); ?>
+           <?php echo the_field('main_body_content'); ?>
         </div>
         <div class="blog-category-type">
           <p>Category : <span><?php echo get_the_category_list(' ,'); ?></span></p>

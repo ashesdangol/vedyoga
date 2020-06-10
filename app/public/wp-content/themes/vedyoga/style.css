@@ -341,6 +341,17 @@
     height: 100%;
     transition: all 0.2s linear;
     overflow: auto; }
+    .search-overlay__bottom #search-overlay__results .search-overlay__results-contents {
+      height: 80%;
+      transition: all 0.2s linear;
+      overflow: auto;
+      border: 1px solid red;
+      display: flex;
+      flex-wrap: wrap;
+      flex: 1; }
+      .search-overlay__bottom #search-overlay__results .search-overlay__results-contents .one-third {
+        flex: 1;
+        min-width: 300px; }
 
 .overflow-scroll {
   height: 100%;

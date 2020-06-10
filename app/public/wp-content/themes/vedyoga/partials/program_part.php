@@ -4,24 +4,14 @@
       <!-- <div class="blog-card__date">
       <?php
       $eventDate = new DateTime(get_field('event_date'));
-      echo $eventDate->format('d');
-      echo " ";
-      echo $eventDate->format('M');
-      echo " ";
-      echo $eventDate->format('Y');
+      echo $eventDate->format('d M Y');
        ?>
 
       </div> -->
-      <div class="blog-card__thumbnail">
-        <?php
-          if (get_the_post_thumbnail()) {
-            the_post_thumbnail();
-          }else{
-            echo "<br><br><br>";
-          }
-        ?>
-
-      </div>
+      <picture class="blog-card__thumbnail">
+        <source media="(max-width:500px)" srcset="<?php the_post_thumbnail_url('blog-card-img__Small') ?>">
+        <img src="<?php the_post_thumbnail_url('blog-card-img__Medium') ?>" alt="" />
+      </picture>
 
     </div>
     <div class="blog-card__details">
