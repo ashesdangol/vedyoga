@@ -651,3 +651,25 @@ Stack trace:
 [10-Jun-2020 19:14:55 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\search-route.php on line 118
 [10-Jun-2020 19:23:39 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\search-route.php on line 120
 [10-Jun-2020 19:26:08 UTC] PHP Parse error:  syntax error, unexpected '.' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\search-route.php on line 157
+[10-Jun-2020 20:30:11 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\search-route.php on line 65
+[10-Jun-2020 20:30:19 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\search-route.php on line 65
+[10-Jun-2020 20:30:26 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\search-route.php on line 65
+[10-Jun-2020 20:30:26 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\search-route.php on line 65
+[10-Jun-2020 20:35:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_field() in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\search-route.php:79
+Stack trace:
+#0 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\rest-api\class-wp-rest-server.php(1015): registerSearchResults(Object(WP_REST_Request))
+#1 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\rest-api\class-wp-rest-server.php(342): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\rest-api.php(306): WP_REST_Server->serve_request('/yoga/v1/search')
+#3 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\class-wp-hook.php(287): rest_api_loaded(Object(WP))
+#4 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\plugin.php(544): WP_Hook->do_action(Array)
+#6 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\class-wp.php(388):  in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\search-route.php on line 79
+[10-Jun-2020 20:43:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_field() in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\search-route.php:73
+Stack trace:
+#0 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\rest-api\class-wp-rest-server.php(1015): registerSearchResults(Object(WP_REST_Request))
+#1 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\rest-api\class-wp-rest-server.php(342): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\rest-api.php(306): WP_REST_Server->serve_request('/yoga/v1/search')
+#3 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\class-wp-hook.php(287): rest_api_loaded(Object(WP))
+#4 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\plugin.php(544): WP_Hook->do_action(Array)
+#6 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\class-wp.php(388):  in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\search-route.php on line 73

@@ -257,6 +257,12 @@
     border: 0;
     font-weight: bold;
     color: #000; }
+    .glossy__wrapper .glossy__btn.btn-to-anchor {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .glossy__wrapper .glossy__btn.btn-to-anchor i {
+        margin-right: 5px; }
 
 .body-no-scroll {
   overflow: hidden; }
@@ -558,6 +564,12 @@
     border: 0;
     font-weight: bold;
     color: #000; }
+    .glossy__wrapper .glossy__btn.btn-to-anchor {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .glossy__wrapper .glossy__btn.btn-to-anchor i {
+        margin-right: 5px; }
 
 .body-no-scroll {
   overflow: hidden; }

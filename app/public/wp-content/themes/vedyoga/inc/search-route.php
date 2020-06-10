@@ -30,7 +30,6 @@ function registerSearchResults($data){
 
   while ($mainQuery->have_posts()) {
     $mainQuery->the_post();
-
     if(get_post_type() == 'post' OR get_post_type() == 'page'){
       array_push($mainResults['generalInfo'], array(
         'title' => get_the_title(),
@@ -67,6 +66,13 @@ function registerSearchResults($data){
       ));
     }
     if(get_post_type() == 'event'){
+      if(has_excerpt()){
+        $excerpt = get_the_excerpt();
+      }
+      else{
+          // $excerpt = get_the_field('main_body_content');
+          $excerpt = wp_trim_words(get_field('main_body_content'), 5);
+      }
       $eventDate = new DateTime(get_field('event_date'));
       array_push($mainResults['events'], array(
         'title' => get_the_title(),
@@ -75,8 +81,8 @@ function registerSearchResults($data){
         'authorLink' => get_the_author_posts_link(),
         'postFeaturedImage__Med'=>get_the_post_thumbnail_url(0,'medium'),
         'postFeaturedImage__Sm'=>get_the_post_thumbnail_url(0,'thumbnail'),
-        'excerpt'=>get_the_excerpt(),
-        'trimWords'=> wp_trim_words(get_the_content(), 2),
+        // 'excerpt'=>get_the_excerpt(),
+        'trimWords'=>$excerpt,
         'month'=>$eventDate->format('M'),
         'eventDate' => $eventDate->format('d M Y')
       ));
