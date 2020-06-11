@@ -37,7 +37,7 @@
      <div class="blog-right-navigation--wrapper">
        <div class="blog-right-navigation-searchbox">
          <div class="blog-searchbox blog-boxes">
-           <p>searchbox</p>
+           <?php get_template_part('partials/search_part'); ?>
          </div>
        </div>
        <div class="blog-right-navigation-categories ">

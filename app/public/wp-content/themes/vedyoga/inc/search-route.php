@@ -120,48 +120,48 @@ function registerSearchResults($data){
 
   }
 
-if ($mainResults['programs']) {
-  $eventMetaQuery = array('relation' => 'OR');
+  if ($mainResults['programs']) {
+    $eventMetaQuery = array('relation' => 'OR');
 
 
-  foreach ($mainResults['programs'] as $item ) {
-    array_push($eventMetaQuery,   array(
-        'key'=>'related_programs',
-        'compare'=> 'LIKE',
-        'value'=> '"'.$item['id'].'"'
-      ));
-  }
-  $eventRelationshipQuery = new WP_Query(array(
-    'post_type' => 'event',
-    'meta_query' => $eventMetaQuery
-
-    ));
-
-    while ($eventRelationshipQuery->have_posts()) {
-      $eventRelationshipQuery->the_post();
-
-      if(get_post_type() == 'event'){
-        $eventDate = new DateTime(get_field('event_date'));
-        array_push($mainResults['events'], array(
-          'title' => get_the_title(),
-          'permalink' => get_the_permalink(),
-          'postType' => get_post_type(),
-          'authorLink' => get_the_author_posts_link(),
-          'postFeaturedImage__Med'=>get_the_post_thumbnail_url(0,'medium'),
-          'postFeaturedImage__Sm'=>get_the_post_thumbnail_url(0,'thumbnail'),
-          'excerpt'=>get_the_excerpt(),
-          'trimWords'=> wp_trim_words(get_the_content(), 2),
-          'month'=>$eventDate->format('M'),
-          'eventDate' => $eventDate->format('d M Y')
-
+    foreach ($mainResults['programs'] as $item ) {
+      array_push($eventMetaQuery,   array(
+          'key'=>'related_programs',
+          'compare'=> 'LIKE',
+          // id of related program
+          'value'=> '"'.$item['id'].'"'
         ));
-      }
-
     }
+    $programRelationshipQuery = new WP_Query(array(
+      'post_type' => 'event',
+      'meta_query' => $eventMetaQuery
+      ));
+
+    while ($programRelationshipQuery->have_posts()) {
+        $programRelationshipQuery->the_post();
+
+        if(get_post_type() == 'event'){
+          $eventDate = new DateTime(get_field('event_date'));
+          array_push($mainResults['events'], array(
+            'title' => get_the_title(),
+            'permalink' => get_the_permalink(),
+            'postType' => get_post_type(),
+            'authorLink' => get_the_author_posts_link(),
+            'postFeaturedImage__Med'=>get_the_post_thumbnail_url(0,'medium'),
+            'postFeaturedImage__Sm'=>get_the_post_thumbnail_url(0,'thumbnail'),
+            'excerpt'=>get_the_excerpt(),
+            'trimWords'=> wp_trim_words(get_the_content(), 2),
+            'month'=>$eventDate->format('M'),
+            'eventDate' => $eventDate->format('d M Y')
+
+            ));
+          }
+
+        }
 
     $mainResults['events'] = array_values(array_unique($mainResults['events'], SORT_LOCALE_STRING ));
 
-}
+  }
 
   return $mainResults;
 

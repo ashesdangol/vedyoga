@@ -673,3 +673,27 @@ Stack trace:
 #4 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
 #5 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\plugin.php(544): WP_Hook->do_action(Array)
 #6 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\class-wp.php(388):  in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\search-route.php on line 73
+[10-Jun-2020 23:20:22 UTC] PHP Parse error:  syntax error, unexpected ''subtitle'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\search.php on line 11
+[10-Jun-2020 23:20:38 UTC] PHP Parse error:  syntax error, unexpected ''subtitle'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\search.php on line 11
+[10-Jun-2020 23:21:03 UTC] PHP Parse error:  syntax error, unexpected ''subtitle'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\search.php on line 11
+[11-Jun-2020 00:06:12 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\search.php on line 29
+[11-Jun-2020 00:15:56 UTC] PHP Parse error:  syntax error, unexpected '||' (T_BOOLEAN_OR) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\search.php on line 24
+[11-Jun-2020 01:29:27 UTC] PHP Parse error:  syntax error, unexpected 'paginate_links' (T_STRING), expecting ',' or ';' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\search.php on line 26
+[11-Jun-2020 01:29:47 UTC] PHP Warning:  A non-numeric value encountered in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\search.php on line 26
+[11-Jun-2020 01:29:47 UTC] PHP Stack trace:
+[11-Jun-2020 01:29:47 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[11-Jun-2020 01:29:47 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[11-Jun-2020 01:29:47 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:19
+[11-Jun-2020 01:29:47 UTC] PHP   4. include() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php:106
+[11-Jun-2020 01:29:47 UTC] PHP Warning:  A non-numeric value encountered in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\search.php on line 26
+[11-Jun-2020 01:29:47 UTC] PHP Stack trace:
+[11-Jun-2020 01:29:47 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[11-Jun-2020 01:29:47 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[11-Jun-2020 01:29:47 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:19
+[11-Jun-2020 01:29:47 UTC] PHP   4. include() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php:106
+[11-Jun-2020 01:29:47 UTC] PHP Warning:  A non-numeric value encountered in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\search.php on line 26
+[11-Jun-2020 01:29:47 UTC] PHP Stack trace:
+[11-Jun-2020 01:29:47 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[11-Jun-2020 01:29:47 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[11-Jun-2020 01:29:47 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:19
+[11-Jun-2020 01:29:47 UTC] PHP   4. include() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php:106

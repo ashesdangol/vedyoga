@@ -351,13 +351,22 @@
       height: 80%;
       transition: all 0.2s linear;
       overflow: auto;
-      border: 1px solid red;
       display: flex;
       flex-wrap: wrap;
       flex: 1; }
       .search-overlay__bottom #search-overlay__results .search-overlay__results-contents .one-third {
         flex: 1;
         min-width: 300px; }
+
+.blog-searchbox .search-box__wrapper.glossy__wrapper {
+  border-radius: 0;
+  width: 100%; }
+  .blog-searchbox .search-box__wrapper.glossy__wrapper:hover {
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+    background: #2FB7EC;
+    transition: all 0.3s ease; }
+    .blog-searchbox .search-box__wrapper.glossy__wrapper:hover .btn-to-anchor {
+      color: #fff; }
 
 .overflow-scroll {
   height: 100%;
