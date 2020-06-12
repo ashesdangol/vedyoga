@@ -42,13 +42,29 @@
                   <li class="nav-item">
                     <a class="nav-link" href="<?php echo site_url('/contacts');?>">Contact</a>
                   </li>
-                  <div class="general-btn__wrapper">
-                    <div class="general-btn__item include-sweep">
-                      <a href="#" class="nav-link general-btn include-sweep__color"> Login</a>
-                    </div>
-                    <div class="general-btn__item include-sweep">
-                        <a href="#" class="nav-link general-btn include-sweep__color">Sign Up</a>
-                    </div>
+                  <div class="site-header__util general-btn__wrapper">
+                    <?php
+                      if (is_user_logged_in()) {
+                    ?>
+                      <div class="general-btn__item include-sweep login__style">
+                          <a href="<?php echo wp_logout_url() ;?>" class="nav-link general-btn include-sweep__color btn--with-photo">
+                            <span class="site-header__avatar"><?php echo get_avatar(get_current_user_id(), 30); ?></span>
+                            <span class="site-header__btn-text">Log Out</span>
+                          </a>
+                      </div>
+                      <?php
+                      }else{
+                      ?>
+                        <div class="general-btn__item include-sweep">
+                          <a href="<?php echo wp_login_url(); ?>" class="nav-link general-btn include-sweep__color"> Login</a>
+                        </div>
+                        <div class="general-btn__item include-sweep">
+                            <a href="<?php echo wp_registration_url();?>" class="nav-link general-btn include-sweep__color">Sign Up</a>
+                        </div>
+                    <?php
+                      }
+                     ?>
+
 
 
                   </div>

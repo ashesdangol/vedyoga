@@ -1215,3 +1215,5 @@ Stack trace:
 [12-Jun-2020 14:32:43 UTC] PHP  10. WP_REST_Server->serve_request() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\rest-api.php:306
 [12-Jun-2020 14:32:43 UTC] PHP  11. WP_REST_Server->dispatch() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\rest-api\class-wp-rest-server.php:342
 [12-Jun-2020 14:32:43 UTC] PHP  12. registerSearchResults() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\rest-api\class-wp-rest-server.php:1015
+[12-Jun-2020 19:38:39 UTC] PHP Parse error:  syntax error, unexpected '30' (T_LNUMBER), expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\header.php on line 51
+[12-Jun-2020 19:38:39 UTC] PHP Parse error:  syntax error, unexpected '30' (T_LNUMBER), expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\header.php on line 51

@@ -107,4 +107,47 @@ require get_theme_file_path('/inc/search-route.php');
   // }
   //
   // add_filter('acf/fields/google_map/api', 'findusMapKey')
+
+
+
+  // REDIRECT SUBSCRIBER ACCOUNT OUT OF ADMIN AND ONTO HOMEPAGE
+  add_action('admin_init','redirectSubstoFrontend');
+  function redirectSubstoFrontend(){
+    $ourCurrentUser = wp_get_current_user();
+    if (count($ourCurrentUser->roles)==1 AND $ourCurrentUser->roles[0]=='subscriber') {
+      wp_redirect(site_url('/'));
+      exit;
+    }
+  }
+
+    // REMOVE BLACK ADMIN BAR FROM SUBSCRIVER
+  add_action('wp_loaded','noSubsAdminBar');
+  function noSubsAdminBar(){
+    $ourCurrentUser = wp_get_current_user();
+    if (count($ourCurrentUser->roles)==1 AND $ourCurrentUser->roles[0]=='subscriber') {
+      show_admin_bar(false);
+    }
+  }
+
+    // CUSTOMIZE LOGIN SCREEN
+
+    // wordpress link pointer change to our home page
+    add_filter('login_headerurl', 'ourHeaderUrl');
+    function ourHeaderUrl(){
+      return esc_url(site_url('/'));
+    }
+
+    // Customize loging page throuh our css
+    add_action('login_enqueue_scripts', 'ourLoginCSS');
+    function ourLoginCSS(){
+      wp_enqueue_style('b_font_awes','//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+      wp_enqueue_style('medi_main_styles',get_stylesheet_uri(), NULL, microtime());
+    }
+
+    // On hover logo,  remove powered by wordpress
+    add_action('login_headertitle', 'ourLoginTitle');
+    function ourLoginTitle(){
+      // return 'Powered by metkha';
+      return get_bloginfo('name');
+    }
  ?>

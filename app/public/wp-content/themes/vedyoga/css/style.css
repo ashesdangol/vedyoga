@@ -80,7 +80,7 @@
     margin-right: 15px; }
 
 .general-btn {
-  padding: 5px 20px;
+  padding: 6px 20px;
   color: #455a5c;
   letter-spacing: 1px;
   display: block;
@@ -472,7 +472,7 @@
     margin-right: 15px; }
 
 .general-btn {
-  padding: 5px 20px;
+  padding: 6px 20px;
   color: #455a5c;
   letter-spacing: 1px;
   display: block;
@@ -852,7 +852,7 @@
     margin-right: 15px; }
 
 .general-btn {
-  padding: 5px 20px;
+  padding: 6px 20px;
   color: #455a5c;
   letter-spacing: 1px;
   display: block;
@@ -1461,7 +1461,7 @@
     margin-right: 15px; }
 
 .general-btn {
-  padding: 5px 20px;
+  padding: 6px 20px;
   color: #455a5c;
   letter-spacing: 1px;
   display: block;
@@ -1898,7 +1898,7 @@
     margin-right: 15px; }
 
 .general-btn {
-  padding: 5px 20px;
+  padding: 6px 20px;
   color: #455a5c;
   letter-spacing: 1px;
   display: block;
@@ -2321,7 +2321,7 @@
     margin-right: 15px; }
 
 .general-btn {
-  padding: 5px 20px;
+  padding: 6px 20px;
   color: #455a5c;
   letter-spacing: 1px;
   display: block;
@@ -2744,7 +2744,7 @@
     margin-right: 15px; }
 
 .general-btn {
-  padding: 5px 20px;
+  padding: 6px 20px;
   color: #455a5c;
   letter-spacing: 1px;
   display: block;
@@ -3197,7 +3197,7 @@
     margin-right: 15px; }
 
 .general-btn {
-  padding: 5px 20px;
+  padding: 6px 20px;
   color: #455a5c;
   letter-spacing: 1px;
   display: block;
@@ -3620,7 +3620,7 @@
     margin-right: 15px; }
 
 .general-btn {
-  padding: 5px 20px;
+  padding: 6px 20px;
   color: #455a5c;
   letter-spacing: 1px;
   display: block;
@@ -4017,7 +4017,7 @@
     margin-right: 15px; }
 
 .general-btn {
-  padding: 5px 20px;
+  padding: 6px 20px;
   color: #455a5c;
   letter-spacing: 1px;
   display: block;
@@ -4415,7 +4415,7 @@
     margin-right: 15px; }
 
 .general-btn {
-  padding: 5px 20px;
+  padding: 6px 20px;
   color: #455a5c;
   letter-spacing: 1px;
   display: block;
@@ -4884,7 +4884,7 @@
     margin-right: 15px; }
 
 .general-btn {
-  padding: 5px 20px;
+  padding: 6px 20px;
   color: #455a5c;
   letter-spacing: 1px;
   display: block;
@@ -5246,7 +5246,7 @@
     margin-right: 15px; }
 
 .general-btn {
-  padding: 5px 20px;
+  padding: 6px 20px;
   color: #455a5c;
   letter-spacing: 1px;
   display: block;
@@ -5866,7 +5866,7 @@
     margin-right: 15px; }
 
 .general-btn {
-  padding: 5px 20px;
+  padding: 6px 20px;
   color: #455a5c;
   letter-spacing: 1px;
   display: block;
@@ -6372,7 +6372,7 @@
     margin-right: 15px; }
 
 .general-btn {
-  padding: 5px 20px;
+  padding: 6px 20px;
   color: #455a5c;
   letter-spacing: 1px;
   display: block;
@@ -6700,3 +6700,23 @@
     color: #455a5c; }
     .list__items > a:hover {
       color: #cf2008; }
+
+.site-header__util .login__style .general-btn {
+  padding: 2px 20px 2px 0px; }
+
+.site-header__util .login__style .btn--with-photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0; }
+  .site-header__util .login__style .btn--with-photo .site-header__avatar {
+    margin-right: 15px;
+    height: 30px; }
+
+#login h1 a {
+  background-image: url("././img/vedLogo.png");
+  margin-bottom: 0;
+  background-size: cover;
+  background-position: center;
+  height: 80px;
+  width: 150px; }
