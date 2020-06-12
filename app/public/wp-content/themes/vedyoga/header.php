@@ -42,11 +42,20 @@
                   <li class="nav-item">
                     <a class="nav-link" href="<?php echo site_url('/contacts');?>">Contact</a>
                   </li>
+                  <div class="general-btn__wrapper">
+                    <div class="general-btn__item include-sweep">
+                      <a href="#" class="nav-link general-btn include-sweep__color"> Login</a>
+                    </div>
+                    <div class="general-btn__item include-sweep">
+                        <a href="#" class="nav-link general-btn include-sweep__color">Sign Up</a>
+                    </div>
+
+
+                  </div>
 
                 </ul>
             </div>
           </div>
-
         </nav>
       </header>
       <div class="body__contents">

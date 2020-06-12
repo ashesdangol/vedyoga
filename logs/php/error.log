@@ -1201,3 +1201,17 @@ Stack trace:
 [12-Jun-2020 03:30:39 UTC] PHP  10. WP_REST_Server->serve_request() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\rest-api.php:306
 [12-Jun-2020 03:30:39 UTC] PHP  11. WP_REST_Server->dispatch() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\rest-api\class-wp-rest-server.php:342
 [12-Jun-2020 03:30:39 UTC] PHP  12. registerSearchResults() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\rest-api\class-wp-rest-server.php:1015
+[12-Jun-2020 14:32:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\search-route.php on line 164
+[12-Jun-2020 14:32:43 UTC] PHP Stack trace:
+[12-Jun-2020 14:32:43 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[12-Jun-2020 14:32:43 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[12-Jun-2020 14:32:43 UTC] PHP   3. wp() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:16
+[12-Jun-2020 14:32:43 UTC] PHP   4. WP->main() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\functions.php:1274
+[12-Jun-2020 14:32:43 UTC] PHP   5. WP->parse_request() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\class-wp.php:735
+[12-Jun-2020 14:32:43 UTC] PHP   6. do_action_ref_array() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\class-wp.php:388
+[12-Jun-2020 14:32:43 UTC] PHP   7. WP_Hook->do_action() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\plugin.php:544
+[12-Jun-2020 14:32:43 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\class-wp-hook.php:311
+[12-Jun-2020 14:32:43 UTC] PHP   9. rest_api_loaded() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\class-wp-hook.php:287
+[12-Jun-2020 14:32:43 UTC] PHP  10. WP_REST_Server->serve_request() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\rest-api.php:306
+[12-Jun-2020 14:32:43 UTC] PHP  11. WP_REST_Server->dispatch() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\rest-api\class-wp-rest-server.php:342
+[12-Jun-2020 14:32:43 UTC] PHP  12. registerSearchResults() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\rest-api\class-wp-rest-server.php:1015

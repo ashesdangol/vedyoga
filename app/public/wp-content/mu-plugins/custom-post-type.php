@@ -1,6 +1,8 @@
 <?php
   function custom_post_types(){
     register_post_type('banner_slider', array(
+      'capability_type' => 'banner_slider',
+      'map_meta_cap'=>true,
       'public'=>true,
       'labels'=>array(
         'name'=> 'Sliders',
@@ -13,6 +15,8 @@
       'menu_icon'=>'dashicons-slides'
     ));
     register_post_type('instagram', array(
+      'capability_type' => 'instagram',
+      'map_meta_cap'=>true,
       'public'=>true,
       'labels'=>array(
         'name'=> 'Instagram',
@@ -25,6 +29,8 @@
     ));
     // Event post type
     register_post_type('event', array(
+      'capability_type' => 'event',
+      'map_meta_cap'=>true,
       'supports' => array('title', 'excerpt','post-thumbnails','title-tag','custom-fields','thumbnail'),
       'taxonomies' => array('category'),
       'rewrite' => array('slug' => 'events'),
@@ -42,6 +48,8 @@
 
     // Location post type Google map not working
     register_post_type('contact', array(
+      'capability_type' => 'contact',
+      'map_meta_cap'=>true,
       'supports' => array('title','editor', 'excerpt'),
       'rewrite' => array('slug' => 'contacts'),
       'has_archive' => true,
@@ -58,6 +66,8 @@
 
     // Program post type
     register_post_type('program', array(
+      'capability_type' => 'program',
+      'map_meta_cap'=>true,
       'supports' => array('title','editor','post-thumbnails','thumbnail'),
       'taxonomies' => array('category'),
       'rewrite' => array('slug' => 'programs'),
