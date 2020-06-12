@@ -117,13 +117,10 @@ function registerSearchResults($data){
         'pageWords'=>  wp_trim_words(get_the_content(), 10)
       ));
     }
-
   }
 
   if ($mainResults['programs']) {
     $eventMetaQuery = array('relation' => 'OR');
-
-
     foreach ($mainResults['programs'] as $item ) {
       array_push($eventMetaQuery,   array(
           'key'=>'related_programs',
@@ -133,10 +130,9 @@ function registerSearchResults($data){
         ));
     }
     $programRelationshipQuery = new WP_Query(array(
-      'post_type' => 'event',
+      'post_type' => array('event','program'),
       'meta_query' => $eventMetaQuery
       ));
-
     while ($programRelationshipQuery->have_posts()) {
         $programRelationshipQuery->the_post();
 
@@ -158,9 +154,32 @@ function registerSearchResults($data){
           }
 
         }
+    $mainResults['events'] = array_values(array_unique($mainResults['events'], SORT_REGULAR));
+  }
 
-    $mainResults['events'] = array_values(array_unique($mainResults['events'], SORT_LOCALE_STRING ));
 
+
+  if ($mainResults['events']) {
+    $eventRelationQuery = get_field('related_programs');
+    foreach ($eventRelationQuery as $relatedProgram) {
+        if(get_post_type() == 'event'){
+          array_push($mainResults['programs'], array(
+            'title' => get_the_title($relatedProgram),
+            'permalink' => get_the_permalink($relatedProgram),
+            'postType' => get_post_type($relatedProgram),
+            'subtitle' => get_field('page_banner_subtitle'),
+            'authorName' =>get_the_author($relatedProgram),
+            'authorLink' => get_the_author_posts_link($relatedProgram),
+            'postFeaturedImage__Med'=>get_the_post_thumbnail_url($relatedProgram,'blog-card-img__Medium'),
+            'postFeaturedImage__Sm'=>get_the_post_thumbnail_url($relatedProgram,'blog-card-img__Small'),
+            'excerpt'=>get_the_excerpt($relatedProgram),
+            'trimWords'=> wp_trim_words(get_the_content($relatedProgram), 2),
+            'pageWords'=>  wp_trim_words(get_the_content($relatedProgram), 10),
+            'id'=> get_the_ID($relatedProgram)
+          ));
+        }
+    }
+    $mainResults['programs'] = array_values(array_unique($mainResults['programs'], SORT_LOCALE_STRING));
   }
 
   return $mainResults;

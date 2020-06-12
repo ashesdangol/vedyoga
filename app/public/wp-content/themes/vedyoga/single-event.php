@@ -40,7 +40,9 @@
               echo "<ul>";
               foreach ($relatedPrograms as $program) {
           ?>
-          <li class="list__items"><a href="<?php echo get_the_permalink($program); ?>"><?php echo get_the_title($program); ?></a></li>
+          <li class="list__items"><a href="<?php echo get_the_permalink($program); ?>">
+            <?php echo get_the_title($program); ?></a>
+          </li>
           <?php
             }
               echo "</ul>";
