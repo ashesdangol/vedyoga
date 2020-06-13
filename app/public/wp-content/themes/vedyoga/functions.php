@@ -61,7 +61,8 @@ require get_theme_file_path('/inc/search-route.php');
     // wp_enqueue_style('slick_css',get_theme_file_uri('/css/slick.css'), NULL, microtime());
     wp_enqueue_style('medi_main_styles',get_stylesheet_uri(), NULL, microtime());
     wp_localize_script('load_custom_js','yogaData',array(
-      'root_url' => get_site_url()
+      'root_url' => get_site_url(),
+      'nonce' => wp_create_nonce('wp_rest')
 
     ));
   }

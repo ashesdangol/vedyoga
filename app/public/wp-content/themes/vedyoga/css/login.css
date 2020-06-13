@@ -1,14 +1,15 @@
-.site-header__util .login__style .general-btn {
-  padding: 2px 20px 2px 0px; }
-
 .site-header__util .login__style .btn--with-photo {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  padding: 2px 20px 2px 0px; }
   .site-header__util .login__style .btn--with-photo .site-header__avatar {
     margin-right: 15px;
     height: 30px; }
+
+.site-header__util .login__style .login__notes {
+  padding: 4px 20px; }
 
 #login h1 a {
   background-image: url("././img/vedLogo.png");

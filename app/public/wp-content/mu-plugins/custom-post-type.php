@@ -82,6 +82,26 @@
       ),
       'menu_icon'=>'dashicons-awards'
     ));
+
+    // My notes post type
+
+
+    register_post_type('note', array(
+      'show_in_rest' => true,
+      'supports' => array('title','editor'),
+      'public'=>false,
+      'show_ui'=>true,
+      'labels'=>array(
+        'name'=> 'Notes',
+        'add_new_item' => 'Add New Note',
+        'edit_item' => 'Edit Note',
+        'all_items' => 'Add/Edit Notes',
+        'singular_name'=> 'Note'
+      ),
+      'menu_icon'=>'dashicons-welcome-write-blog'
+    ));
+
+
   }
 
   add_action('init', 'custom_post_types');

@@ -1,0 +1,10 @@
+.edit-note, .delete-note, .update-note{
+  cursor: pointer;
+}
+
+.hidden-btn{
+  visibility: hidden;
+}
+.update-note--visible{
+  visibility: visible;
+}

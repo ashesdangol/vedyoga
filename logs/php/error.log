@@ -1217,3 +1217,12 @@ Stack trace:
 [12-Jun-2020 14:32:43 UTC] PHP  12. registerSearchResults() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\rest-api\class-wp-rest-server.php:1015
 [12-Jun-2020 19:38:39 UTC] PHP Parse error:  syntax error, unexpected '30' (T_LNUMBER), expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\header.php on line 51
 [12-Jun-2020 19:38:39 UTC] PHP Parse error:  syntax error, unexpected '30' (T_LNUMBER), expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\header.php on line 51
+[12-Jun-2020 21:03:07 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\mu-plugins\custom-post-type.php on line 93
+[12-Jun-2020 21:03:15 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\mu-plugins\custom-post-type.php on line 93
+[12-Jun-2020 21:03:27 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\mu-plugins\custom-post-type.php on line 93
+[13-Jun-2020 00:56:43 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\page-my-notes.php on line 23
+[13-Jun-2020 01:00:50 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\page-my-notes.php on line 23
+[13-Jun-2020 05:36:12 UTC] PHP Parse error:  syntax error, unexpected '=' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\page-my-notes.php on line 23
+[13-Jun-2020 05:36:15 UTC] PHP Parse error:  syntax error, unexpected '=' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\page-my-notes.php on line 23
+[13-Jun-2020 05:36:18 UTC] PHP Parse error:  syntax error, unexpected '=' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\page-my-notes.php on line 23
+[13-Jun-2020 05:36:49 UTC] PHP Parse error:  syntax error, unexpected '=' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\page-my-notes.php on line 23

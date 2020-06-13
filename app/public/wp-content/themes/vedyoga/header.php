@@ -46,6 +46,10 @@
                     <?php
                       if (is_user_logged_in()) {
                     ?>
+                    <div class="general-btn__item include-sweep login__style">
+                      <a href="<?php echo esc_url(site_url('/my-notes')); ?>" class="nav-link login__notes general-btn include-sweep__color"> My Notes</a>
+                    </div>
+
                       <div class="general-btn__item include-sweep login__style">
                           <a href="<?php echo wp_logout_url() ;?>" class="nav-link general-btn include-sweep__color btn--with-photo">
                             <span class="site-header__avatar"><?php echo get_avatar(get_current_user_id(), 30); ?></span>
