@@ -6,3 +6,9 @@
 
 .update-note--visible {
   visibility: visible; }
+
+.note-limit-message {
+  visibility: hidden; }
+
+.note-limit-active {
+  visibility: visible; }
