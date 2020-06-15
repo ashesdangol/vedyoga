@@ -68,7 +68,7 @@
     register_post_type('program', array(
       'capability_type' => 'program',
       'map_meta_cap'=>true,
-      'supports' => array('title','editor','post-thumbnails','thumbnail'),
+      'supports' => array('title','post-thumbnails','thumbnail'),
       'taxonomies' => array('category'),
       'rewrite' => array('slug' => 'programs'),
       'has_archive' => true,
