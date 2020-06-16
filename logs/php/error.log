@@ -2874,3 +2874,51 @@ Stack trace:
 [16-Jun-2020 09:43:35 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\single-instructor.php on line 16
 [16-Jun-2020 09:43:35 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\single-instructor.php on line 16
 [16-Jun-2020 09:43:36 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\single-instructor.php on line 16
+[16-Jun-2020 18:01:57 UTC] PHP Parse error:  syntax error, unexpected ''shop'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\search-route.php on line 26
+[16-Jun-2020 18:03:44 UTC] PHP Parse error:  syntax error, unexpected ''shop'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\search-route.php on line 26
+[16-Jun-2020 18:44:28 UTC] PHP Parse error:  syntax error, unexpected ';' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\search-route.php on line 136
+[16-Jun-2020 18:58:24 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\search-route.php on line 75
+[16-Jun-2020 18:58:24 UTC] PHP Stack trace:
+[16-Jun-2020 18:58:24 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[16-Jun-2020 18:58:24 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[16-Jun-2020 18:58:24 UTC] PHP   3. wp() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:16
+[16-Jun-2020 18:58:24 UTC] PHP   4. WP->main() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\functions.php:1274
+[16-Jun-2020 18:58:24 UTC] PHP   5. WP->parse_request() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\class-wp.php:739
+[16-Jun-2020 18:58:24 UTC] PHP   6. do_action_ref_array() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\class-wp.php:388
+[16-Jun-2020 18:58:24 UTC] PHP   7. WP_Hook->do_action() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\plugin.php:544
+[16-Jun-2020 18:58:24 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\class-wp-hook.php:311
+[16-Jun-2020 18:58:24 UTC] PHP   9. rest_api_loaded() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\class-wp-hook.php:287
+[16-Jun-2020 18:58:24 UTC] PHP  10. WP_REST_Server->serve_request() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\rest-api.php:312
+[16-Jun-2020 18:58:24 UTC] PHP  11. WP_REST_Server->dispatch() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\rest-api\class-wp-rest-server.php:342
+[16-Jun-2020 18:58:24 UTC] PHP  12. registerSearchResults() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\rest-api\class-wp-rest-server.php:1015
+[16-Jun-2020 18:58:24 UTC] PHP  13. array_push() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\search-route.php:75
+[16-Jun-2020 18:58:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\search-route.php:75) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\rest-api\class-wp-rest-server.php on line 1337
+[16-Jun-2020 18:58:24 UTC] PHP Stack trace:
+[16-Jun-2020 18:58:24 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[16-Jun-2020 18:58:24 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[16-Jun-2020 18:58:24 UTC] PHP   3. wp() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:16
+[16-Jun-2020 18:58:24 UTC] PHP   4. WP->main() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\functions.php:1274
+[16-Jun-2020 18:58:24 UTC] PHP   5. WP->parse_request() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\class-wp.php:739
+[16-Jun-2020 18:58:24 UTC] PHP   6. do_action_ref_array() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\class-wp.php:388
+[16-Jun-2020 18:58:24 UTC] PHP   7. WP_Hook->do_action() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\plugin.php:544
+[16-Jun-2020 18:58:24 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\class-wp-hook.php:311
+[16-Jun-2020 18:58:24 UTC] PHP   9. rest_api_loaded() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\class-wp-hook.php:287
+[16-Jun-2020 18:58:24 UTC] PHP  10. WP_REST_Server->serve_request() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\rest-api.php:312
+[16-Jun-2020 18:58:24 UTC] PHP  11. WP_REST_Server->send_headers() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\rest-api\class-wp-rest-server.php:374
+[16-Jun-2020 18:58:24 UTC] PHP  12. WP_REST_Server->send_header() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\rest-api\class-wp-rest-server.php:1349
+[16-Jun-2020 18:58:24 UTC] PHP  13. header() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\rest-api\class-wp-rest-server.php:1337
+[16-Jun-2020 18:58:37 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\search-route.php on line 75
+[16-Jun-2020 18:58:37 UTC] PHP Stack trace:
+[16-Jun-2020 18:58:37 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[16-Jun-2020 18:58:37 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[16-Jun-2020 18:58:37 UTC] PHP   3. wp() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:16
+[16-Jun-2020 18:58:37 UTC] PHP   4. WP->main() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\functions.php:1274
+[16-Jun-2020 18:58:37 UTC] PHP   5. WP->parse_request() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\class-wp.php:739
+[16-Jun-2020 18:58:37 UTC] PHP   6. do_action_ref_array() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\class-wp.php:388
+[16-Jun-2020 18:58:37 UTC] PHP   7. WP_Hook->do_action() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\plugin.php:544
+[16-Jun-2020 18:58:37 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\class-wp-hook.php:311
+[16-Jun-2020 18:58:37 UTC] PHP   9. rest_api_loaded() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\class-wp-hook.php:287
+[16-Jun-2020 18:58:37 UTC] PHP  10. WP_REST_Server->serve_request() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\rest-api.php:312
+[16-Jun-2020 18:58:37 UTC] PHP  11. WP_REST_Server->dispatch() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\rest-api\class-wp-rest-server.php:342
+[16-Jun-2020 18:58:37 UTC] PHP  12. registerSearchResults() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\rest-api\class-wp-rest-server.php:1015
+[16-Jun-2020 18:58:37 UTC] PHP  13. array_push() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\search-route.php:75

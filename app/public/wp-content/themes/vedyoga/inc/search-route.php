@@ -14,13 +14,14 @@ function registerSearch(){
 
 function registerSearchResults($data){
   $mainQuery =new WP_Query(array(
-    'post_type' => array('event','program','shop','page','post','contact'),
+    'post_type' => array('event','program','instructor','shop','page','post','contact'),
     's' => sanitize_text_field($data['term'])
   ));
 
   $mainResults = array(
     'generalInfo' => array(),
     'programs' => array(),
+    'instructors' => array(),
     'events' => array(),
     'shop' => array(),
     'contact' => array()
@@ -63,6 +64,15 @@ function registerSearchResults($data){
         'pageWords'=>  wp_trim_words(get_the_content(), 10),
         'id'=> get_the_ID()
 
+      ));
+    }
+    if(get_post_type() == 'instructor'){
+      array_push($mainResults['instructors'], array(
+        'title' => get_the_title(),
+        'permalink' => get_the_permalink(),
+        'postType' => get_post_type(),
+        'postFeaturedImage__Med'=>get_the_post_thumbnail_url(0,'medium'),
+        'postFeaturedImage__Sm'=>get_the_post_thumbnail_url(0,'thumbnail'),
       ));
     }
     if(get_post_type() == 'event'){
@@ -130,7 +140,7 @@ function registerSearchResults($data){
         ));
     }
     $programRelationshipQuery = new WP_Query(array(
-        'post_type'=>'event',
+        'post_type'=>array('event','instructor'),
         'meta_query'=>$programsMetaQuery
     ));
     while ($programRelationshipQuery->have_posts()) {
@@ -155,36 +165,19 @@ function registerSearchResults($data){
           'eventDate' => $eventDate->format('d M Y')
         ));
       }
-
-    }
-  }
-
-  if ($mainResults['events']) {
-    $eventRelationQuery = get_field('related_programs');
-
-    if(get_post_type() == 'event'){
-      foreach ($eventRelationQuery as $relatedProgram) {
-        array_push($mainResults['programs'], array(
-          'title' => get_the_title($relatedProgram),
-          'permalink' => get_the_permalink($relatedProgram),
-          'postType' => get_post_type($relatedProgram),
-          'subtitle' => get_field('page_banner_subtitle'),
-          'authorName' =>get_the_author($relatedProgram),
-          'authorLink' => get_the_author_posts_link($relatedProgram),
-          'postFeaturedImage__Med'=>get_the_post_thumbnail_url($relatedProgram,'blog-card-img__Medium'),
-          'postFeaturedImage__Sm'=>get_the_post_thumbnail_url($relatedProgram,'blog-card-img__Small'),
-          'excerpt'=>get_the_excerpt($relatedProgram),
-          'trimWords'=> wp_trim_words(get_the_content($relatedProgram), 2),
-          'pageWords'=>  wp_trim_words(get_the_content($relatedProgram), 10),
-          'id'=> get_the_ID($relatedProgram)
+      if(get_post_type() == 'instructor'){
+        array_push($mainResults['instructors'], array(
+          'title' => get_the_title(),
+          'permalink' => get_the_permalink(),
+          'postType' => get_post_type(),
+          'postFeaturedImage__Med'=>get_the_post_thumbnail_url(0,'medium'),
+          'postFeaturedImage__Sm'=>get_the_post_thumbnail_url(0,'thumbnail'),
         ));
       }
     }
+    $mainResults['instructors'] = array_values(array_unique($mainResults['instructors'], SORT_REGULAR));
     $mainResults['programs'] = array_values(array_unique($mainResults['programs'], SORT_REGULAR));
   }
-
-// Remove Duplicates
-  $mainResults['events'] = array_values(array_unique($mainResults['events'], SORT_REGULAR));
 
   return $mainResults;
 

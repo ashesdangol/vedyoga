@@ -18,10 +18,14 @@
       );
      ?>
     <!-- the contents -->
-    <div class="">
-      <h2 class="header__title--one element element__center element__marginTop--high"><?php the_title() ?></h2>
+    <div class="element element__center element__marginTop--high">
+      <h2 class="header__title--one"><?php the_title() ?></h2>
       <div class="likes">
-        <span class="likes__btn">Like</span>
+        <span class="like-box ">
+          <i class="fa fa-heart-o" aria-hidden="true"></i>
+          <i class="fa fa-heart" aria-hidden="true"></i>
+          <span class="like-count">3</span>
+        </span>
       </div>
     </div>
 

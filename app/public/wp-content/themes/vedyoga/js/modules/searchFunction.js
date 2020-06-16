@@ -113,6 +113,47 @@ class Search {
               ${results.generalInfo.length ? '</ul>':''}
           </div>
           <div class="one-third">
+
+            <h2 class="header__title--one">Programs</h2>
+            ${results.programs.length ? `<div>
+                ${results.programs.map(item =>
+                  `
+                  <div class="blog-card">
+                    <div class="blog-card__post-item">
+                      <div class="blog-card__date-thumbnail">
+                        <picture class="blog-card__thumbnail">
+                          <source media="(max-width:500px)" srcset="${item.postFeaturedImage__Sm}">
+                          <img src="${item.postFeaturedImage__Med}" alt="" />
+                        </picture>
+
+                      </div>
+                      <div class="blog-card__details">
+                        <div class="blog-card__title-auth-contents">
+                          <div class="blog-card__title">
+                             <a class="blog-card__title--fontstyle" href="${item.permalink}">${item.title}</a>
+                          </div>
+                          <div class="blog-card__contents">
+                            ${item.trimWords}
+                            <p> <a class="conti-read--color" href="${item.permalink}">Read <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a> </p>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                  `
+                )}
+
+                </div>
+                `
+                :
+                `<p>No programs matches that search</p>
+                <a href="${yogaData.root_url+'/programs'}">View All Programs</a>
+                `
+
+            }
+
             <h2 class="header__title--one">Events</h2>
             ${results.events.length ?
               `
@@ -159,46 +200,6 @@ class Search {
              }
 
 
-            <h2 class="header__title--one">Programs</h2>
-            ${results.programs.length ? `<div>
-                ${results.programs.map(item =>
-                  `
-                  <div class="blog-card">
-                    <div class="blog-card__post-item">
-                      <div class="blog-card__date-thumbnail">
-                        <picture class="blog-card__thumbnail">
-                          <source media="(max-width:500px)" srcset="${item.postFeaturedImage__Sm}">
-                          <img src="${item.postFeaturedImage__Med}" alt="" />
-                        </picture>
-
-                      </div>
-                      <div class="blog-card__details">
-                        <div class="blog-card__title-auth-contents">
-                          <div class="blog-card__title">
-                             <a class="blog-card__title--fontstyle" href="${item.permalink}">${item.title}</a>
-                          </div>
-                          <div class="blog-card__contents">
-                            ${item.trimWords}
-                            <p> <a class="conti-read--color" href="${item.permalink}">Read <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a> </p>
-                          </div>
-                        </div>
-                      </div>
-
-                    </div>
-                  </div>
-
-                  `
-                )}
-
-                </div>
-                `
-                :
-                `<p>No programs matches that search</p>
-                <a href="${yogaData.root_url+'/programs'}">View All Programs</a>
-                `
-
-            }
-
 
 
 
@@ -206,6 +207,38 @@ class Search {
 
           </div>
           <div class="one-third">
+            <h2 class="header__title--one">Instructor(s)</h2>
+            ${results.instructors.length ? `<div>
+              ${results.instructors.map(item =>
+                `
+                  <div class="blog-card">
+                    <div class="blog-card__post-item">
+                      <div class="blog-card__date-thumbnail">
+                        <picture class="blog-card__thumbnail">
+                          <source media="(max-width:500px)" srcset="${item.postFeaturedImage__Sm}">
+                          <img src="${item.postFeaturedImage__Med}" alt="" />
+                        </picture>
+                      </div>
+                      <div class="blog-card__details">
+                        <div class="blog-card__title-auth-contents">
+                          <div class="blog-card__title">
+                             <a class="blog-card__title--fontstyle" href="${item.permalink}">${item.title}</a>
+                          </div>
+
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                `
+              )}
+              </div>
+            `
+            :
+            `
+              <p>No Instructor matches that search</p>
+            `
+            }
             <h2 class="header__title--one">Shops</h2>
             ${results.programs.length ? `<div>
                 helloo
