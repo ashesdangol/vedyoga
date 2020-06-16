@@ -32,6 +32,33 @@
         <div class="blog__link blog__link-event">
           <div class="home__blog-event">
             <?php
+            $relatedInstructor = new WP_Query(array(
+              'posts_per_page'=>2,
+              'post_type'=>'instructor',
+              'orderby' => 'title',
+              'order' => 'ASC',
+              'meta_query' => array(
+                array(
+                  'key' => 'related_programs',
+                  'compare' =>'LIKE',
+                  'value' =>'"'.get_the_ID().'"'
+                )
+              )
+            ));
+            if ($relatedInstructor->have_posts()) {
+              //
+              echo '<h2 class="header__title--one">Instructor for '.get_the_title().'</h2>';
+              while ($relatedInstructor->have_posts()) {
+                $relatedInstructor->the_post();
+                get_template_part('partials/instructor-card');
+                }
+                  wp_reset_postdata();
+                // end of while loop
+            //
+
+          }
+
+
               $today = date('Ymd');
               $eventPost = new WP_Query(array(
                 'posts_per_page'=>2,

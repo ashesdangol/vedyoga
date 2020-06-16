@@ -2870,3 +2870,7 @@ Stack trace:
 #4 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\post.php(3160): wp_update_post(Array)
 #5 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(941): wp_trash_post(259)
 #6 C:\U in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\functions.php on line 158
+[16-Jun-2020 04:50:27 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\single-program.php on line 125
+[16-Jun-2020 09:43:35 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\single-instructor.php on line 16
+[16-Jun-2020 09:43:35 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\single-instructor.php on line 16
+[16-Jun-2020 09:43:36 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\single-instructor.php on line 16

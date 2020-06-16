@@ -83,6 +83,23 @@
       'menu_icon'=>'dashicons-awards'
     ));
 
+    // Instructor post type
+    register_post_type('instructor', array(
+      'capability_type' => 'instructor',
+      'map_meta_cap'=>true,
+      'supports' => array('title','thumbnail'),
+      'public'=>true,
+      'labels'=>array(
+        'name'=> 'Instructors',
+        'add_new_item' => 'Add New Instructor',
+        'edit_item' => 'Edit Instructor',
+        'all_items' => 'Add/Edit Instructors',
+        'singular_name'=> 'Instructor'
+      ),
+      'menu_icon'=>'dashicons-welcome-learn-more'
+    ));
+
+
     // My notes post type
 
 
