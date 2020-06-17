@@ -2922,3 +2922,115 @@ Stack trace:
 [16-Jun-2020 18:58:37 UTC] PHP  11. WP_REST_Server->dispatch() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\rest-api\class-wp-rest-server.php:342
 [16-Jun-2020 18:58:37 UTC] PHP  12. registerSearchResults() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\rest-api\class-wp-rest-server.php:1015
 [16-Jun-2020 18:58:37 UTC] PHP  13. array_push() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\search-route.php:75
+[17-Jun-2020 00:38:10 UTC] PHP Warning:  Illegal offset type in isset or empty in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\media.php on line 822
+[17-Jun-2020 00:38:10 UTC] PHP Stack trace:
+[17-Jun-2020 00:38:10 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[17-Jun-2020 00:38:10 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[17-Jun-2020 00:38:10 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:19
+[17-Jun-2020 00:38:10 UTC] PHP   4. include() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php:106
+[17-Jun-2020 00:38:10 UTC] PHP   5. the_post_thumbnail_url() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\single-event.php:45
+[17-Jun-2020 00:38:10 UTC] PHP   6. get_the_post_thumbnail_url() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\post-thumbnail-template.php:231
+[17-Jun-2020 00:38:10 UTC] PHP   7. wp_get_attachment_image_url() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\post-thumbnail-template.php:218
+[17-Jun-2020 00:38:10 UTC] PHP   8. wp_get_attachment_image_src() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\media.php:1094
+[17-Jun-2020 00:38:10 UTC] PHP   9. image_downsize() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\media.php:954
+[17-Jun-2020 00:38:10 UTC] PHP  10. image_get_intermediate_size() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\media.php:235
+[17-Jun-2020 00:38:10 UTC] PHP Warning:  Illegal offset type in isset or empty in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\media.php on line 822
+[17-Jun-2020 00:38:10 UTC] PHP Stack trace:
+[17-Jun-2020 00:38:10 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[17-Jun-2020 00:38:10 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[17-Jun-2020 00:38:10 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:19
+[17-Jun-2020 00:38:10 UTC] PHP   4. include() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php:106
+[17-Jun-2020 00:38:10 UTC] PHP   5. the_post_thumbnail_url() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\single-event.php:45
+[17-Jun-2020 00:38:10 UTC] PHP   6. get_the_post_thumbnail_url() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\post-thumbnail-template.php:231
+[17-Jun-2020 00:38:10 UTC] PHP   7. wp_get_attachment_image_url() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\post-thumbnail-template.php:218
+[17-Jun-2020 00:38:10 UTC] PHP   8. wp_get_attachment_image_src() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\media.php:1094
+[17-Jun-2020 00:38:10 UTC] PHP   9. image_downsize() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\media.php:954
+[17-Jun-2020 00:38:10 UTC] PHP  10. image_get_intermediate_size() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\media.php:235
+[17-Jun-2020 01:18:05 UTC] PHP Recoverable fatal error:  Object of class WP_Post could not be converted to string in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\formatting.php on line 5243
+[17-Jun-2020 01:18:05 UTC] PHP Stack trace:
+[17-Jun-2020 01:18:05 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[17-Jun-2020 01:18:05 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[17-Jun-2020 01:18:05 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:19
+[17-Jun-2020 01:18:05 UTC] PHP   4. include() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php:106
+[17-Jun-2020 01:18:05 UTC] PHP   5. get_template_part() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\single-instructor.php:75
+[17-Jun-2020 01:18:05 UTC] PHP   6. locate_template() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\general-template.php:168
+[17-Jun-2020 01:18:05 UTC] PHP   7. load_template() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template.php:672
+[17-Jun-2020 01:18:05 UTC] PHP   8. require() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template.php:725
+[17-Jun-2020 01:18:05 UTC] PHP   9. wp_trim_words() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\partials\_program-card-part.php:31
+[17-Jun-2020 01:18:05 UTC] PHP  10. wp_strip_all_tags() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\formatting.php:3880
+[17-Jun-2020 01:18:05 UTC] PHP  11. preg_replace() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\formatting.php:5243
+[17-Jun-2020 01:35:02 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Post as array in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\partials\_program-card-part.php:12
+Stack trace:
+#0 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template.php(725): require()
+#1 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template.php(672): load_template('C:\\Users\\ashima...', false)
+#2 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\single-instructor.php(75): get_template_part('partials/_progr...')
+#4 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\ashima...')
+#5 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php(19): require_once('C:\\Users\\ashima...')
+#6 C:\Users\ashima\Local Sites\vedyoga\app\public\index.php(17): require('C:\\Users\\ashima...')
+#7 {main}
+  thrown in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\partials\_program-card-part.php on line 12
+[17-Jun-2020 01:35:22 UTC] PHP Warning:  Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\partials\_program-card-part.php on line 12
+[17-Jun-2020 01:35:22 UTC] PHP Stack trace:
+[17-Jun-2020 01:35:22 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[17-Jun-2020 01:35:22 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[17-Jun-2020 01:35:22 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:19
+[17-Jun-2020 01:35:22 UTC] PHP   4. include() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php:106
+[17-Jun-2020 01:35:22 UTC] PHP   5. get_template_part() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\single-instructor.php:75
+[17-Jun-2020 01:35:22 UTC] PHP   6. locate_template() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\general-template.php:168
+[17-Jun-2020 01:35:22 UTC] PHP   7. load_template() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template.php:672
+[17-Jun-2020 01:35:22 UTC] PHP   8. require() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template.php:725
+[17-Jun-2020 01:35:22 UTC] PHP Recoverable fatal error:  Object of class WP_Post could not be converted to string in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\partials\_program-card-part.php on line 12
+[17-Jun-2020 01:35:22 UTC] PHP Stack trace:
+[17-Jun-2020 01:35:22 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[17-Jun-2020 01:35:22 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[17-Jun-2020 01:35:22 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:19
+[17-Jun-2020 01:35:22 UTC] PHP   4. include() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php:106
+[17-Jun-2020 01:35:22 UTC] PHP   5. get_template_part() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\single-instructor.php:75
+[17-Jun-2020 01:35:22 UTC] PHP   6. locate_template() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\general-template.php:168
+[17-Jun-2020 01:35:22 UTC] PHP   7. load_template() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template.php:672
+[17-Jun-2020 01:35:22 UTC] PHP   8. require() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template.php:725
+[17-Jun-2020 02:04:47 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Post as array in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\partials\_program-card-part.php:12
+Stack trace:
+#0 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template.php(725): require()
+#1 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template.php(672): load_template('C:\\Users\\ashima...', false)
+#2 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\single-instructor.php(75): get_template_part('partials/_progr...')
+#4 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\ashima...')
+#5 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php(19): require_once('C:\\Users\\ashima...')
+#6 C:\Users\ashima\Local Sites\vedyoga\app\public\index.php(17): require('C:\\Users\\ashima...')
+#7 {main}
+  thrown in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\partials\_program-card-part.php on line 12
+[17-Jun-2020 02:04:57 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Post as array in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\partials\_program-card-part.php:12
+Stack trace:
+#0 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template.php(725): require()
+#1 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template.php(672): load_template('C:\\Users\\ashima...', false)
+#2 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\single-instructor.php(75): get_template_part('partials/_progr...')
+#4 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\ashima...')
+#5 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php(19): require_once('C:\\Users\\ashima...')
+#6 C:\Users\ashima\Local Sites\vedyoga\app\public\index.php(17): require('C:\\Users\\ashima...')
+#7 {main}
+  thrown in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\partials\_program-card-part.php on line 12
+[17-Jun-2020 02:05:07 UTC] PHP Warning:  Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\partials\_program-card-part.php on line 12
+[17-Jun-2020 02:05:07 UTC] PHP Stack trace:
+[17-Jun-2020 02:05:07 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[17-Jun-2020 02:05:07 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[17-Jun-2020 02:05:07 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:19
+[17-Jun-2020 02:05:07 UTC] PHP   4. include() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php:106
+[17-Jun-2020 02:05:07 UTC] PHP   5. get_template_part() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\single-instructor.php:75
+[17-Jun-2020 02:05:07 UTC] PHP   6. locate_template() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\general-template.php:168
+[17-Jun-2020 02:05:07 UTC] PHP   7. load_template() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template.php:672
+[17-Jun-2020 02:05:07 UTC] PHP   8. require() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template.php:725
+[17-Jun-2020 02:05:07 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Post as array in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\partials\_program-card-part.php:12
+Stack trace:
+#0 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template.php(725): require()
+#1 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template.php(672): load_template('C:\\Users\\ashima...', false)
+#2 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\single-instructor.php(75): get_template_part('partials/_progr...')
+#4 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\ashima...')
+#5 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php(19): require_once('C:\\Users\\ashima...')
+#6 C:\Users\ashima\Local Sites\vedyoga\app\public\index.php(17): require('C:\\Users\\ashima...')
+#7 {main}
+  thrown in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\partials\_program-card-part.php on line 12
+[17-Jun-2020 02:15:35 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\partials\_program-card-part.php on line 36

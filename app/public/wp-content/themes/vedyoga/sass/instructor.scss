@@ -1,0 +1,11 @@
+@import "base/mixin";
+.instructor{
+  @include atXLarge{
+    &__inner-contents{
+      
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  };
+}

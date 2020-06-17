@@ -36,9 +36,13 @@
   min-height: 100vh;
 }
 
+
 .element{
-  &__center{
-    text-align: center;
+  // border: 1px solid red;
+  &__flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   &__marginTop--high{
     margin-top: 6rem;

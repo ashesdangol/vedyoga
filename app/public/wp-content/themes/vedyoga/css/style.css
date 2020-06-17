@@ -26,8 +26,10 @@
   overflow: hidden;
   min-height: 100vh; }
 
-.element__center {
-  text-align: center; }
+.element__flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 .element__marginTop--high {
   margin-top: 6rem; }
@@ -7354,6 +7356,9 @@
 .wrapper {
   overflow: hidden; }
 
+.likes {
+  margin-left: 1.5rem; }
+
 .like-box {
   font-size: 1rem;
   background-color: #EDEDED;
@@ -7362,7 +7367,6 @@
   padding: 10px 10px 10px 25px;
   border-radius: 4px;
   cursor: pointer;
-  margin: 0 0 30px 30px;
   position: relative; }
   .like-box:hover {
     background-color: #DEDEDE; }
@@ -7389,3 +7393,9 @@
 
 .like-count {
   padding-left: 10px; }
+
+@media (min-width: 1500px) {
+  .instructor__inner-contents {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; } }

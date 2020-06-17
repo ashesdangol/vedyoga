@@ -68,7 +68,7 @@
     register_post_type('program', array(
       'capability_type' => 'program',
       'map_meta_cap'=>true,
-      'supports' => array('title','post-thumbnails','thumbnail'),
+      'supports' => array('title','excerpt','post-thumbnails','thumbnail'),
       'taxonomies' => array('category'),
       'rewrite' => array('slug' => 'programs'),
       'has_archive' => true,
@@ -87,7 +87,7 @@
     register_post_type('instructor', array(
       'capability_type' => 'instructor',
       'map_meta_cap'=>true,
-      'supports' => array('title','thumbnail'),
+      'supports' => array('title','excerpt','thumbnail','post-thumbnails'),
       'public'=>true,
       'labels'=>array(
         'name'=> 'Instructors',
@@ -101,8 +101,6 @@
 
 
     // My notes post type
-
-
     register_post_type('note', array(
       'capability_type' => 'note',
       'map_meta_cap' => true,
@@ -120,6 +118,20 @@
       'menu_icon'=>'dashicons-welcome-write-blog'
     ));
 
+    // Likes post type
+    register_post_type('like', array(
+      'supports' => array('title'),
+      'public'=>false,
+      'show_ui'=>true,
+      'labels'=>array(
+        'name'=> 'Likes',
+        'add_new_item' => 'Add New Like',
+        'edit_item' => 'Edit Like',
+        'all_items' => 'All Likes',
+        'singular_name'=> 'Like'
+      ),
+      'menu_icon'=>'dashicons-heart'
+    ));
 
   }
 

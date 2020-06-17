@@ -4,8 +4,9 @@
 
       <!-- the_post_thumbnail_url -->
       <picture class="blog-card__thumbnail">
-        <source media="(max-width:500px)" srcset="<?php the_post_thumbnail_url('thumbnail') ?>">
-        <img src="<?php the_post_thumbnail_url('medium') ?>" alt="" />
+          <source media="(min-width:1024px)" srcset="<?php the_post_thumbnail_url('full') ?>">
+        <source media="(min-width:768px)" srcset="<?php the_post_thumbnail_url('medium') ?>">
+        <img src="<?php the_post_thumbnail_url('thumbnail') ?>" alt="" />
       </picture>
 
     </div>
@@ -14,7 +15,7 @@
         <div class="blog-card__title">
            <a class="blog-card__title--fontstyle" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
         </div>
-        
+
       </div>
     </div>
 

@@ -2,6 +2,8 @@ import Search from './modules/searchFunction';
 import Mymenu from './modules/menuFunction';
 import headerMenu__style from './modules/scrollFunction.js';
 import Notes from './modules/notes';
+import Like from './modules/like';
+
 
 
 $(document).ready(function(){
@@ -13,6 +15,7 @@ $(document).ready(function(){
   headerMenu__style();
 
   const notes = new Notes();
+  const like = new Like();
 
 
 })

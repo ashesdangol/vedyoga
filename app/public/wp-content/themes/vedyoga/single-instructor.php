@@ -18,46 +18,61 @@
       );
      ?>
     <!-- the contents -->
-    <div class="element element__center element__marginTop--high">
+    <div class="element element__flex-center element__marginTop--high">
       <h2 class="header__title--one"><?php the_title() ?></h2>
-      <div class="likes">
-        <span class="like-box ">
+      <div class="likes element__flex-center">
+        <?php
+          $likeCount = new WP_Query(array(
+            'post_type' => 'like',
+            'meta_query' => array(
+              array(
+                'key'=>'liked_instructor_id',
+                'compare'=>'=',
+                'value'=>get_the_ID()
+              )
+            )
+          ));
+
+          $existStatus = 'no';
+          $existQuery = new WP_Query(array(
+            'author'=>get_current_user_id(),
+            'post_type' => 'like',
+            'meta_query' => array(
+              array(
+                'key'=>'liked_instructor_id',
+                'compare'=>'=',
+                'value'=>get_the_ID()
+              )
+            )
+          ));
+          if ($existQuery->found_posts) {
+            $existStatus = 'yes';
+          }
+
+
+        ?>
+        <span class="like-box" data-exists="<?php echo $existStatus; ?>">
           <i class="fa fa-heart-o" aria-hidden="true"></i>
           <i class="fa fa-heart" aria-hidden="true"></i>
-          <span class="like-count">3</span>
+          <span class="like-count"><?php echo $likeCount->found_posts; ?></span>
         </span>
       </div>
     </div>
 
-    <div class="single-blog-main-wrapper side-paddings columnLayout">
+    <div class="single-blog-main-wrapper side-paddings columnLayout instructor">
       <div class="blog-section columnLayout__medium-8">
-        <div class="blog-generic-contents">
+        <div class="blog-generic-contents instructor__inner-contents">
           <picture>
+              <source srcset="<?php the_post_thumbnail_url('full'); ?>" media="(min-width:1920px)" >
             <source srcset="<?php the_post_thumbnail_url('large'); ?>" media="(min-width:1028px)" >
             <source srcset="<?php the_post_thumbnail_url('medium_large'); ?>" media="(min-width:400px)" >
             <img src="<?php the_post_thumbnail_url('medium'); ?>" alt="">
           </picture>
-            <p> <?php the_field('main_body_content'); ?></p>
+          <p> <?php the_field('main_body_content'); ?></p>
 
         </div>
         <div class="blog__link blog__link-program">
-          <?php
-            $relatedPrograms = get_field('related_programs');
-
-            if ( $relatedPrograms) {
-              echo "<h2 class='heading__title header__title--one'>Instructed Program(s)</h2>";
-              echo "<ul>";
-              foreach ($relatedPrograms as $program) {
-          ?>
-          <li class="list__items"><a href="<?php echo get_the_permalink($program); ?>">
-            <?php echo get_the_title($program); ?></a>
-          </li>
-          <?php
-            }
-              echo "</ul>";
-            }
-           ?>
-
+          <?php get_template_part('partials/_program-card-part') ?>
         </div>
       </div>
       <div class="columnLayout__medium-4">

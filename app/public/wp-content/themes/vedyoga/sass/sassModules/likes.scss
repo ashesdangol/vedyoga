@@ -1,4 +1,6 @@
-
+.likes{
+  margin-left: 1.5rem;
+}
 .like-box{
   font-size: 1rem;
   background-color: #EDEDED;
@@ -7,7 +9,6 @@
   padding: 10px 10px 10px 25px;
   border-radius: 4px;
   cursor: pointer;
-  margin: 0 0 30px 30px;
   position: relative;
   &:hover{
       background-color: #DEDEDE;
