@@ -3034,3 +3034,95 @@ Stack trace:
 #7 {main}
   thrown in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\partials\_program-card-part.php on line 12
 [17-Jun-2020 02:15:35 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\partials\_program-card-part.php on line 36
+[17-Jun-2020 02:58:51 UTC] PHP Warning:  require(C:\Users\ashima\Local Sites\vedyoga\app\public/wp-content/themes/vedyoga/inc/search-like-route.php): failed to open stream: No such file or directory in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\functions.php on line 4
+[17-Jun-2020 02:58:51 UTC] PHP Stack trace:
+[17-Jun-2020 02:58:51 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[17-Jun-2020 02:58:51 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[17-Jun-2020 02:58:51 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:13
+[17-Jun-2020 02:58:51 UTC] PHP   4. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-load.php:37
+[17-Jun-2020 02:58:51 UTC] PHP   5. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-config.php:77
+[17-Jun-2020 02:58:51 UTC] PHP   6. include() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-settings.php:508
+[17-Jun-2020 02:58:51 UTC] PHP Fatal error:  require(): Failed opening required 'C:\Users\ashima\Local Sites\vedyoga\app\public/wp-content/themes/vedyoga/inc/search-like-route.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\functions.php on line 4
+[17-Jun-2020 02:58:51 UTC] PHP Stack trace:
+[17-Jun-2020 02:58:51 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[17-Jun-2020 02:58:51 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[17-Jun-2020 02:58:51 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:13
+[17-Jun-2020 02:58:51 UTC] PHP   4. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-load.php:37
+[17-Jun-2020 02:58:51 UTC] PHP   5. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-config.php:77
+[17-Jun-2020 02:58:51 UTC] PHP   6. include() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-settings.php:508
+[17-Jun-2020 02:59:31 UTC] PHP Warning:  require(C:\Users\ashima\Local Sites\vedyoga\app\public/wp-content/themes/vedyoga/inc/search-like-route.php): failed to open stream: No such file or directory in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\functions.php on line 4
+[17-Jun-2020 02:59:31 UTC] PHP Stack trace:
+[17-Jun-2020 02:59:31 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[17-Jun-2020 02:59:31 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[17-Jun-2020 02:59:31 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:13
+[17-Jun-2020 02:59:31 UTC] PHP   4. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-load.php:37
+[17-Jun-2020 02:59:31 UTC] PHP   5. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-config.php:77
+[17-Jun-2020 02:59:31 UTC] PHP   6. include() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-settings.php:508
+[17-Jun-2020 02:59:31 UTC] PHP Fatal error:  require(): Failed opening required 'C:\Users\ashima\Local Sites\vedyoga\app\public/wp-content/themes/vedyoga/inc/search-like-route.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\functions.php on line 4
+[17-Jun-2020 02:59:31 UTC] PHP Stack trace:
+[17-Jun-2020 02:59:31 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[17-Jun-2020 02:59:31 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[17-Jun-2020 02:59:31 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:13
+[17-Jun-2020 02:59:31 UTC] PHP   4. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-load.php:37
+[17-Jun-2020 02:59:31 UTC] PHP   5. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-config.php:77
+[17-Jun-2020 02:59:31 UTC] PHP   6. include() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-settings.php:508
+[17-Jun-2020 02:59:50 UTC] PHP Warning:  require(C:\Users\ashima\Local Sites\vedyoga\app\public/wp-content/themes/vedyoga/inc/search-like-route.php): failed to open stream: No such file or directory in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\functions.php on line 4
+[17-Jun-2020 02:59:50 UTC] PHP Stack trace:
+[17-Jun-2020 02:59:50 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[17-Jun-2020 02:59:50 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[17-Jun-2020 02:59:50 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:13
+[17-Jun-2020 02:59:50 UTC] PHP   4. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-load.php:37
+[17-Jun-2020 02:59:50 UTC] PHP   5. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-config.php:77
+[17-Jun-2020 02:59:50 UTC] PHP   6. include() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-settings.php:508
+[17-Jun-2020 02:59:50 UTC] PHP Fatal error:  require(): Failed opening required 'C:\Users\ashima\Local Sites\vedyoga\app\public/wp-content/themes/vedyoga/inc/search-like-route.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\functions.php on line 4
+[17-Jun-2020 02:59:50 UTC] PHP Stack trace:
+[17-Jun-2020 02:59:50 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[17-Jun-2020 02:59:50 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[17-Jun-2020 02:59:50 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:13
+[17-Jun-2020 02:59:50 UTC] PHP   4. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-load.php:37
+[17-Jun-2020 02:59:50 UTC] PHP   5. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-config.php:77
+[17-Jun-2020 02:59:50 UTC] PHP   6. include() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-settings.php:508
+[17-Jun-2020 03:00:57 UTC] PHP Warning:  require(C:\Users\ashima\Local Sites\vedyoga\app\public/wp-content/themes/vedyoga/inc/search-like-route.php): failed to open stream: No such file or directory in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\functions.php on line 4
+[17-Jun-2020 03:00:57 UTC] PHP Stack trace:
+[17-Jun-2020 03:00:57 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[17-Jun-2020 03:00:57 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[17-Jun-2020 03:00:57 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:13
+[17-Jun-2020 03:00:57 UTC] PHP   4. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-load.php:37
+[17-Jun-2020 03:00:57 UTC] PHP   5. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-config.php:77
+[17-Jun-2020 03:00:57 UTC] PHP   6. include() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-settings.php:508
+[17-Jun-2020 03:00:57 UTC] PHP Fatal error:  require(): Failed opening required 'C:\Users\ashima\Local Sites\vedyoga\app\public/wp-content/themes/vedyoga/inc/search-like-route.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\functions.php on line 4
+[17-Jun-2020 03:00:57 UTC] PHP Stack trace:
+[17-Jun-2020 03:00:57 UTC] PHP   1. {main}() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:0
+[17-Jun-2020 03:00:57 UTC] PHP   2. require() C:\Users\ashima\Local Sites\vedyoga\app\public\index.php:17
+[17-Jun-2020 03:00:57 UTC] PHP   3. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-blog-header.php:13
+[17-Jun-2020 03:00:57 UTC] PHP   4. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-load.php:37
+[17-Jun-2020 03:00:57 UTC] PHP   5. require_once() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-config.php:77
+[17-Jun-2020 03:00:57 UTC] PHP   6. include() C:\Users\ashima\Local Sites\vedyoga\app\public\wp-settings.php:508
+[17-Jun-2020 03:02:03 UTC] PHP Parse error:  syntax error, unexpected '{', expecting '(' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\like-route.php on line 5
+[17-Jun-2020 03:08:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_inset_post() in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\like-route.php:19
+Stack trace:
+#0 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\rest-api\class-wp-rest-server.php(1015): createLike(Object(WP_REST_Request))
+#1 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\rest-api\class-wp-rest-server.php(342): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\rest-api.php(312): WP_REST_Server->serve_request('/yoga/v1/manage...')
+#3 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\class-wp-hook.php(287): rest_api_loaded(Object(WP))
+#4 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\plugin.php(544): WP_Hook->do_action(Array)
+#6 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\class-wp.php(388): do_action_ in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\like-route.php on line 19
+[17-Jun-2020 03:08:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_inset_post() in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\like-route.php:19
+Stack trace:
+#0 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\rest-api\class-wp-rest-server.php(1015): createLike(Object(WP_REST_Request))
+#1 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\rest-api\class-wp-rest-server.php(342): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\rest-api.php(312): WP_REST_Server->serve_request('/yoga/v1/manage...')
+#3 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\class-wp-hook.php(287): rest_api_loaded(Object(WP))
+#4 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\plugin.php(544): WP_Hook->do_action(Array)
+#6 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\class-wp.php(388): do_action_ in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\like-route.php on line 19
+[17-Jun-2020 03:13:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_inset_post() in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\like-route.php:19
+Stack trace:
+#0 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\rest-api\class-wp-rest-server.php(1015): createLike(Object(WP_REST_Request))
+#1 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\rest-api\class-wp-rest-server.php(342): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\rest-api.php(312): WP_REST_Server->serve_request('/yoga/v1/manage...')
+#3 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\class-wp-hook.php(287): rest_api_loaded(Object(WP))
+#4 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\plugin.php(544): WP_Hook->do_action(Array)
+#6 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\class-wp.php(388): do_action_ in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\like-route.php on line 19
