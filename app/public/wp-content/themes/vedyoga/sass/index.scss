@@ -58,7 +58,7 @@
       }
     }
 }
-@media (min-width: 768px){
+@media (min-width: 900px){
   .single-post{
       .wp-block-image{
         figure{
@@ -126,20 +126,22 @@
       }
     }
 }
-@media (max-width: 767px) {
-  .single-post{
-      .wp-block-image{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        height: auto;
-        figure{
-          margin: 0;
-        }
-      }
-  }
-}
+// @media (max-width: 899px) {
+//   .single-post{
+//     border: 5px solid red;
+//       .wp-block-image{
+//         border: 5px solid blue;
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//         width: 100%;
+//         height: auto;
+//         figure{
+//           margin: 0;
+//         }
+//       }
+//   }
+// }
 
 @media (max-width: 1159px) {
   .blog-right-navigation{

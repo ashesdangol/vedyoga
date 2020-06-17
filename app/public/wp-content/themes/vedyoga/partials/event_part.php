@@ -10,8 +10,8 @@
       </div>
       <!-- the_post_thumbnail_url -->
       <picture class="blog-card__thumbnail">
-        <source media="(max-width:500px)" srcset="<?php the_post_thumbnail_url('thumbnail') ?>">
-        <img src="<?php the_post_thumbnail_url('medium') ?>" alt="" />
+        <source media="(max-width:500px)" srcset="<?php the_post_thumbnail_url('large') ?>">
+        <img src="<?php the_post_thumbnail_url('blog-card-img__Medium') ?>" alt="" />
       </picture>
 
     </div>

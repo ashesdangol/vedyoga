@@ -361,142 +361,29 @@
     font-size: 1rem !important; } }
 
 .blog-card {
-  margin: 10px 15px 20px 15px !important; }
-  .blog-card .blog-card__post-item .blog-card__date-thumbnail {
-    background: #455a5c; }
-    .blog-card .blog-card__post-item .blog-card__date-thumbnail .blog-card__date {
-      background: #74b9ff;
-      text-align: center;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+  border: 1px solid red; }
+  @media (min-width: 500px) {
+    .blog-card__post-item {
+      display: flex; } }
+  .blog-card__date-thumbnail {
+    position: relative; }
+    .blog-card__date-thumbnail .blog-card__date {
+      position: absolute;
       color: #fff;
-      height: 60px;
+      background: #74b9ff;
       font-size: 1rem;
-      font-weight: bold; }
-  .blog-card .blog-card__post-item .blog-card__details .blog-card__title-auth-contents .blog-card__title .blog-card__title--fontstyle {
-    font-family: 'Roboto', serif;
-    color: #42afc2; }
-  .blog-card .blog-card__post-item .blog-card__details .blog-card__title-auth-contents .blog-card__auth {
-    font-family: 'Roboto', serif;
-    color: #878787; }
-    .blog-card .blog-card__post-item .blog-card__details .blog-card__title-auth-contents .blog-card__auth a {
-      color: #cf2008;
-      font-weight: 400; }
-      .blog-card .blog-card__post-item .blog-card__details .blog-card__title-auth-contents .blog-card__auth a:hover, .blog-card .blog-card__post-item .blog-card__details .blog-card__title-auth-contents .blog-card__auth a:active {
-        color: #cf2008; }
-  .blog-card .blog-card__post-item .blog-card__details .blog-card__title-auth-contents .blog-card__contents {
-    color: #888888; }
-    .blog-card .blog-card__post-item .blog-card__details .blog-card__title-auth-contents .blog-card__contents a:hover i {
-      margin-left: 10px;
-      transition: 0.1s linear; }
-    .blog-card .blog-card__post-item .blog-card__details .blog-card__title-auth-contents .blog-card__contents a i {
-      margin-left: 5px;
-      transition: 0.1s linear; }
-
-/* (1024x768) iPad 1 & 2, Landscape */
-@media (max-width: 767px) {
-  .blog-card .blog-card__post-item {
-    display: flex; }
-    .blog-card .blog-card__post-item .blog-card__date-thumbnail {
-      width: 100px;
-      height: 150px;
-      overflow: hidden;
-      z-index: 1; }
-      .blog-card .blog-card__post-item .blog-card__date-thumbnail .blog-card__date {
-        width: 100%;
-        height: 30px; }
-      .blog-card .blog-card__post-item .blog-card__date-thumbnail .blog-card__thumbnail {
-        width: 100%;
-        height: 100%; }
-        .blog-card .blog-card__post-item .blog-card__date-thumbnail .blog-card__thumbnail img {
-          width: 100%;
-          height: 100%;
-          max-width: 100%;
-          max-height: 100%;
-          object-fit: cover;
-          object-position: center; }
-    .blog-card .blog-card__post-item .blog-card__details {
-      flex: 1; }
-      .blog-card .blog-card__post-item .blog-card__details .blog-card__title-auth-contents {
-        padding-left: 15px; }
-        .blog-card .blog-card__post-item .blog-card__details .blog-card__title-auth-contents .blog-card__title {
-          font-size: 0.9rem;
-          font-weight: bold; }
-        .blog-card .blog-card__post-item .blog-card__details .blog-card__title-auth-contents .blog-card__auth {
-          font-size: 0.7rem;
-          margin-bottom: 10px; }
-        .blog-card .blog-card__post-item .blog-card__details .blog-card__title-auth-contents .blog-card__contents {
-          font-size: 0.8rem; } }
-
-@media (min-width: 768px) and (max-width: 1024px) {
-  .blog-card {
-    width: 50%; }
-    .blog-card .blog-card__post-item {
-      display: flex; }
-      .blog-card .blog-card__post-item .blog-card__date-thumbnail {
-        width: 100px;
-        height: 150px;
-        overflow: hidden;
-        z-index: 1; }
-        .blog-card .blog-card__post-item .blog-card__date-thumbnail .blog-card__date {
-          width: 100%;
-          height: 30px; }
-        .blog-card .blog-card__post-item .blog-card__date-thumbnail .blog-card__thumbnail {
-          width: 100%;
-          height: 100%; }
-          .blog-card .blog-card__post-item .blog-card__date-thumbnail .blog-card__thumbnail img {
-            width: 100%;
-            height: 100%;
-            max-width: 100%;
-            max-height: 100%;
-            object-fit: cover;
-            object-position: center; }
-      .blog-card .blog-card__post-item .blog-card__details {
-        flex: 1; }
-        .blog-card .blog-card__post-item .blog-card__details .blog-card__title-auth-contents {
-          padding-left: 15px; }
-          .blog-card .blog-card__post-item .blog-card__details .blog-card__title-auth-contents .blog-card__title {
-            font-size: 0.9rem;
-            font-weight: bold; }
-          .blog-card .blog-card__post-item .blog-card__details .blog-card__title-auth-contents .blog-card__auth {
-            font-size: 0.7rem;
-            margin-bottom: 10px; }
-          .blog-card .blog-card__post-item .blog-card__details .blog-card__title-auth-contents .blog-card__contents {
-            font-size: 0.8rem; } }
-
-@media (min-width: 1025px) {
-  .blog-card {
-    width: 50%; }
-    .blog-card .blog-card__post-item {
-      display: flex; }
-      .blog-card .blog-card__post-item .blog-card__date-thumbnail {
-        width: 100px;
-        height: 150px;
-        overflow: hidden;
-        z-index: 1; }
-        .blog-card .blog-card__post-item .blog-card__date-thumbnail .blog-card__date {
-          width: 100%;
-          height: 30px; }
-        .blog-card .blog-card__post-item .blog-card__date-thumbnail .blog-card__thumbnail {
-          width: 100%;
-          height: 100%; }
-          .blog-card .blog-card__post-item .blog-card__date-thumbnail .blog-card__thumbnail img {
-            width: 100%;
-            height: 100%;
-            max-width: 100%;
-            max-height: 100%;
-            object-fit: cover;
-            object-position: center; }
-      .blog-card .blog-card__post-item .blog-card__details {
-        flex: 1; }
-        .blog-card .blog-card__post-item .blog-card__details .blog-card__title-auth-contents {
-          padding-left: 15px; }
-          .blog-card .blog-card__post-item .blog-card__details .blog-card__title-auth-contents .blog-card__title {
-            font-size: 0.9rem;
-            font-weight: bold; }
-          .blog-card .blog-card__post-item .blog-card__details .blog-card__title-auth-contents .blog-card__auth {
-            font-size: 0.7rem;
-            margin-bottom: 10px; }
-          .blog-card .blog-card__post-item .blog-card__details .blog-card__title-auth-contents .blog-card__contents {
-            font-size: 0.8rem; } }
+      font-weight: bold;
+      text-align: center;
+      padding: 5px; }
+    .blog-card__date-thumbnail .blog-card__thumbnail {
+      display: inline-block;
+      border: 5px solid red;
+      width: 100%;
+      min-height: 200px;
+      max-height: 300px;
+      overflow: hidden; }
+    .blog-card__date-thumbnail .blog-card__image {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      object-position: center; }

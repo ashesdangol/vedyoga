@@ -9,7 +9,7 @@
       <?php
         pageBanner();
        ?>
-      <div class="page-section metabox--relative side-paddings--double">
+      <div class="page-section metabox--relative side-paddings">
         <?php
         // $theParent returns id number of a parent page from current page which is a child page
         //if current page does not have parent page or is not a child page, will return 0
@@ -56,7 +56,7 @@
         </div>
       </div>
       <div class="page-section page-section--beige">
-        <div class="side-paddings--double generic-content">
+        <div class="side-paddings generic-content">
           <?php the_content(); ?>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia voluptates vero vel temporibus aliquid possimus, facere accusamus modi. Fugit saepe et autem, laboriosam earum reprehenderit illum odit nobis, consectetur dicta. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos molestiae, tempora alias atque vero officiis sit commodi ipsa vitae impedit odio repellendus doloremque quibusdam quo, ea veniam, ad quod sed.</p>
 

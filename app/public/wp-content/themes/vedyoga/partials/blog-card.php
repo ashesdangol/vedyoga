@@ -2,16 +2,17 @@
   <div class="blog-card__post-item">
     <div class="blog-card__date-thumbnail">
       <div class="blog-card__date">
-      <?php the_time('d') ?> <?php the_time('M'); ?>
+        <?php the_time('d') ?> <?php the_time('M'); ?>
       </div>
 
       <picture class="blog-card__thumbnail">
-        <source media="(max-width:500px)" srcset="<?php the_post_thumbnail_url('blog-card-img__Small') ?>">
-        <img src="<?php the_post_thumbnail_url('blog-card-img__Medium') ?>" alt="" />
+        <source class="blog-card__image" media="(min-width:1020px)" srcset="<?php the_post_thumbnail_url('featuredImage__portrait--xl'); ?>" alt="Blog post">
+        <source class="blog-card__image" media="(min-width:500px)" srcset="<?php the_post_thumbnail_url('featuredImage__portrait'); ?>" alt="Blog post">
+        <img class="blog-card__image" src="<?php the_post_thumbnail_url('featuredImage__landscape'); ?>" alt="Blog post image" />
       </picture>
 
     </div>
-    <div class="blog-card__details">
+    <div class="blog-card__details card__details">
       <div class="blog-card__title-auth-contents">
         <div class="blog-card__title">
            <a class="blog-card__title--fontstyle" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
@@ -36,6 +37,5 @@
         <?php echo get_the_category_list(' , '); ?>
       </div> -->
     </div>
-
   </div>
 </div>

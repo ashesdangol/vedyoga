@@ -386,12 +386,3 @@
     margin: 10px auto; }
   .category-list-wrapper h2 {
     color: #455a5c; }
-
-@media (max-width: 1160px) {
-  .category-list-wrapper {
-    display: flex;
-    flex-direction: column; }
-    .category-list-wrapper .category-list-items > li ul.children {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: flex-start; } }

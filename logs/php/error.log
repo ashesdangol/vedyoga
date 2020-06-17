@@ -3126,3 +3126,12 @@ Stack trace:
 #4 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
 #5 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\plugin.php(544): WP_Hook->do_action(Array)
 #6 C:\Users\ashima\Local Sites\vedyoga\app\public\wp-includes\class-wp.php(388): do_action_ in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\inc\like-route.php on line 19
+[17-Jun-2020 13:41:23 UTC] PHP Parse error:  syntax error, unexpected '150' (T_LNUMBER) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\partials\blog-card.php on line 10
+[17-Jun-2020 13:41:29 UTC] PHP Parse error:  syntax error, unexpected '150' (T_LNUMBER) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\partials\blog-card.php on line 10
+[17-Jun-2020 13:46:21 UTC] PHP Parse error:  syntax error, unexpected ',' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\partials\blog-card.php on line 10
+[17-Jun-2020 13:51:24 UTC] PHP Parse error:  syntax error, unexpected '150' (T_LNUMBER) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\partials\blog-card.php on line 10
+[17-Jun-2020 13:54:38 UTC] PHP Parse error:  syntax error, unexpected '200' (T_LNUMBER), expecting ')' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\partials\blog-card.php on line 9
+[17-Jun-2020 14:03:28 UTC] PHP Parse error:  syntax error, unexpected ',' in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\partials\blog-card.php on line 9
+[17-Jun-2020 15:23:23 UTC] PHP Parse error:  syntax error, unexpected 'add_image_size' (T_STRING) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\functions.php on line 89
+[17-Jun-2020 15:23:23 UTC] PHP Parse error:  syntax error, unexpected 'add_image_size' (T_STRING) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\functions.php on line 89
+[17-Jun-2020 15:23:23 UTC] PHP Parse error:  syntax error, unexpected 'add_image_size' (T_STRING) in C:\Users\ashima\Local Sites\vedyoga\app\public\wp-content\themes\vedyoga\functions.php on line 89

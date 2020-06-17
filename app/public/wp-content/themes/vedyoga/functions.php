@@ -77,8 +77,15 @@ require get_theme_file_path('/inc/like-route.php');
   function my_features(){
     add_theme_support('title-tag');
     add_theme_support('post-thumbnails');
-    add_image_size('blog-card-img__Small',100,150,true);
-    add_image_size('blog-card-img__Medium',200,200,true);
+    // mobile
+    add_image_size('featuredImage__landscape',400,200,true);
+    // small 500+
+    add_image_size('featuredImage__portrait',170,300,true);
+      // 1020
+    add_image_size('featuredImage__portrait--xl',200,300,true);
+
+    // add_image_size('blog-card-img__Small',300,150,true);
+    // add_image_size('blog-card-img__Medium',200,200,true);
     add_image_size('pageBanner', 1500, 400, true);
   };
   add_action('after_setup_theme', 'my_features');
