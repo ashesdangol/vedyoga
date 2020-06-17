@@ -5,7 +5,7 @@
 ?>
 <section class="video-banner__wrapper">
   <div class="video-banner__bg">
-    <video autoplay="" loop="" muted="" poster="<?php echo get_theme_file_uri('/img/9.png'); ?>">
+    <video playsinline autoplay="" loop="" muted="" poster="<?php echo get_theme_file_uri('/img/poster/poster__medium.jpg'); ?>">
       <source src="<?php echo $mp4; ?>" type="video/mp4">
       <source src="<?php echo $webm; ?>" type="video/webm">
     </video>

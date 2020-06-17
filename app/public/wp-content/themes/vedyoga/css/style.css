@@ -1217,12 +1217,33 @@
 .nav-padding {
   padding: 0 15px; }
 
+.logo {
+  height: 80px;
+  overflow: hidden;
+  transition: all 0.2s linear; }
+  .logo__img {
+    width: 150px;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+    margin-top: -1.5rem; }
+  @media (min-width: 1028px) {
+    .logo {
+      overflow: visible; }
+      .logo__img {
+        background: rgba(255, 255, 255, 0.5); } }
+
 #main__header {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 999; }
+  #main__header.main__header--style .logo {
+    overflow: hidden;
+    transition: all 0.2s linear; }
+    #main__header.main__header--style .logo .logo__img {
+      background: transparent; }
 
 .nav-main-wrapper {
   display: flex;
@@ -1232,13 +1253,6 @@
   .nav-main-wrapper .nav-brand-wrapper .brand-link {
     display: flex;
     align-items: center; }
-    .nav-main-wrapper .nav-brand-wrapper .brand-link .brand-img {
-      width: 100%;
-      height: auto;
-      min-height: 60px;
-      max-height: 80px;
-      object-fit: cover;
-      object-position: center; }
   .nav-main-wrapper .nav-items-wrapper .nav-items {
     display: flex;
     flex-wrap: wrap;
@@ -1253,7 +1267,7 @@
         font-weight: 500;
         transition: all 0.5s ease; }
 
-@media (min-width: 769px) {
+@media (min-width: 1028px) {
   /* HOVER EFFECT - Overline From Left */
   .hvr-overline-from-left, #main__header .nav-item {
     display: inline-block;
@@ -1297,7 +1311,7 @@
     .nav-main-wrapper .nav-items-wrapper .nav-item .nav-link {
       font-size: 1.1rem; } }
 
-@media (max-width: 768px) {
+@media (max-width: 1027px) {
   .body-no-scroll__mobile {
     overflow: hidden;
     position: relative;

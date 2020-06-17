@@ -13,7 +13,10 @@
           <div class="nav-main-wrapper side-paddings on-scroll-nav--change">
             <div class="nav-brand-wrapper">
               <a href="<?php echo site_url(); ?>" class="brand-link">
-                <img src="<?php echo get_theme_file_uri('img/vedLogo.png') ?>" class="brand-img" alt="logo">
+                <picture class="logo">
+                  <img class="logo__img" src="<?php echo get_theme_file_uri('img/meditation_logo.png') ?>"  alt="logo">
+                </picture>
+
               </a>
               <button class="mobile-nav-btn btn-reset">
                 <span class="icon-bar"></span>

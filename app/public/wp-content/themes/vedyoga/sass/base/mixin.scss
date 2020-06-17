@@ -3,6 +3,7 @@
     @content;
   }
 }
+
 @mixin atMedium {
   @media(min-width: 800px){
     @content;
