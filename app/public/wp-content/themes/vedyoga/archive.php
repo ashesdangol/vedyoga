@@ -13,8 +13,8 @@
     ));
    ?>
 
-  <div class="blog-main-wrapper side-paddings">
-    <div class="blog-section">
+  <div class="blog-main-wrapper layoutType margin-top--all">
+    <div class="blog-section  layoutType--col-8 yesPadding--small">
       <?php
         while (have_posts()) {
           the_post();
@@ -31,16 +31,9 @@
       <!-- end of pagination -->
     </div>
     <!-- en d of blof section -->
-    <div class="blog-right-navigation side-paddings">
+    <div class="layoutType--col-4 yesPadding--med-lg margin-top--Med_Large--DownXL">
      <div class="blog-right-navigation--wrapper">
-        <?php get_template_part('partials/blog-search-category_part'); ?>
-       <div class="blog-right-navigation-popular-article">
-         <div class="blog-articlebox blog-boxes">
-           <p>popular articles</p>
-         </div>
-
-       </div>
-
+       <?php get_template_part('partials/blog-search-category_part') ?>
      </div>
     </div>
   </div>

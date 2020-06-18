@@ -2,8 +2,9 @@
   <div class="blog-card__post-item">
     <div class="blog-card__date-thumbnail">
       <picture class="blog-card__thumbnail">
-        <source media="(max-width:500px)" srcset="<?php the_post_thumbnail_url('blog-card-img__Small') ?>">
-        <img src="<?php the_post_thumbnail_url('blog-card-img__Medium') ?>" alt="" />
+        <source class="blog-card__image" media="(min-width:1020px)" srcset="<?php the_post_thumbnail_url('featuredImage__portrait--xl'); ?>" alt="Meditation Group Available Programs">
+        <source class="blog-card__image" media="(min-width:500px)" srcset="<?php the_post_thumbnail_url('featuredImage__portrait'); ?>" alt="Meditation Group Available Programs">
+        <img class="blog-card__image" src="<?php the_post_thumbnail_url('featuredImage__landscape'); ?>" alt="Meditation Group Available Programs" />
       </picture>
 
     </div>

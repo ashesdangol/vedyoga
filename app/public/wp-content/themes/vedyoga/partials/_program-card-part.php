@@ -13,8 +13,12 @@
     <div class="blog-card__post-item">
       <div class="blog-card__date-thumbnail">
         <picture class="blog-card__thumbnail">
-          <source media="(max-width:500px)" srcset="<?php echo get_the_post_thumbnail_url($program, 'blog-card-img__Small') ?>">
-          <img src="<?php echo get_the_post_thumbnail_url($program, 'blog-card-img__Medium') ?>" alt="" />
+          <source class="blog-card__image" media="(min-width:1020px)" srcset="<?php echo get_the_post_thumbnail_url($program, 'featuredImage__portrait--xl'); ?>" alt="Meditation Group Available Programs">
+          <source class="blog-card__image" media="(min-width:500px)" srcset="<?php echo get_the_post_thumbnail_url($program, 'featuredImage__portrait'); ?>" alt="Meditation Group Available Programs">
+          <img class="blog-card__image" src="<?php echo get_the_post_thumbnail_url($program, 'featuredImage__landscape'); ?>" alt="Meditation Group Available Programs" />
+
+          <!-- <source media="(max-width:500px)" srcset="<?php echo get_the_post_thumbnail_url($program, 'blog-card-img__Small') ?>">
+          <img src="<?php echo get_the_post_thumbnail_url($program, 'blog-card-img__Medium') ?>" alt="" /> -->
         </picture>
 
       </div>

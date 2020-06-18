@@ -4,9 +4,9 @@
 
       <!-- the_post_thumbnail_url -->
       <picture class="blog-card__thumbnail">
-          <source media="(min-width:1024px)" srcset="<?php the_post_thumbnail_url('full') ?>">
-        <source media="(min-width:768px)" srcset="<?php the_post_thumbnail_url('medium') ?>">
-        <img src="<?php the_post_thumbnail_url('thumbnail') ?>" alt="" />
+        <source class="blog-card__image" media="(min-width:1020px)" srcset="<?php the_post_thumbnail_url('featuredImage__portrait--xl'); ?>" alt="Meditation Group Blog post">
+        <source class="blog-card__image" media="(min-width:500px)" srcset="<?php the_post_thumbnail_url('featuredImage__portrait'); ?>" alt="Meditation Group Blog post">
+        <img class="blog-card__image" src="<?php the_post_thumbnail_url('featuredImage__landscape'); ?>" alt="Meditation Group Blog post" />
       </picture>
 
     </div>

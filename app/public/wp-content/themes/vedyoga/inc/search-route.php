@@ -39,8 +39,8 @@ function registerSearchResults($data){
         'subtitle' => get_field('page_banner_subtitle'),
         'authorName' =>get_the_author(),
         'authorLink' => get_the_author_posts_link(),
-        'postFeaturedImage__Med'=>get_the_post_thumbnail_url(0,'blog-card-img__Medium'),
-        'postFeaturedImage__Sm'=>get_the_post_thumbnail_url(0,'blog-card-img__Small'),
+        'postFeaturedImage__Med'=>get_the_post_thumbnail_url(0,'featuredImage__portrait--xl'),
+        'postFeaturedImage__Sm'=>get_the_post_thumbnail_url(0,'featuredImage__portrait'),
         'excerpt'=>get_the_excerpt(),
         'trimWords'=> wp_trim_words(get_the_content(), 2),
         'pageWords'=>  wp_trim_words(get_the_content(), 10),
@@ -57,8 +57,8 @@ function registerSearchResults($data){
         'subtitle' => get_field('page_banner_subtitle'),
         'authorName' =>get_the_author(),
         'authorLink' => get_the_author_posts_link(),
-        'postFeaturedImage__Med'=>get_the_post_thumbnail_url(0,'blog-card-img__Medium'),
-        'postFeaturedImage__Sm'=>get_the_post_thumbnail_url(0,'blog-card-img__Small'),
+        'postFeaturedImage__Med'=>get_the_post_thumbnail_url(0,'featuredImage__portrait--xl'),
+        'postFeaturedImage__Sm'=>get_the_post_thumbnail_url(0,'featuredImage__portrait'),
         'excerpt'=>get_the_excerpt(),
         'trimWords'=> wp_trim_words(get_the_content(), 2),
         'pageWords'=>  wp_trim_words(get_the_content(), 10),
@@ -71,8 +71,8 @@ function registerSearchResults($data){
         'title' => get_the_title(),
         'permalink' => get_the_permalink(),
         'postType' => get_post_type(),
-        'postFeaturedImage__Med'=>get_the_post_thumbnail_url(0,'medium'),
-        'postFeaturedImage__Sm'=>get_the_post_thumbnail_url(0,'thumbnail'),
+        'postFeaturedImage__Med'=>get_the_post_thumbnail_url(0,'featuredImage__portrait--xl'),
+        'postFeaturedImage__Sm'=>get_the_post_thumbnail_url(0,'featuredImage__portrait'),
       ));
     }
     if(get_post_type() == 'event'){
@@ -89,8 +89,8 @@ function registerSearchResults($data){
         'permalink' => get_the_permalink(),
         'postType' => get_post_type(),
         'authorLink' => get_the_author_posts_link(),
-        'postFeaturedImage__Med'=>get_the_post_thumbnail_url(0,'medium'),
-        'postFeaturedImage__Sm'=>get_the_post_thumbnail_url(0,'thumbnail'),
+        'postFeaturedImage__Med'=>get_the_post_thumbnail_url(0,'featuredImage__portrait--xl'),
+        'postFeaturedImage__Sm'=>get_the_post_thumbnail_url(0,'featuredImage__portrait'),
         // 'excerpt'=>get_the_excerpt(),
         'trimWords'=>$excerpt,
         'month'=>$eventDate->format('M'),
@@ -105,8 +105,8 @@ function registerSearchResults($data){
         'subtitle' => get_field('page_banner_subtitle'),
         'authorName' =>get_the_author(),
         'authorLink' => get_the_author_posts_link(),
-        'postFeaturedImage__Med'=>get_the_post_thumbnail_url(0,'blog-card-img__Medium'),
-        'postFeaturedImage__Sm'=>get_the_post_thumbnail_url(0,'blog-card-img__Small'),
+        'postFeaturedImage__Med'=>get_the_post_thumbnail_url(0,'featuredImage__portrait--xl'),
+        'postFeaturedImage__Sm'=>get_the_post_thumbnail_url(0,'featuredImage__portrait'),
         'excerpt'=>get_the_excerpt(),
         'trimWords'=> wp_trim_words(get_the_content(), 2),
         'pageWords'=>  wp_trim_words(get_the_content(), 10)
@@ -120,8 +120,8 @@ function registerSearchResults($data){
         'subtitle' => get_field('page_banner_subtitle'),
         'authorName' =>get_the_author(),
         'authorLink' => get_the_author_posts_link(),
-        'postFeaturedImage__Med'=>get_the_post_thumbnail_url(0,'blog-card-img__Medium'),
-        'postFeaturedImage__Sm'=>get_the_post_thumbnail_url(0,'blog-card-img__Small'),
+        'postFeaturedImage__Med'=>get_the_post_thumbnail_url(0,'featuredImage__portrait--xl'),
+        'postFeaturedImage__Sm'=>get_the_post_thumbnail_url(0,'featuredImage__portrait'),
         'excerpt'=>get_the_excerpt(),
         'trimWords'=> wp_trim_words(get_the_content(), 2),
         'pageWords'=>  wp_trim_words(get_the_content(), 10)
@@ -158,8 +158,8 @@ function registerSearchResults($data){
           'permalink' => get_the_permalink(),
           'postType' => get_post_type(),
           'authorLink' => get_the_author_posts_link(),
-          'postFeaturedImage__Med'=>get_the_post_thumbnail_url(0,'medium'),
-          'postFeaturedImage__Sm'=>get_the_post_thumbnail_url(0,'thumbnail'),
+          'postFeaturedImage__Med'=>get_the_post_thumbnail_url(0,'featuredImage__portrait--xl'),
+          'postFeaturedImage__Sm'=>get_the_post_thumbnail_url(0,'featuredImage__portrait'),
           'trimWords'=>$excerpt,
           'month'=>$eventDate->format('M'),
           'eventDate' => $eventDate->format('d M Y')
@@ -170,8 +170,8 @@ function registerSearchResults($data){
           'title' => get_the_title(),
           'permalink' => get_the_permalink(),
           'postType' => get_post_type(),
-          'postFeaturedImage__Med'=>get_the_post_thumbnail_url(0,'medium'),
-          'postFeaturedImage__Sm'=>get_the_post_thumbnail_url(0,'thumbnail'),
+          'postFeaturedImage__Med'=>get_the_post_thumbnail_url(0,'featuredImage__portrait--xl'),
+          'postFeaturedImage__Sm'=>get_the_post_thumbnail_url(0,'featuredImage__portrait'),
         ));
       }
     }

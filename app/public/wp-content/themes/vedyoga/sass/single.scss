@@ -1,68 +1,68 @@
-@import "page";
-@import "assets";
-.single-blog-main-wrapper{
-  display: flex;
-  flex-wrap: wrap;
-  .blog-section{
-    display: flex;
-    flex-wrap: wrap;
-    .blog-section{
-      display: flex;
-      flex-wrap: wrap;
-    }
-
-  }
-}
-
-.blog-category-type{
-  p{
-    color: $text--color;
-    font-weight: bold;
-    a{
-      color: $text--color;
-      font-weight: normal;
-      padding: 0px 8px;
-      background: $light-blue-bg;
-
-      border-radius: 10px;
-
-
-      &:hover{
-        color: $reddish--color;
-      }
-    }
-  }
-}
-/* (1024x768) iPad 1 & 2, Landscape */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape){
-
-}
-@media (min-width: 769px){
-
-}
-@media (min-width: 1160px) {
-  .single-post{
-    .single-blog-main-wrapper{
-      .blog-section{
-        width: 70%;
-      }
-      .blog-right-navigation{
-        width: 30%;
-      }
-    }
-  }
-}
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: portrait) {
-}
-@media (max-width: 768px) {
-  .single-post{
-    .single-blog-main-wrapper{
-      .blog-section{
-        width: 100%;
-      }
-      .blog-right-navigation{
-        width: 100%;
-      }
-    }
-  }
-}
+// @import "page";
+// @import "assets";
+// .single-blog-main-wrapper{
+//   display: flex;
+//   flex-wrap: wrap;
+//   .blog-section{
+//     display: flex;
+//     flex-wrap: wrap;
+//     .blog-section{
+//       display: flex;
+//       flex-wrap: wrap;
+//     }
+//
+//   }
+// }
+//
+// .blog-category-type{
+//   p{
+//     color: $text--color;
+//     font-weight: bold;
+//     a{
+//       color: $text--color;
+//       font-weight: normal;
+//       padding: 0px 8px;
+//       background: $light-blue-bg;
+//
+//       border-radius: 10px;
+//
+//
+//       &:hover{
+//         color: $reddish--color;
+//       }
+//     }
+//   }
+// }
+// /* (1024x768) iPad 1 & 2, Landscape */
+// @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape){
+//
+// }
+// @media (min-width: 769px){
+//
+// }
+// @media (min-width: 1160px) {
+//   .single-post{
+//     .single-blog-main-wrapper{
+//       .blog-section{
+//         width: 70%;
+//       }
+//       .blog-right-navigation{
+//         width: 30%;
+//       }
+//     }
+//   }
+// }
+// @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: portrait) {
+// }
+// @media (max-width: 768px) {
+//   .single-post{
+//     .single-blog-main-wrapper{
+//       .blog-section{
+//         width: 100%;
+//       }
+//       .blog-right-navigation{
+//         width: 100%;
+//       }
+//     }
+//   }
+// }

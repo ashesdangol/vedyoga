@@ -62,11 +62,11 @@
       </div>
     </div>
 
-    <div class="single-blog-main-wrapper side-paddings columnLayout instructor">
-      <div class="blog-section columnLayout__medium-8">
+    <div class="single-blog-main-wrapper layoutType instructor">
+      <div class="section metabox--relative layoutType--col-8 yesPadding--all">
         <div class="blog-generic-contents instructor__inner-contents">
           <picture>
-              <source srcset="<?php the_post_thumbnail_url('full'); ?>" media="(min-width:1920px)" >
+            <source srcset="<?php the_post_thumbnail_url('full'); ?>" media="(min-width:1920px)" >
             <source srcset="<?php the_post_thumbnail_url('large'); ?>" media="(min-width:1028px)" >
             <source srcset="<?php the_post_thumbnail_url('medium_large'); ?>" media="(min-width:400px)" >
             <img src="<?php the_post_thumbnail_url('medium'); ?>" alt="">
@@ -78,15 +78,10 @@
           <?php get_template_part('partials/_program-card-part') ?>
         </div>
       </div>
-      <div class="columnLayout__medium-4">
+      <div class="layoutType--col-4 yesPadding--med-lg margin-top--all">
         <div class="blog-right-navigation--wrapper">
-         <?php get_template_part('partials/blog-search-category_part'); ?>
-         <div class="blog-right-navigation-popular-article">
-           <div class="blog-articlebox blog-boxes">
-             <p>popular articles</p>
-           </div>
-
-         </div>
+          <?php get_template_part('partials/blog-search-category_part') ?>
+        </div>
        </div>
       </div>
     </div>

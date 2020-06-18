@@ -10,8 +10,9 @@
       </div>
       <!-- the_post_thumbnail_url -->
       <picture class="blog-card__thumbnail">
-        <source media="(max-width:500px)" srcset="<?php the_post_thumbnail_url('large') ?>">
-        <img src="<?php the_post_thumbnail_url('blog-card-img__Medium') ?>" alt="" />
+        <source class="blog-card__image" media="(min-width:1020px)" srcset="<?php the_post_thumbnail_url('featuredImage__portrait--xl'); ?>" alt="Meditation Group Upcoming Events">
+        <source class="blog-card__image" media="(min-width:500px)" srcset="<?php the_post_thumbnail_url('featuredImage__portrait'); ?>" alt="Meditation Group Upcoming Events">
+        <img class="blog-card__image" src="<?php the_post_thumbnail_url('featuredImage__landscape'); ?>" alt="Meditation Group Upcoming Events" />
       </picture>
 
     </div>

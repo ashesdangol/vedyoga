@@ -17,8 +17,8 @@
       ));
      ?>
     <!-- the contents -->
-    <div class="single-blog-main-wrapper side-paddings">
-      <div class="blog-section metabox--relative">
+    <div class="single-blog-main-wrapper layoutType">
+      <div class="blog-section metabox--relative layoutType--col-8 yesPadding--all">
         <div class="metabox metabox--position-up metabox--with-home-link">
           <p><a class="metabox__blog-home-link" href="<?php echo get_post_type_archive_link('event'); ?>"><i class="fa fa-home" aria-hidden="true"></i> Events Home</a>
             <span class="metabox__main"><?php the_title(); ?></span>
@@ -35,15 +35,9 @@
           <?php get_template_part('partials/_program-card-part') ?>
         </div>
       </div>
-      <div class="blog-right-navigation side-paddings">
+      <div class="layoutType--col-4 yesPadding--med-lg margin-top--all">
        <div class="blog-right-navigation--wrapper">
-         <?php get_template_part('partials/blog-search-category_part'); ?>
-         <div class="blog-right-navigation-popular-article">
-           <div class="blog-articlebox blog-boxes">
-             <p>popular articles</p>
-           </div>
-
-         </div>
+         <?php get_template_part('partials/blog-search-category_part') ?>
        </div>
       </div>
     </div>

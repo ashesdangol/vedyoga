@@ -1,17 +1,25 @@
+@import "base/mixin";
 $text--color: #888888;
 .blog-searchbox{
+  @include atMed_Large--Down{
+    display: flex;
+    justify-content: flex-end;
+  };
   .search-box__wrapper{
     &.glossy__wrapper{
       border-radius: 0;
       width: 100%;
+      background: #2FB7EC ;
+      @include atMed_Large--Down{
+        width: 50%;
+      };
+      .btn-to-anchor{
+        color: #fff;
+      }
       &:hover{
         box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
-        background: #2FB7EC ;
+        background: #2FB7EC*1.1;
         transition: all 0.3s ease;
-        .btn-to-anchor{
-          color: #fff;
-        }
-
       }
     }
   }
