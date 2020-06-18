@@ -6,9 +6,9 @@
       </div>
 
       <picture class="blog-card__thumbnail">
-        <source class="blog-card__image" media="(min-width:1020px)" srcset="<?php the_post_thumbnail_url('featuredImage__portrait--xl'); ?>" alt="Blog post">
-        <source class="blog-card__image" media="(min-width:500px)" srcset="<?php the_post_thumbnail_url('featuredImage__portrait'); ?>" alt="Blog post">
-        <img class="blog-card__image" src="<?php the_post_thumbnail_url('featuredImage__landscape'); ?>" alt="Blog post image" />
+        <source class="blog-card__image" media="(min-width:1020px)" srcset="<?php the_post_thumbnail_url('featuredImage__portrait--xl'); ?>" alt="Meditation Group Blog post">
+        <source class="blog-card__image" media="(min-width:500px)" srcset="<?php the_post_thumbnail_url('featuredImage__portrait'); ?>" alt="Meditation Group Blog post">
+        <img class="blog-card__image" src="<?php the_post_thumbnail_url('featuredImage__landscape'); ?>" alt="Meditation Group Blog post" />
       </picture>
 
     </div>
@@ -29,13 +29,9 @@
             }
 
            ?>
-          <p> <a class="conti-read--color" href="<?php the_permalink(); ?>">Continue reading <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a> </p>
+          <p> <a class="conti-read--color arrow__pointForward" href="<?php the_permalink(); ?>">Continue reading <i class="fa fa-long-arrow-right arrow__pointForward--hoverThis" aria-hidden="true"></i></a> </p>
         </div>
       </div>
-      <!-- <div class="blog-category metabox">
-        <p>Category:</p>
-        <?php echo get_the_category_list(' , '); ?>
-      </div> -->
     </div>
   </div>
 </div>

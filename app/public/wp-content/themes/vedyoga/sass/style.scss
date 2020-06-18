@@ -1,5 +1,6 @@
 @import "base/global";
 @import "column-layout";
+@import "sassModules/colors";
 @import "search-overlay";
 @import "search-box";
 @import "generic-col";
@@ -23,3 +24,4 @@
 @import "sassModules/wrapper";
 @import "sassModules/likes";
 @import "instructor";
+@import "sassModules/animator";

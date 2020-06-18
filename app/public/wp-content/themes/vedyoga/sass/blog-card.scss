@@ -2,59 +2,104 @@
 @import "assets";
 
 .blog-card{
-  border: 1px solid red;
   @include atSmall{
-    &__post-item{
-      display: flex;
-      .blog-card__date{
-
-      }
+    margin-bottom: 1.25rem;
+  }
+  &__post-item{
+    display: flex;
+    flex-direction: column;
+    @include atSmall{
+      flex-direction: row;
     }
-
-  };
-  @include atMedium{
-    &__post-item{
-      .blog-card__date{
-
-      }
-    }
-  };
-  @include atLarge{
-    &__post-item{
-      .blog-card__date{
-
-      }
-    }
-  };
+  }
   &__date-thumbnail{
     position: relative;
-    .blog-card__date{
-      position: absolute;
-      color:#fff;
-      background: $color_five;
-      font-size: 1rem;
-      font-weight: bold;
-      text-align: center;
-      padding: 5px;
-    }
-    .blog-card__thumbnail{
-      display: inline-block;
-      border: 5px solid red;
-      width: 100%;
-      min-height: 200px;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    background:$color_five;
+    box-shadow: $gentle-box-shadow;
+    @include atSmall{
+      min-width: 170px;
+      max-width: 170px;
+      min-height: 300px;
       max-height: 300px;
-      overflow: hidden;
-
     }
-    .blog-card__image{
-      width: 100%
-      width: 200px;
-      height: 300px;
+    @include atLarge{
+      min-width: 200px;
+      max-width: 200px;
+      min-height: 300px;
+      max-height: 300px;
+    }
+  }
+  &__date{
+    position: absolute;
+    color:#fff;
+    background: $color_five;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 0.31rem 1.25rem;
+    box-shadow: $gentle-box-shadow;
+    @include atSmall{
+      width: 100%;
+    }
+  }
+  &__thumbnail{
+    width: 100%;
+    height: 100%;
+
+  }
+  &__image{
+    min-height: 200px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position:center;
+    font-size: 1.3rem;
+    color: #fff;
+    @include atSmall{
+      min-width: 170px;
+      max-width: 170px;
+      min-height: 300px;
+      max-height: 300px;
       object-fit: cover;
       object-position: center;
+      @include atLarge{
+        min-width: 200px;
+        max-width: 200px;
+        min-height: 300px;
+        max-height: 300px;
+      }
     }
   }
   &__details{
+    padding: 1rem;
+  }
+  &__title-auth-contents{
 
   }
+  &__title{
+    &--fontstyle{
+      font-size: 1.3rem;
+      color: $color_two;
+    }
+
+  }
+  &__auth{
+    color: $darkGray--color;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    a{
+      color: $reddish--color;;
+      font-weight:400;
+      &:hover, &:active{
+        color: $reddish--color;
+      }
+    }
+  }
+  &__contents{
+    color: $text--color;
+  }
+
 }

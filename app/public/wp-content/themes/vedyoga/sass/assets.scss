@@ -1,21 +1,4 @@
-$color_one: #455a5c;
-$color_two: #42afc2;
-$color_three: #117182;
-$color_four:#dff9fb;
-$color_five: #74b9ff;
-$pretty_blue:#2FB7EC;
-$beige: $color_four;
-$mainYellow: #F4D35E;
-$mainBlue: $color_three;
-$lightOrange: #EE964B;
-$darkOrange: #F95738;
-$left-rt_padding_value:30px;
-$darkGray--color:hsl(0, 0%, 53%);
-$text--color: #888888;
-$reddish--color:#cf2008;
-$light-blue-bg:#f9f9f9;
-$gentle-box-shadow:0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-
+@import "sassModules/colors";
 
 @mixin sweepHover($borderRadius,$bgColor,$bgColorAfterHover,$fontColorOnHover){
   display: inline-block;

@@ -1,0 +1,17 @@
+// <a class="arrow__pointForward">
+// Continue reading <i class="arrow__pointForward--hoverThis" ></i>
+// </a>
+
+.arrow__pointForward{
+  &:hover{
+    .arrow__pointForward--hoverThis{
+      margin-left: 10px;
+      transition: 0.1s linear;
+    }
+  }
+  &--hoverThis{
+    margin-left: 5px;
+    transition: 0.1s linear;
+  }
+
+}
