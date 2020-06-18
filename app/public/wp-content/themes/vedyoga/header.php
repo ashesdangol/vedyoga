@@ -36,15 +36,15 @@
                   <li class="nav-item">
                     <a class="nav-link" href="<?php echo site_url('/blog');?>">Blogs</a>
                   </li>
-                  <li class="nav-item">
+                  <!-- <li class="nav-item">
                     <a class="nav-link" href="<?php echo site_url('/shop');?>">Shop</a>
-                  </li>
+                  </li> -->
                   <li class="nav-item">
                     <a class="nav-link" href="<?php echo get_post_type_archive_link('program');?>">Programs</a>
                   </li>
-                  <li class="nav-item">
+                  <!-- <li class="nav-item">
                     <a class="nav-link" href="<?php echo site_url('/contacts');?>">Contact</a>
-                  </li>
+                  </li> -->
                   <div class="site-header__util general-btn__wrapper">
                     <?php
                       if (is_user_logged_in()) {

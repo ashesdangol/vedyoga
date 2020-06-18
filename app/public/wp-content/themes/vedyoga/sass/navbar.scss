@@ -32,6 +32,10 @@ $nav_menu_items_size-M:1.2rem;
     object-fit: cover;
     object-position: center;
     margin-top: -1.5rem;
+    @include xsOnly{
+      width: 100px;
+        margin-top: -0.7rem;
+    };
   }
   @include atLarge{
     &{
@@ -67,7 +71,15 @@ $nav_menu_items_size-M:1.2rem;
   flex-wrap: wrap;
   justify-content: space-between;
   transition: all 0.5s ease;
+  &.side-paddings{
+    @include xsOnly{
+      padding: 0 15px;
+    };
+  }
   .nav-brand-wrapper{
+    @include xsOnly{
+      padding-left: 10px;
+    };
     .brand-link{
       display: flex;
       align-items: center;

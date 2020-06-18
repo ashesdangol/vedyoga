@@ -65,8 +65,9 @@ class Search {
                         ${item.postDate}
                         </div>
                         <picture class="blog-card__thumbnail">
-                          <source media="(max-width:500px)" srcset="${item.postFeaturedImage__Sm}">
-                          <img src="${item.postFeaturedImage__Med}" alt="" />
+                          <source class="blog-card__image" media="(min-width:1020px)" srcset="${item.postFeaturedImage__Lg}" alt="Meditation Group Posts">
+                          <source class="blog-card__image" media="(min-width:500px)" srcset="${item.postFeaturedImage__Med}" alt="Meditation Group Posts">
+                          <img class="blog-card__image" src="${item.postFeaturedImage__Sm}" alt="Meditation Group Posts" />
                         </picture>
                       </div>
                       <div class="blog-card__details">
@@ -122,8 +123,9 @@ class Search {
                     <div class="blog-card__post-item">
                       <div class="blog-card__date-thumbnail">
                         <picture class="blog-card__thumbnail">
-                          <source media="(max-width:500px)" srcset="${item.postFeaturedImage__Sm}">
-                          <img src="${item.postFeaturedImage__Med}" alt="" />
+                          <source class="blog-card__image" media="(min-width:1020px)" srcset="${item.postFeaturedImage__Lg}" alt="Meditation Group Posts">
+                          <source class="blog-card__image" media="(min-width:500px)" srcset="${item.postFeaturedImage__Med}" alt="Meditation Group Posts">
+                          <img class="blog-card__image" src="${item.postFeaturedImage__Sm}" alt="Meditation Group Posts" />
                         </picture>
 
                       </div>
@@ -166,8 +168,9 @@ class Search {
                             ${item.eventDate}
                           </div>
                           <picture class="blog-card__thumbnail">
-                            <source media="(max-width:500px)" srcset="${item.postFeaturedImage__Sm}">
-                            <img src="${item.postFeaturedImage__Med}" alt="" />
+                            <source class="blog-card__image" media="(min-width:1020px)" srcset="${item.postFeaturedImage__Lg}" alt="Meditation Group Posts">
+                            <source class="blog-card__image" media="(min-width:500px)" srcset="${item.postFeaturedImage__Med}" alt="Meditation Group Posts">
+                            <img class="blog-card__image" src="${item.postFeaturedImage__Sm}" alt="Meditation Group Posts" />
                           </picture>
                         </div>
                         <div class="blog-card__details">
@@ -215,8 +218,9 @@ class Search {
                     <div class="blog-card__post-item">
                       <div class="blog-card__date-thumbnail">
                         <picture class="blog-card__thumbnail">
-                          <source media="(max-width:500px)" srcset="${item.postFeaturedImage__Sm}">
-                          <img src="${item.postFeaturedImage__Med}" alt="" />
+                          <source class="blog-card__image" media="(min-width:1020px)" srcset="${item.postFeaturedImage__Lg}" alt="Meditation Group Posts">
+                          <source class="blog-card__image" media="(min-width:500px)" srcset="${item.postFeaturedImage__Med}" alt="Meditation Group Posts">
+                          <img class="blog-card__image" src="${item.postFeaturedImage__Sm}" alt="Meditation Group Posts" />
                         </picture>
                       </div>
                       <div class="blog-card__details">
@@ -306,7 +310,7 @@ class Search {
 
         </div>
         <div class="search-overlay__bottom">
-          <div class="side-paddings" id="search-overlay__results">
+          <div class="yesPadding--small" id="search-overlay__results">
 
           </div>
         </div>

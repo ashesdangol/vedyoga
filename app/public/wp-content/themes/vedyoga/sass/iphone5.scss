@@ -1,6 +1,9 @@
 @media (max-width:370px) {
   // nav Menu
   .nav-main-wrapper{
+    &.side-paddings{
+      padding: 0;
+    }
     .nav-brand-wrapper{
       .brand-link{
         .brand-img{
@@ -14,8 +17,9 @@
       }
     }
     .nav-items-wrapper{
+      padding: 0 1rem;
       .nav-items{
-
+        padding-top: 1em!important;
         .nav-item{
 
           }

@@ -1,5 +1,5 @@
 @import "sassModules/colors";
-
+@import "base/mixin";
 @mixin sweepHover($borderRadius,$bgColor,$bgColorAfterHover,$fontColorOnHover){
   display: inline-block;
   vertical-align: middle;
@@ -255,6 +255,9 @@
   }
   .search-overlay__top{
     padding: 10px 20px;
+    @include xsOnly{
+      padding: 10px 5px;
+    };
     background:#fff;
     .search-container{
       display: flex;
@@ -271,6 +274,9 @@
         width: 100%;
         height: 4em;
         text-indent: 2em;
+        @include xsOnly{
+            text-indent: 0.5em;
+        };
         font-size: 1.2rem;
         border:none;
         background-color: transparent;
