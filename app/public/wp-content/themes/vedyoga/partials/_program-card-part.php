@@ -39,7 +39,7 @@
               }
 
              ?>
-            <p> <a class="conti-read--color" href="<?php echo get_the_permalink($program); ?>">Continue reading <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a> </p>
+            <p> <a class="conti-read--color arrow__pointForward" href="<?php echo get_the_permalink($program); ?>">Continue reading <i class="fa fa-long-arrow-right arrow__pointForward--hoverThis" aria-hidden="true"></i></a> </p>
           </div>
         </div>
 

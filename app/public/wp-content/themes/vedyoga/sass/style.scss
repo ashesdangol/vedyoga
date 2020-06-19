@@ -7,15 +7,15 @@
 
 @import "sassModules/wrapper";
 @import "sassModules/likes";
-@import "instructor";
-@import "sassModules/animator";
 @import "sassModules/metabox";
 @import "sassModules/videoBanner";
+@import "sassModules/buttonAnimator";
 
-@import "column-layout";
+@import "instructor";
+// @import "column-layout";
 @import "search-overlay";
 @import "search-box";
-@import "generic-col";
+// @import "generic-col";
 @import "navbar";
 @import "footer";
 @import "banner_slider";
@@ -23,7 +23,6 @@
 @import "index";
 @import "single";
 @import "categories_list";
-@import "media_query";
 @import "iphone5";
 @import "archive";
 @import "home";

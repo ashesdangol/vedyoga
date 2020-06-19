@@ -52,7 +52,7 @@ class Search {
         <div class="search-overlay__results-contents">
           <div class="one-third">
 
-              <h2 class="header__title--one">General Information</h2>
+              <h2 class="headings__font headings__1">General Information</h2>
 
               ${results.generalInfo.length ? '<ul>':'<p>No general information matches that search</p>'}
                 ${results.generalInfo.map(item=>`<li>
@@ -80,7 +80,7 @@ class Search {
                           </div>
                           <div class="blog-card__contents">
                           ${item.trimWords}
-                            <p> <a class="conti-read--color" href="${item.permalink}">Read <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a> </p>
+                            <p> <a class="conti-read--color arrow__pointForward" href="${item.permalink}">Read <i class="fa fa-long-arrow-right arrow__pointForward--hoverThis" aria-hidden="true"></i></a> </p>
                           </div>
                         </div>
 
@@ -99,7 +99,7 @@ class Search {
                               </div>
                               <div class="blog-card__contents">
                               ${item.pageWords}
-                              <p> <a class="conti-read--color" href="${item.permalink}">Read <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a> </p>
+                              <p> <a class="conti-read--color arrow__pointForward" href="${item.permalink}">Read <i class="fa fa-long-arrow-right arrow__pointForward--hoverThis" aria-hidden="true"></i></a> </p>
                               </div>
                             </div>
                           </div>
@@ -115,7 +115,7 @@ class Search {
           </div>
           <div class="one-third">
 
-            <h2 class="header__title--one">Programs</h2>
+            <h2 class="headings__font headings__1">Programs</h2>
             ${results.programs.length ? `<div>
                 ${results.programs.map(item =>
                   `
@@ -136,7 +136,7 @@ class Search {
                           </div>
                           <div class="blog-card__contents">
                             ${item.trimWords}
-                            <p> <a class="conti-read--color" href="${item.permalink}">Read <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a> </p>
+                            <p> <a class="conti-read--color arrow__pointForward" href="${item.permalink}">Read <i class="fa fa-long-arrow-right arrow__pointForward--hoverThis" aria-hidden="true"></i></a> </p>
                           </div>
                         </div>
                       </div>
@@ -156,7 +156,7 @@ class Search {
 
             }
 
-            <h2 class="header__title--one">Events</h2>
+            <h2 class="headings__font headings__1">Events</h2>
             ${results.events.length ?
               `
               ${results.events.map(item => `
@@ -183,7 +183,7 @@ class Search {
                             </div>
                             <div class="blog-card__contents">
                             ${item.trimWords}
-                              <p> <a class="conti-read--color" href="${item.permalink}">Read <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a> </p>
+                              <p> <a class="conti-read--color arrow__pointForward" href="${item.permalink}">Read <i class="fa fa-long-arrow-right arrow__pointForward--hoverThis" aria-hidden="true"></i></a> </p>
                             </div>
                           </div>
 
@@ -210,7 +210,7 @@ class Search {
 
           </div>
           <div class="one-third">
-            <h2 class="header__title--one">Instructor(s)</h2>
+            <h2 class="headings__font headings__1">Instructor(s)</h2>
             ${results.instructors.length ? `<div>
               ${results.instructors.map(item =>
                 `
@@ -243,9 +243,9 @@ class Search {
               <p>No Instructor matches that search</p>
             `
             }
-            <h2 class="header__title--one">Shops</h2>
+            <h2 class="headings__font headings__1">Shops</h2>
             ${results.programs.length ? `<div>
-                helloo
+                <p>Coming Soon</p>
 
                 </div>
                 `
@@ -254,9 +254,9 @@ class Search {
                   <a href="${yogaData.root_url+'/shop'}">View Shop</a>
                 `
             }
-            <h2 class="header__title--one">Contact</h2>
+            <h2 class="headings__font headings__1">Contact</h2>
             ${results.programs.length ? `<div>
-                helloo
+                <p>No Contact matches that search</p>
 
                 </div>
                 `

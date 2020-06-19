@@ -1,41 +1,15 @@
-@import "assets";
-
-// HEADER TITLES
-$header__title--one: 1.3rem;
-$header__title--one-color:$color_one;
-.header__title--one{
-  color: $header__title--one-color;
-}
-
-@media only screen and (max-width: 1024px){
-  .header__title--one{
-    font-size: $header__title--one*1.4;
-  }
-
-}
-
-// start here
-@media only screen and (max-width: 767px){
-  .header__title--one{
-    font-size: $header__title--one;
-  }
-
-}
-
-@media only screen and (min-width: 1025px){
-  .header__title--one{
-    font-size: $header__title--one*1.5;
-  }
-
-}
+@import "../base/colors";
 
 
+// CLASS NAME hvr-icon-buzz
+//  CLASS NAME arrow__pointForward
 
-// BUTTONS
 
-.btn__rt{
-  text-align: right;
-}
+// ON HOVER BUZZ ICON ANIMATE ICON
+$blue: $color_five;
+$text-color: #fff;
+$yourIcon: '\f06e';
+
 
 [class^="hvr-"] {
   /*display: inline-block;*/
@@ -43,9 +17,9 @@ $header__title--one-color:$color_one;
   margin: .4em;
   padding: .5em 1em;
   cursor: pointer;
-  background: $color_five;
+  background: $blue;
   text-decoration: none;
-  color: #fff;
+  color: $text-color;
   font-weight: bold;
   /* Prevent highlight colour when element is tapped */
   -webkit-tap-highlight-color: rgba(0,0,0,0);
@@ -90,7 +64,7 @@ $header__title--one-color:$color_one;
   transition-duration: 0.3s;
 }
 .hvr-icon-buzz:before {
-  content: "\f06e";
+  content: $yourIcon;
   position: absolute;
   right: 1em;
   padding: 0 1px;
@@ -107,4 +81,28 @@ $header__title--one-color:$color_one;
   animation-timing-function: linear;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
+}
+
+// $cutom-icon:'\f2be';
+
+
+
+//ON HOVER MOVE ARROW
+
+// <a class="arrow__pointForward">
+// Continue reading <i class="arrow__pointForward--hoverThis" ></i>
+// </a>
+
+.arrow__pointForward{
+  &:hover{
+    .arrow__pointForward--hoverThis{
+      margin-left: 10px;
+      transition: 0.1s linear;
+    }
+  }
+  &--hoverThis{
+    margin-left: 5px;
+    transition: 0.1s linear;
+  }
+
 }

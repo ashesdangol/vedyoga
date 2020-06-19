@@ -31,9 +31,6 @@
       </div>
       <!-- end of pagination -->
 
-      <div class="past-events__link-wrapper">
-        <p>Looking for a recap of past events? <a href="<?php echo site_url('/past-events');?>" class="past-events__link--color">Check out our past events archive</a></p>
-      </div>
     </div>
     <!-- en d of blof section -->
     <div class="layoutType--col-4 yesPadding--med-lg margin-top--Med_Large--DownXL">

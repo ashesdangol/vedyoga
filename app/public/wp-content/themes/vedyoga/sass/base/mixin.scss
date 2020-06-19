@@ -23,6 +23,13 @@
     @content;
   }
 }
+
+@mixin atXLarge--small{
+  @media(min-width: 1200px){
+    @content;
+  }
+}
+
 @mixin atXLarge {
   @media(min-width: 1500px){
     @content;

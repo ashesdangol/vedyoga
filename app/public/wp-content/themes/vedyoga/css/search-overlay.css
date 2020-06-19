@@ -330,7 +330,6 @@
 
 .search-overlay__bottom {
   background: rgba(255, 255, 255, 0.8);
-  border: 1px solid #fff;
   height: 100%;
   overflow: auto; }
   .search-overlay__bottom #search-overlay__results {
@@ -340,13 +339,18 @@
     .search-overlay__bottom #search-overlay__results .search-overlay__results-contents {
       height: 80%;
       transition: all 0.2s linear;
-      overflow: auto;
-      display: flex;
-      flex-wrap: wrap;
-      flex: 1; }
+      overflow: auto; }
+      @media (min-width: 1200px) {
+        .search-overlay__bottom #search-overlay__results .search-overlay__results-contents {
+          display: flex;
+          flex-wrap: wrap; } }
       .search-overlay__bottom #search-overlay__results .search-overlay__results-contents .one-third {
+        min-width: 300px;
+        display: flex;
+        flex-direction: column;
         flex: 1;
-        min-width: 300px; }
+        flex-grow: 1;
+        width: 100%; }
 
 @media (max-width: 499px) {
   #searchbox__input {

@@ -1,48 +1,48 @@
-@import "base/mixin";
-.row{
-
-  @include clearfix;
-  &--gutters{
-    margin-right: -65px;
-  }
-  &--gutters > div{
-    padding-right: 65px;
-  }
-  @include atMedium {
-    &__medium-4{
-      float: left;
-      width: 33.33%;
-    }
-    &__medium-8{
-      float: left;
-      width: 66.66%;
-    }
-    &__full-width{
-      width: 100%;
-    }
-    &__medium-6{
-      float: left;
-      width: 50%;
-
-
-    }
-  }
-
-
-}
-
-.columnLayout{
-    @include clearfix;
-    @include atMedium{
-      &__medium-8{
-        float: left;
-        width: 66.66%;
-      }
-      &__medium-4{
-        float: left;
-        width: 33.33%;
-      }
-    }
-// 100% width , 12 columns, 1 column= 100/12 , 4 column = 4* 100/12
-
-}
+// @import "base/mixin";
+// .row{
+//
+//   @include clearfix;
+//   &--gutters{
+//     margin-right: -65px;
+//   }
+//   &--gutters > div{
+//     padding-right: 65px;
+//   }
+//   @include atMedium {
+//     &__medium-4{
+//       float: left;
+//       width: 33.33%;
+//     }
+//     &__medium-8{
+//       float: left;
+//       width: 66.66%;
+//     }
+//     &__full-width{
+//       width: 100%;
+//     }
+//     &__medium-6{
+//       float: left;
+//       width: 50%;
+//
+//
+//     }
+//   }
+//
+//
+// }
+//
+// .columnLayout{
+//     @include clearfix;
+//     @include atMedium{
+//       &__medium-8{
+//         float: left;
+//         width: 66.66%;
+//       }
+//       &__medium-4{
+//         float: left;
+//         width: 33.33%;
+//       }
+//     }
+// // 100% width , 12 columns, 1 column= 100/12 , 4 column = 4* 100/12
+//
+// }
