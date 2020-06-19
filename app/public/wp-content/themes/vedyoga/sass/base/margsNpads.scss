@@ -1,0 +1,102 @@
+@import "mixin";
+
+$size__1: 1.25rem;
+$size__2: 1.5rem;
+$size__3: 3rem;
+
+.mT{
+  &--sm{
+    margin-top: $size__1;
+  }
+  &--md{
+    margin-top: $size__2;
+  }
+  &--lg{
+    margin-top: $size__3;
+  }
+}
+
+.mB{
+  &--sm{
+    margin-bottom: $size__1;
+  }
+  &--md{
+    margin-bottom: $size__2;
+    border: 2px solid red;
+  }
+  &--lg{
+    margin-bottom: $size__3;
+  }
+}
+
+.pT{
+  &--sm{
+    padding-top: $size__1;
+  }
+  &--md{
+    padding-top: $size__2;
+  }
+  &--lg{
+    padding-top: $size__3;
+  }
+}
+
+.pB{
+  &--sm{
+    padding-bottom: $size__1;
+  }
+  &--md{
+    padding-bottom: $size__2;
+    border: 2px solid red;
+  }
+  &--lg{
+    padding-bottom: $size__3;
+  }
+}
+
+.margin-top{
+  &--all{
+    margin-top: $size__2;
+  }
+  @include xsOnly{
+    &--xsOnly{
+      margin-top: $size__1;
+    };
+  };
+  @include atMed_Large--Down{
+    &--Med_Large--Down{
+      margin-top: $size__2;
+    }
+    &--Med_Large--DownXL{
+      margin-top: $size__3;
+    }
+  };
+
+}
+
+.yesPadding{
+  &--all{
+    padding-left: $size__1;
+    padding-right: $size__1;
+  }
+  @include xsOnly{
+    &--xsOnly{
+      padding-left: $size__1;
+      padding-right: $size__1;
+    };
+  };
+  @include atSmall{
+    &--small{
+      padding-left: $size__1;
+      padding-right: $size__1;
+    };
+  };
+  @include atMed_Large{
+    &--med-lg{
+      padding-left: $size__1;
+      padding-right: $size__1;
+    }
+  };
+
+
+}

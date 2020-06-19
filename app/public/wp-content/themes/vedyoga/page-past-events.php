@@ -13,7 +13,7 @@
    ?>
 
 
-  <div class="blog-main-wrapper layoutType">
+  <div class="blog-main-wrapper layoutType margin-top--alls">
     <div class="blog-section layoutType--col-8 yesPadding--all">
       <?php
       $today = date('Ymd');

@@ -1,4 +1,4 @@
-@import "sassModules/colors";
+@import "base/colors";
 @import "base/mixin";
 @mixin sweepHover($borderRadius,$bgColor,$bgColorAfterHover,$fontColorOnHover){
   display: inline-block;

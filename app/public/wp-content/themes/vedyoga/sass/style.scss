@@ -1,7 +1,18 @@
+@import "base/mixin";
 @import "base/global";
 @import "base/layouts";
+@import "base/margsNpads";
+@import "base/colors";
+@import "base/headings";
+
+@import "sassModules/wrapper";
+@import "sassModules/likes";
+@import "instructor";
+@import "sassModules/animator";
+@import "sassModules/metabox";
+@import "sassModules/videoBanner";
+
 @import "column-layout";
-@import "sassModules/colors";
 @import "search-overlay";
 @import "search-box";
 @import "generic-col";
@@ -21,9 +32,3 @@
 @import "single-event";
 @import "login";
 @import "notes";
-@import "base/mixin";
-@import "sassModules/wrapper";
-@import "sassModules/likes";
-@import "instructor";
-@import "sassModules/animator";
-@import "sassModules/metabox";

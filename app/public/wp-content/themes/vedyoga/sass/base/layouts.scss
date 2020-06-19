@@ -12,44 +12,6 @@
 //   }
 // }
 
-.margin-top{
-  @include xsOnly{
-    &--xsOnly{
-      margin-top: 1.25rem;
-    };
-  };
-  @include atMed_Large--Down{
-    &--Med_Large--Down{
-      margin-top: 1.5rem;
-    }
-    &--Med_Large--DownXL{
-      margin-top: 3rem;
-    }
-  };
-  &--all{
-    margin-top: 1.5rem;
-  }
-}
-
-.yesPadding{
-  &--all{
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
-  }
-  @include atSmall{
-    &--small{
-      padding-left: 1.25rem;
-      padding-right: 1.25rem;
-    };
-  };
-  @include atMed_Large{
-    &--med-lg{
-      padding-left: 1.25rem;
-      padding-right: 1.25rem;
-    }
-  };
-
-}
 
 .layoutType{
   @include atMed_Large{
@@ -59,6 +21,9 @@
     }
     &--col-4{
       width: 33.33%;
+    }
+    &--col-6{
+      width: 50%;
     }
   };
 

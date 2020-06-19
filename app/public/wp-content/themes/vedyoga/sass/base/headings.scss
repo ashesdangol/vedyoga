@@ -1,0 +1,17 @@
+@import "mixin";
+@import "colors";
+
+$hColor:$color_one;
+
+.headings{
+  &__font{
+    color: $hColor;
+  }
+  &__1{
+    font-size: 1.5625rem;
+  }
+  &__2{
+    font-size: 1.875rem;
+  }
+
+}
