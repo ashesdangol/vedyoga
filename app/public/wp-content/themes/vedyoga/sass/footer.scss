@@ -1,21 +1,44 @@
 @import "assets";
+@import "base/colors";
+
 #main-footer{
   background: #95afc0;
+  color: $color-one;
 }
 .site-footer {
   padding: 2rem 0 3.5rem 0;
 
   .site-footer-one{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
+    @include atMed_Large{
+      flex-direction: row;
+      justify-content: space-between;
+    };
   }
 }
 .social-wrapper{
   nav{
     ul{
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
+      // justify-content: space-between;
     }
+  }
+}
+.social-color-facebook{
+  border-radius: 50%;
+  padding: 0.6rem 0.9rem;
+  background: rgba(255,255,255,0.3);
+  color: #fff;
+  transition: all .5s;
+  &:hover{
+    background: rgba(255,255,255,0.5);
+    color: $color_one;
+    transition: all .5s;
+
   }
 }

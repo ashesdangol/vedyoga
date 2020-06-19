@@ -3,7 +3,7 @@
     <!-- end of main-wrapper -->
     <footer class="site-footer" id="main-footer">
       <div class="site-footer-one side-paddings--double">
-        <p>footer goes here</p>
+        <p>&#169; 2020 All rights reserved | Meditaion Group.</p>
         <!-- <div class="">
           <div class="">
             <h3 class="">Explore</h3>
@@ -32,10 +32,10 @@
           <nav>
             <ul class="">
               <li><a href="#" class="social-color-facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-              <li><a href="#" class="social-color-twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+              <!-- <li><a href="#" class="social-color-twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
               <li><a href="#" class="social-color-youtube"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
               <li><a href="#" class="social-color-linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-              <li><a href="#" class="social-color-instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+              <li><a href="#" class="social-color-instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li> -->
             </ul>
           </nav>
         </div>

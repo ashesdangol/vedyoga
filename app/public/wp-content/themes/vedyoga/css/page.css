@@ -107,36 +107,6 @@
 .card-1:hover {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
 
-.page-links {
-  position: relative;
-  z-index: 1;
-  background-color: #dff9fb;
-  margin: 0 0 40px 0; }
-  .page-links .page-links__title {
-    margin: 0;
-    font-weight: normal;
-    text-align: center;
-    padding: 20px 0;
-    background-color: #117182;
-    color: #FFF; }
-    .page-links .page-links__title a {
-      color: #FFF;
-      background-color: #117182; }
-  .page-links li {
-    border-top: 1px solid #c9e0e2; }
-    .page-links li:first-child {
-      border-top: none; }
-    .page-links li a {
-      display: block;
-      text-align: center;
-      padding: 17px 10px;
-      text-decoration: none;
-      color: #0D3B66;
-      transition: all .3s; }
-      .page-links li a:hover {
-        color: #0d3357;
-        background-color: #d4edee; }
-
 .pagination--styling {
   width: 100%;
   display: flex;
@@ -333,8 +303,7 @@
   padding: 0px 0 40px 0;
   position: relative;
   overflow: hidden;
-  min-height: 400px;
-  height: 50vh; }
+  height: 400px; }
   .page-banner::after {
     position: absolute;
     top: 0;
@@ -380,11 +349,9 @@
 
 .page-section {
   padding-top: 1.6rem;
-  padding-bottom: 1.6rem; }
-  .page-section:nth-of-type(odd) {
+  padding-bottom: 1.6rem;
+  border: 1px solid transparent; }
+  .page-section:nth-of-type(even) {
     background: #dff9fb; }
-
-@media (min-width: 767px) {
-  .page-banner {
-    min-height: 400px;
-    height: 70vh; } }
+  .page-section:nth-child(3) {
+    min-height: 200px; }

@@ -53,3 +53,41 @@
     }
   }
 }
+
+.page-links{
+  position: relative;
+  z-index: 1;
+  background-color: $beige;
+  margin: 3rem 0 1.5rem 0;
+  .page-links__title{
+    margin: 0;
+    font-weight: normal;
+    text-align: center;
+    padding: 20px 0;
+    background-color: $mainBlue;
+    color: #FFF;
+    a{
+      color: #FFF;
+      background-color: $mainBlue;
+    }
+
+  }
+  li{
+    border-top: 1px solid $beige*0.9;
+    &:first-child{
+      border-top: none;
+    }
+    a{
+      display: block;
+      text-align: center;
+      padding: 17px 10px;
+      text-decoration: none;
+      color: #0D3B66;
+      transition: all .3s;
+      &:hover{
+        color: rgb(13, 51, 87);
+        background-color: $beige*0.95;
+      }
+    }
+  }
+}

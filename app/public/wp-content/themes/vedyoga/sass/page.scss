@@ -6,8 +6,7 @@ $page-banner__intro--color:$page-banner__title--color;
   padding: 0px 0 40px 0;
   position: relative;
   overflow: hidden;
-  min-height: 400px;
-  height: 50vh;
+  height: 400px;
   &::after{
     position: absolute;
     top: 0;
@@ -62,13 +61,11 @@ $page-banner__intro--color:$page-banner__title--color;
 .page-section{
   padding-top: 1.6rem;
   padding-bottom: 1.6rem;
-  &:nth-of-type(odd) {
+  border: 1px solid transparent;
+  &:nth-of-type(even) {
     background: $color_four;
   }
-}
-@media (min-width: 767px) {
-  .page-banner{
-    min-height: 400px;
-    height: 70vh;
+  &:nth-child(3) {
+    min-height: 200px;
   }
 }

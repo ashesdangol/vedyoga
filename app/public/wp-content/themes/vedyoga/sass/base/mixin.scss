@@ -8,6 +8,13 @@
     @content;
   }
 }
+
+@mixin atCustomIpad--Up {
+  @media(min-width: 767px){
+    @content;
+  }
+}
+
 @mixin atMedium {
   @media(min-width: 800px){
     @content;
@@ -40,6 +47,8 @@
     @content;
   }
 }
+
+
 
 @mixin clearfix {
   &::after{

@@ -107,36 +107,6 @@
 .card-1:hover {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
 
-.page-links {
-  position: relative;
-  z-index: 1;
-  background-color: #dff9fb;
-  margin: 0 0 40px 0; }
-  .page-links .page-links__title {
-    margin: 0;
-    font-weight: normal;
-    text-align: center;
-    padding: 20px 0;
-    background-color: #117182;
-    color: #FFF; }
-    .page-links .page-links__title a {
-      color: #FFF;
-      background-color: #117182; }
-  .page-links li {
-    border-top: 1px solid #c9e0e2; }
-    .page-links li:first-child {
-      border-top: none; }
-    .page-links li a {
-      display: block;
-      text-align: center;
-      padding: 17px 10px;
-      text-decoration: none;
-      color: #0D3B66;
-      transition: all .3s; }
-      .page-links li a:hover {
-        color: #0d3357;
-        background-color: #d4edee; }
-
 .pagination--styling {
   width: 100%;
   display: flex;
@@ -329,15 +299,33 @@
     font-size: 1rem !important; } }
 
 #main-footer {
-  background: #95afc0; }
+  background: #95afc0;
+  color: #455a5c; }
 
 .site-footer {
   padding: 2rem 0 3.5rem 0; }
   .site-footer .site-footer-one {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap; }
+    @media (min-width: 1024px) {
+      .site-footer .site-footer-one {
+        flex-direction: row;
+        justify-content: space-between; } }
 
 .social-wrapper nav ul {
   display: flex;
-  justify-content: space-between; }
+  justify-content: center; }
+
+.social-color-facebook {
+  border-radius: 50%;
+  padding: 0.6rem 0.9rem;
+  background: rgba(255, 255, 255, 0.3);
+  color: #fff;
+  transition: all .5s; }
+  .social-color-facebook:hover {
+    background: rgba(255, 255, 255, 0.5);
+    color: #455a5c;
+    transition: all .5s; }
