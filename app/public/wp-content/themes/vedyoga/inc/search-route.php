@@ -79,6 +79,8 @@ function registerSearchResults($data){
       ));
     }
     if(get_post_type() == 'event'){
+      $eventDate = new DateTime(get_field('event_date'));
+      $excerpt = null;
       if(has_excerpt()){
         $excerpt = get_the_excerpt();
       }
@@ -86,7 +88,6 @@ function registerSearchResults($data){
           // $excerpt = get_the_field('main_body_content');
           $excerpt = wp_trim_words(get_field('main_body_content'), 5);
       }
-      $eventDate = new DateTime(get_field('event_date'));
       array_push($mainResults['events'], array(
         'title' => get_the_title(),
         'permalink' => get_the_permalink(),
